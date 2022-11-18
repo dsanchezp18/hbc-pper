@@ -1,0 +1,166 @@
+\documentclass[12pt,a4]{article}
+
+% ---- Metadata ---- %
+
+\title{Honesty by Convenience: Corruption Tolerance in Ecuador}
+\author{Daniel Hernán Sánchez Pazmiño}
+\date{June 2022}
+
+% ---- Load Packages ---- %
+
+% Math
+
+\usepackage{savesym} % Need to "save" the command that is already defined \varTheta
+
+\usepackage{amsmath}
+  \savesymbol{varTheta} 
+
+% Fonts
+
+% To set the TNR font for both text and equations:
+
+\usepackage{mathspec}
+  \setallmainfonts(Digits,Greek,Latin){Times New Roman}
+\restoresymbol{MTP}{varTheta}
+
+% Formatting
+
+\usepackage{setspace}
+  \doublespacing
+
+\usepackage[margin = 1in]{geometry}
+
+\usepackage{lscape}
+
+% Citation & Bibliographies
+
+\usepackage[backend = biber, style = apa, citestyle = apa]{biblatex}
+  \addbibresource{refs.bib}
+  
+% For tables:
+
+ % For the modelsummary tables:
+\usepackage{siunitx}
+\usepackage{booktabs} 
+  \newcolumntype{d}{S[input-symbols = ()]}
+
+\usepackage{caption}
+\usepackage{multirow}
+\usepackage[flushleft]{threeparttable}
+  
+% Other packages
+
+\usepackage{csquotes} % For quotation marks
+
+\usepackage{epigraph} % For epigraph
+  \setlength\epigraphwidth{9cm}
+  \setlength\epigraphrule{1pt}
+
+\usepackage{float} % For the H float option- only used in emergencies (lol)
+
+\usepackage{textcomp} % For the registered trademark symbol.
+
+% Always load these packages at the end of the preamble:
+
+\usepackage{hyperref}
+
+% ---- R Stuff to be used in the whole document ----
+
+% Here I will execute or source R code through chunks that I need to use throughout the whole document.
+
+% General settings
+
+<<setup, include = F>>=
+# Chunk options
+knitr::opts_chunk$set(echo = F,
+                      eval = T, 
+                      include = F,
+                      warning = F, 
+                      message = F)
+
+system(paste("biber", sub("\\.Rnw$", "", current_input())))
+
+# Libraries
+library(tidyverse)
+library(survey)
+library(modelsummary)
+library(patchwork)
+@
+
+% Load the data by sourcing the data manipulation script. Note that survey design objects are indeed created in this script.
+<<source-data, cache = T>>=
+source('scripts/data_manipulation.R')
+@
+
+\begin{document}
+\maketitle
+\clearpage
+
+% ---- Sections ---- %
+
+% Abstract Child Document
+
+<<abs_child, child = 'abstracts.Rnw'>>=
+@
+
+% Introduction Child Document
+
+<<intro_child, child = 'intro.Rnw'>>=
+@
+
+% Literature Review Child Document
+
+<<litrev_child, child = 'litrev.Rnw'>>=
+@
+
+% Methodology Child Document
+
+<<meth_child, child = 'meth.Rnw'>>=
+@
+
+% Results 1 Child Document
+
+<<res1_child, child = 'results1.Rnw'>>=
+@
+
+% Results 2 Child Document
+
+<<res2_child, child = 'results2.Rnw'>>=
+@
+
+% Results 3 Child Document
+
+<<res3_child, child = 'results3.Rnw'>>=
+@
+
+% Conclusions Child Document
+
+<<conclusions, child = 'conclusions.Rnw'>>=
+@
+
+% Acknowledgments Child Document
+
+<<acknowledgments, child = 'acknowledgments.Rnw'>>=
+@
+
+% Appendix 1 Child Document
+
+<<ap1, child = 'ap1.Rnw'>>=
+@
+
+% Appendix 2 Child Document
+
+<<ap2, child = 'ap2.Rnw'>>=
+@
+
+% Appendix 3 Child Document
+
+<<ap3, child = 'ap3.Rnw'>>=
+@
+
+% Appendix 3 Child Document
+
+<<ap4, child = 'ap4.Rnw'>>=
+@
+
+\end{document}

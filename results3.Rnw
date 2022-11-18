@@ -1,0 +1,359 @@
+% Results III .Rnw File
+<<parent_tores3,include = F>>=
+set_parent('main.Rnw') # Set the parent document preamble
+@
+
+\subsection{Ceteris paribus effects of unemployment, presidential approval and political identification on corruption tolerance}
+
+Now the general model as described by Equation \ref{eqn:genmod} is estimated, where \textbf{R} is a vector of explanatory variables that the study of the literature on corruption tolerance and normalization suggests. The statistically significant relationships with interaction terms which were determined previously are kept as the key explanatory variables $x^*$, with the exception of the confidence in the president variable, as the presidential approval variable captures the same effects. Thus, three models are estimated, whose coefficients are shown in Table \ref{tab:complexmod}.
+
+% Estimate the modified models, by sourcing that .R file
+<<modified-regs, cache = F>>=
+source('scripts/modified_regs.R')
+@
+
+% Now create the table
+\begin{table}[htbp]
+\begin{center}
+\caption{Logit coefficients for modified models}
+\label{tab:complexmod}
+<<modified-regs-coefs, include = T, warning = F, message = F, results = 'asis'>>=
+# Coefficient names
+
+coefficient_names_m<-c('(Intercept)' = 'Constant',
+                       'year2016' = '2016 Dummy',
+                       'gndrWoman' = 'Woman',
+                       'age' = 'Age',
+                       'ed' = 'Years of education',
+                       'urUrban' = 'Lives in urban setting',
+                       'eff1' = 'External political efficacy',
+                       'eff2' = 'Internal political efficacy',
+                       'prot3Yes' = 'Participation in a protest',
+                       'pint_dic' = 'Interest in politics', 
+                       'corrper' = 'Perceptions of corruption',
+                       'corr_exp' = 'Exposure to corruption',
+                       'unem2_4a' = 'Unemployment',
+                       'pres_aprov' = 'Approval of Pres. Performance',
+                       'polscore' = 'Political Wing',
+                       'year2016:unem2_4a' = 'Unemployment Interaction',
+                       'year2016:pres_aprov' = 'Pres. Approval Interaction',
+                       'year2016:polscore' = 'Pol. Wing Interaction')
+
+# Create the mapping of the goodness of fit coefficients.
+
+mod_models_stats<-
+  list(list("raw" = "nobs", "clean" = "$N$", "fmt" = 0),
+       list("raw" = "aic", "clean" = "AIC", "fmt" = 2),
+       list("raw" = "bic", "clean" = "BIC", "fmt" = 2))
+
+# Make the table
+
+modelsummary(modified_models_log,
+             stars = c('*'= 0.1, '**' = 0.05, '***'= 0.01),
+             gof_map = mod_models_stats,
+             output = 'latex_tabular',
+             coef_map = coefficient_names_m)
+@
+\end{center}
+\textbf{Note:} Logit coefficients of the modified models as described by Equation \ref{eqn:genmod}. Standard errors consider design effects of the AB complex survey design.\\
+*$p$ < 0.1, **$p$< 0.05, ***$p$ < 0.01.
+\end{table}
+
+% APE table
+\begin{table}[htbp]
+\begin{center}
+\caption{Average partial effects for models in Table \ref{tab:complexmod}}
+\label{tab:apescomp}
+<<modified_apes,include = T, warning = F, results = 'asis', message = F, cache = F>>=
+# Coefficient Mapping
+
+coefficient_names_apes_c<-c('gndrWoman' = 'Woman',
+                            'age' = 'Age',
+                            'ed' = 'Years of education',
+                            'urUrban' = 'Lives in urban setting',
+                            'eff1' = 'External political efficacy',
+                            'eff2' = 'Internal political efficacy',
+                            'prot3Yes' = 'Participation in a protest',
+                            'pint_dic' = 'Interest in politics', 
+                            'corrper' = 'Perceptions of corruption',
+                            'corr_exp' = 'Exposure to corruption',
+                            'unem2_4a' = 'Unemployment',
+                            'pres_aprov' = 'Approval of Pres. performance',
+                            'polscore' = 'Political wing')
+# Goodness of fit mappings
+
+gof_modapes<-
+  list(list("raw" = "nobs", "clean" = "$N$", "fmt" = 0))
+
+modelsummary(modified_logit_mfx,
+             output = 'latex_tabular',
+             stars = c('*'= 0.1, '**' = 0.05, '***'= 0.01),
+             coef_map = coefficient_names_apes_c,
+             gof_map = gof_modapes)
+@
+\end{center}
+\textbf{Note:} Average partial effects for the models estimated in Table \ref{tab:complexmod}. Data from the open-access AB databases. Standard errors consider design effects of the AB complex survey design.\\
+*$p$ < 0.1, **$p$< 0.05, ***$p$ < 0.01.
+\end{table}
+
+These models include multiple control variables suggested by \textcite{Moscoso.2020} and \textcite{Lupu.2017}. Of these, only age is significant and has a negative effect on corruption tolerance, which is a consistent finding across these two studies as well as that by \textcite{Montalvo.2019}. A person older by one year is 4 percentage points less likely to justify corruption, as seen in Table \ref{tab:apescomp}. It is possible that a generational explanation can be used for this, where it is older generations that reject corruption more. However, it is also possible that as people age they feel closer to the political and social systems inside a country, which leads them to reject dishonest acts more than their younger counterparts. Using the theory by \textcite{Ashforth.2003}, it might be that younger people rationalize corrupt acts more since they feel more unattached to \enquote{adult} culture, which leads them to a denial of responsibility explanation. 
+
+This is supported by the fact that several social and economic problems seem to hit young people more (\cite{Vasconez.2016}, \cite{Crespo.2019}, \cite{Cetrangolo.2020}) and that they feel lethargic and distanced with the country's politics and with political wings \parencite{Lucero.2020}. If young people are more likely to be economically disadvantaged, it is also likely that \textit{petty} corrupt practices as bribes, connection-based hiring and others have become institutionalized and socialized in the young Ecuadorian society as the economic payoff of engaging in these attitudes is more attractive. The incentives to be honest decrease as the monetary benefit of engaging in corrupt behavior is higher for disadvantaged people as young citizens that are relatively more disadvantaged. 
+
+Political efficacy indicators are also included in the regressions. The external political efficacy question, which asks if the respondents believe that politicians serve the interests of the people, has no statistical significance on corruption tolerance. Internal political efficacy asks about how well the respondent understands politics and this control is significant at the 95\% confidence level. The sign on the coefficient shows that a person who understands more about the country's politics is more likely to justify corruption: a person answering an additional point of the internal political efficacy is about 1.5 percentage points more likely to justify corruption.
+
+While \textcite{Moscoso.2020} find that none of the political efficacy variables are significant for corruption tolerance in 2019, they do find that interest in politics is significant and has a positive effect. That finding is reversed here: interest in politics is significant yet portrays a negative relationship between the two: more interest in the country's politics is actually negatively related with corruption tolerance. A person who reports being interested in politics is about 3.5 percentage points less likely to justify corruption. 
+<<pol-int-data, cache = F>>=
+# First, source the tabulations script
+source('scripts/tabulations.R')
+@
+% Wrangle the political interest and internal political efficiency data for the graph.
+
+<<pol-int-wrangling, cache = F>>=
+# Now wrangle the data to produce the database.
+
+# Internal political efficiency
+
+pol_int_graph_df<-
+  eff2_time %>% 
+    mutate(perc = knowspol,
+           legend = 'Internal political efficiency',
+           perc = 100 * knowspol,
+           se = 100 * se) %>%
+    filter(perc > 0)
+
+# Interest in politics
+
+pol_int_graph_df<-
+  pol_int_graph_df %>% 
+  bind_rows(
+    intpol_dic_time %>% 
+      rename(perc = pint_dic) %>% 
+      mutate(legend = 'Interested in politics',
+             perc = perc * 100,
+             se = se *100) %>%
+      filter(perc > 0)
+  )
+
+rownames(pol_int_graph_df)<-NULL
+
+@
+% Now do the graph
+\begin{figure}[htbp]
+\fbox{
+\begin{minipage}{\textwidth}
+\caption{Political interest and internal efficiency in Ecuador}
+\label{fig:intpol}
+<<pol-int-graph, include = T, fig.width= 10, fig.align = 'center'>>=
+pol_int_graph<-
+  ggplot(pol_int_graph_df, aes (x = year , y = perc, color = legend, group = legend))+
+    geom_line(size = 0.8)+
+    geom_line(aes(x = year, 
+                  y = perc - 1.96*se),
+                  size = 0.7,
+                  color = 'grey50', 
+                  linetype = 'dotted')+
+    geom_line(aes(x = year, 
+                  y = perc + 1.96*se),
+                  size = 0.7,
+                  color = 'grey50', 
+                  linetype = 'dotted')+
+    scale_colour_brewer(palette = 'Set1')+
+    geom_point(size = 2.15)+
+    theme_bw()+
+    theme(panel.grid.major = element_blank(),
+          panel.grid.minor = element_blank(),
+          text = element_text(size = 12, family = 'serif'),
+          legend.position = c(0.13,0.95),
+          legend.background = element_blank())+
+    labs(x = '',
+         y = 'Percent of voting-age Ecuadorians',
+         color = '')
+
+pol_int_graph
+@
+\textbf{Note:} A time series of the internal political efficacy variable and the interest in politics variable. The internal political efficiency variable is dichotomized using the standard AB methodology as explained in \hyperref[app:first]{Appendix A}. Dotted lines represent the 95\% confidence intervals considering design effects. Data from the open-access AB databases. Figure prepared by the author.
+\end{minipage}
+}
+\end{figure}
+Figure \ref{fig:intpol} shows the percent who are interested in politics and also the percent who understand the country's politics. The gap between these two variables has increased from 2014 from 2016, and have a total historic correlation of \Sexpr{round(cor(df$pint_dic, df$knowspol, use = 'complete.obs'),2)}. While they may appear to ask similar things, the two questions may imply different attitudes to politics: the political efficacy question simply asks if citizens are aware of politics and the second one asks if they're interested to enter the political scenario. It might be possible that, when separating these two questions, attitudes of apathy or pragmatism to the political society (understanding politics) are separated from an \enquote{idealist} attitude towards it of those who would like to enter politics.
+
+A control for years of education is also added and it is significant, communicating that more educated respondents are less likely to justify corruption. Other things equal, an additional year of education is related to a 6 percentage points reduction in corruption tolerance. This finding is intuitive considering that more education may mean more knowledge about the costs of corruption. The social payoffs for being honest may be higher as also higher education may entail a better economic position which makes engaging in corrupt acts less economically attractive. 
+
+Regarding the variables which measure corruption, it is possible to confirm findings by \textcite{Moscoso.2020}, \textcite{Lupu.2017} and \textcite{Singer.2016}: exposure to corrupt acts (paying or being asked to pay a bribe) is also strongly correlated with tolerance to them. A person who has been exposed to some form of bribing is about 15\% more likely to justify corruption according to the average partial effects in Table \ref{tab:apescomp}. The direction of causality is not clear in this case as it might be possible that a predisposed tolerance to corruption due to external factors makes citizens more likely to be in environments where corruption flourishes. \textcite{Moscoso.2018} finds that younger people and people with a higher number of children are more likely to be exposed to corruption with the 2016 Ecuador AB data. This may suggest that younger people justify corruption partly because they are more exposed by it: empirical models not shown explicitly show that an interaction term between age and corruption exposure is significant at the the 90\% confidence level. Corruption perceptions, on the other hand, play no role in determining corruption tolerance for this time period. This is also found by \textcite{Moscoso.2020} in 2019, however, \textcite{Lupu.2017} does find an effect of corruption perceptions on corruption tolerance for the whole Latin American region. An interaction term between year and corruption perceptions is not significant, although Figure \ref{fig:corrper} shows a significant increase of corruption perceptions between 2014 and 2016 (see \hyperref[app:first]{Appendix A}). 
+
+% Make the corruption perceptions figure
+\begin{figure}[htbp]
+\fbox{
+\begin{minipage}{\textwidth}
+\caption{Corruption perceptions in Ecuador 2004-2016}
+\label{fig:corrper}
+<<corrper_g, include = T, echo = F, fig.width = 10>>=
+corrper_g<-ggplot(corrper_time,
+                  aes(x = year, y = corrper, group = corrper))+
+             geom_col(color = 'black',
+                      fill = '#21896c')+
+             geom_errorbar(aes(ymin = corrper - 1.96*se,
+                               ymax = corrper+ 1.96*se),
+                               width = 0.5)+
+             geom_text(aes(label= round(corrper, 4)*100),
+                       size = 3.5,
+                       vjust = 11)+
+             theme_bw()+
+             theme(panel.grid.major = element_blank(),
+                   panel.grid.minor = element_blank(),
+                   axis.text.y = element_blank(),
+                   axis.ticks = element_blank(),
+                   legend.position = c(0.15,0.95),
+                   plot.title = element_text(size = 12),
+                   legend.background = element_blank())+
+             labs(x = '',
+                  y = '')
+corrper_g
+@
+\textbf{Note:} A time series of corruption perceptions in Ecuador. The corruption perceptions question was asked in a slightly different manner in 2016, thus the variable is recoded as explained in \hyperref[app:first]{Appendix A}, to construct this time series. Error bars represent the 95\% confidence intervals considering design effects. Data from the open-access AB databases. Figure prepared by the author.
+\end{minipage}
+}
+\end{figure}
+
+% Now the regressions which were not shown explicitly in text
+<<reg-age-correxp, message = F, warning = F, cache = F>>=
+
+# Add the age-correxp variable
+
+# Unemployment
+
+log_unem_alt<-svyglm(ctol~ year*(unem2_4a) + age*corr_exp + gndr + ed + ur + eff1 + eff2 + prot3 + pint_dic + corrper  +
+                   polscore + pres_aprov,
+                   design = lapop_des46,
+                   family = quasibinomial(link = 'logit'))
+
+# Presidential Confidence
+
+log_aprov_alt<-svyglm(ctol~ year*(pres_aprov) + age*corr_exp + gndr + ed + ur + eff1 + eff2 + prot3 + pint_dic + corrper +
+                    unem2_4a + polscore,
+                    design = lapop_des46,
+                    family = quasibinomial(link = 'logit'))
+
+# Political Score
+
+log_pols_alt<-svyglm(ctol~ year*(polscore) + age*corr_exp + gndr + ed + ur + eff1 + eff2 + prot3 + pint_dic + corrper + 
+                   unem2_4a + pres_aprov,
+                   design = lapop_des46,
+                   family = quasibinomial(link = 'logit'))
+
+modelsummary(list(log_unem_alt,
+                  log_aprov_alt,
+                  log_pols_alt))
+@
+
+A dummy variable equal to unity for respondents who have recently attended a protest is added and it is very significant. A person who has attended a protest is about 7\% more likely to justify corruption, other things equal. The reason why this happens might be related to a explanation of \textit{denial of victim} as proposed by \textcite{Ashforth.2003}. People who attend protests probably reject the current state of things, which may induce a feeling of contempt against society. They may believe dishonest acts could be justified in these adverse circumstances because they feel corrupt acts can be retribution to other dishonest acts done to them or by alleging that \textit{petty} corruption acts are nothing compared to grand corruption scandals. Since they have “declared” their rejection to the system in general, they have surrendered to its flaws and have no social incentives to remain honest.
+
+Table \ref{tab:complexmod} also shows that after considering several variables suggested by the literature the interaction terms, as estimated in Table \ref{tab:simplemodel}, keep their sign and significance. Even after controlling for several important predictors of corruption tolerance, it is still true that unemployed people justified corruption more in 2014 but reduced their tolerance in 2016. People who approved the job performance of President Correa were less likely to justify corruption in both years, but their rejection of bribes was smaller in 2016. Finally, while the political identification was not important to predict corruption tolerance in 2014, it was significant in 2016; where people who identified as closer to the political right were more likely to justify corruption. To further explore the effects of these three key variables on corruption tolerance, cross-sectional models are estimated for 2014 and 2016 separately and shown below.
+
+<<cross-sec, cache = F>>=
+# Source the cross sectional models script
+source('scripts/cross-sec.R')
+@
+
+% Table of cross-sectional models
+\begin{table}[htbp]
+\begin{center}
+\caption{Logit coefficients for cross-sectional models as seen in Equation \ref{eqn:crosssecmodel}}
+\label{tab:crossmod}
+<<include = T, warning = F, results = 'asis', message = F>>=
+# Coefficient mappings
+coefficient_names_cross<-c('(Intercept)' = 'Constant',
+                     'gndrWoman' = 'Woman',
+                     'age' = 'Age',
+                     'ed' = 'Years of education',
+                     'urUrban' = 'Lives in urban setting',
+                     'eff1' = 'External political efficacy',
+                     'eff2' = 'Internal political efficacy',
+                     'prot3Yes' = 'Participation in a protest',
+                     'pint_dic' = 'Interest in politics', 
+                     'corrper' = 'Perceptions of corruption',
+                     'corr_exp' = 'Exposure to corruption',
+                     'unem2_4a' = 'Unemployment',
+                     'pres_aprov' = 'Approval of Pres. performance',
+                     'polscore' = 'Political wing')
+# GOF map
+cross_models_stats<-
+  list(list("raw" = "nobs", "clean" = "$N$", "fmt" = 0),
+       list("raw" = "aic", "clean" = "AIC", "fmt" = 2),
+       list("raw" = "bic", "clean" = "BIC", "fmt" = 2))
+
+
+modelsummary(cross_sec_log,
+             stars = c('*'= 0.1, '**' = 0.05, '***'= 0.01),
+             output = 'latex_tabular',
+             coef_map = coefficient_names_cross,
+             gof_map = cross_models_stats,
+             add_rows = data.frame('Year', '2014', '2016'))
+
+@
+\end{center}
+\textbf{Note:} Logit models for the cross-sectional models for 2014 and 2016 as seen in Equation \ref{eqn:crosssecmodel}. Data from the open-access AB databases. Standard errors consider design effects of the AB complex survey design.\\
+*$p$ < 0.1, **$p$< 0.05, ***$p$ < 0.01.
+\end{table}
+
+% Table of Cross-Sectional APEs
+\begin{table}[htbp]
+\begin{center}
+\caption{Average partial effects for cross-sectional models in Table \ref{tab:crossmod}}
+\label{tab:apecross}
+<<include = T, warning = F, results = 'asis', message = F>>=
+# Coefficient mappings
+coefficient_names_cross_ape<-c('gndrWoman' = 'Woman',
+                         'age' = 'Age',
+                       'ed' = 'Years of education',
+                       'urUrban' = 'Lives in urban setting',
+                       'eff1' = 'External political efficacy',
+                       'eff2' = 'Internal political efficacy',
+                       'prot3Yes' = 'Participation in a protest',
+                       'pint_dic' = 'Interest in politics', 
+                       'corrper' = 'Perceptions of corruption',
+                       'corr_exp' = 'Exposure to corruption',
+                       'unem2_4a' = 'Unemployment',
+                       'pres_aprov' = 'Approval of Pres. performance',
+                       'polscore' = 'Political wing')
+
+# GOF map
+cross_models_stats_ape<-
+gof_modapes<-
+  list(list("raw" = "nobs", "clean" = "$N$", "fmt" = 0))
+
+modelsummary(cross_sec_logit_mfx,
+             stars = c('*'= 0.1, '**' = 0.05, '***'= 0.01),
+             output = 'latex_tabular',
+             coef_map = coefficient_names_cross_ape,
+             gof_map = cross_models_stats_ape,
+             add_rows = data.frame('Year', '2014', '2016'))
+
+@
+\end{center}
+\textbf{Note:} Average partial effects for logit cross-sectional empirical models in Table \ref{tab:crossmod}. Data from the open-access AB databases. Standard errors consider design effects of the AB complex survey design.\\
+*$p$ < 0.1, **$p$< 0.05, ***$p$ < 0.01.
+\end{table}
+
+The coefficients shown in Table \ref{tab:crossmod} show that, while education is significant for the pooled regression, it is not for a 2014 cross-section: only in 2016 it is possible to detect a negative effect of education years in corruption tolerance. Table \ref{tab:apecross} shows that an additional year of education reduces the probability of justifying corruption by about 9 percentage points, all other things equal. A similar phenomenon is seen for the interest in politics variable: only in 2016 people who are interested in politics justify corruption more than those not interested. The exposure to corruption, internal political efficacy and age variables remain significant for both years. The effect of protest participation, while significant in the pooled regressions, is not significant in any of the individual years. 
+
+The last rows of Table \ref{tab:crossmod} show the effects of the key regressors for 2014 ($\beta_{x^*}$ as defined in Equation \ref{eqn:crosssecmodel}). Model 1 shows that those who were unemployed justified corruption to a greater extent. However, as the interaction term in Table \ref{tab:crossmod} shows, the effect on unemployment for 2016 is smaller. The effect of unemployment or of any of the key regressors in 2016 can be understood as the \enquote{net} effect of the regressor as defined in Equation \ref{eqn:genmod}: $\beta_{x^*} + \delta_1 y_{16}$. In fact, according to the models in 2016 unemployed respondents do not display a different likelihood of justifying corruption relative to those who are not unemployed. The data shows that following the recession and loss of popularity of the regime, the unemployed remained approximately equal in their corruption tolerance proclivities relative to those who were not unemployed.
+
+It is possible that initially unemployed people justified corruption more because it was their “steady state” of corruption tolerance: unemployed people are economically disadvantaged which gives them incentives to engage in corrupt actions which yield positive economic payoffs. Additionally, as they are unable to enter the job market for some time, they might feel more alienated from society, which might decrease social or moral incentives to remain honest by renouncing the economic payoffs that corruption may offer, as it has been explained previously. The change in corruption tolerance behavior for 2016 is more difficult to understand. It is possible that since the recession many lost their jobs and they have had relatively short unemployment spells. The recently unemployed may not feel too alienated from society and thus have not adopted an attitude of pragmatism toward the current circumstances. Savings or family income may support the recently unemployed which makes them feel less desperate and prone to take the “moral high ground”. This
+all contributes to them still feeling part of society, which reduces their rationalization of corruption. However, with larger unemployment spells, desperation may trigger more pragmatic points of view, which will lead to higher corruption tolerance in future years. All of this contributes to the effect of unemployment in 2016 not being statistically different from zero, as seen in Table \ref{tab:crossmod}.
+
+To better understand the implications of the political variables' coefficients and their change in time, consider a key actor on corruption normalization, leadership. Having initially branded himself as \enquote{the biblical underdog} \parencite[para. 4]{Hedgecoe.2009}, President Correa distanced himself from the country's political elite and constantly denounced  corruption and injustice in the system. The new government promised a radical change when it started its tenure in 2007 and did deliver as it gave Ecuador a politically stable though totalitarian environment, as well as other changes in political and economical mechanisms \parencite{Weisbrot.2017}. The President had explicitly stated that he would battle corruption and fiscal evasion \enquote{to the death} \parencite{Ortiz.2013}. Thus, supporters of this regime had higher social sanctions if they engaged in or justified corrupt behavior, as this may have implied that the economic and political model they supported was flawed.
+
+However, by 2016 the popularity of the regime faced a sharp decrease. Several narratives started to be constructed by President Correa and his officials to explain the flaws and weaknesses that opponents had denounced. These included reducing corruption accusations to \enquote{political persecution} or unfounded claims done because of upcoming elections \parencite{Melendez.2017}. A statement by the President represents a particularly relevant example: a regime-affiliated newspaper portrayed how Correa qualifies the Panama Papers as a \textit{selective fight against corruption} which is nothing but another kind of corruption, as well as a \textit{strategy by power groups} to destabilize democratically-elect governments \parencite[para. 5-7]{Telegrafo.2016}. 
+
+Even as corruption accusations had planted the seed of a deep investigation about a complex corruption scheme involving top government officials and large corporations \parencite{Villavicencio.2019}, authorities within the Correa administration reduced the importance of these events, which created a narrative for regime supporters. If the legitimacy of those who denounce and control corruption is questioned by an important authority of the organization, corrupt acts can be more easily normalized \parencite{Ashforth.2003}. Thus, if there was a greater incidence of corrupt acts as well as numerous attempts by the authorities to justify them, it can be understood how supporters of the regime started to justify corruption more.
+
+The data also show how people who identify with the political right became more corruption-tolerant in 2016. It is not clear if there is a causal relationship involving the political right and corruption tolerance. This is because it has been determined that in Ecuador the answer to the political identification question has little to do with the traditional principles of the political wings that are commonly understood. Rather, it is possible that the political self-identification of Ecuadorians follows a multidimensional perspective \parencite{Moncagatta.2020b}, not too accurately measured with an indicator like the one used here. 
+
+A potential explanation to the sign on this variable is that those who identify with the right do so partially because they consider themselves to be against the government in place. This is reasonable considering the increase in the percentage of "rightists" between 2014 and 2016, which moves together with regime's downfall. Additionally, it is possible that anti-regime attitudes formed under a common set of ideas rather than under a political party or figure, since during President Correa's tenure opposition forces did not materialize strongly behind a party or leader \parencite{Melendez.2017}. It is sensible to believe that no political wing has any particular preference for justifying or rejecting corruption, as important actors in both political wings have spoken against it, academics \parencite{Holcombe.2015} and politicians \parencite{Morris.2021} alike. However, anti-regime respondents rather than \enquote{rightists} might rationalize corruption as a form of revenge, as proposed by \textcite{Ashforth.2003} and noted by \textcite{Adoum.2000}.
+
+
+
+
+
