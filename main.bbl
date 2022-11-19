@@ -1,0 +1,1052 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{Adoum.2000}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=06994d4e1831aae0beba5cbddf728c72}{%
+           family={Adoum},
+           familyi={A\bibinitperiod},
+           given={Jorge\bibnamedelima Enrique},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Quito}%
+      }
+      \list{publisher}{1}{%
+        {Eskeletra Editorial}%
+      }
+      \strng{namehash}{06994d4e1831aae0beba5cbddf728c72}
+      \strng{fullhash}{06994d4e1831aae0beba5cbddf728c72}
+      \strng{bibnamehash}{06994d4e1831aae0beba5cbddf728c72}
+      \strng{authorbibnamehash}{06994d4e1831aae0beba5cbddf728c72}
+      \strng{authornamehash}{06994d4e1831aae0beba5cbddf728c72}
+      \strng{authorfullhash}{06994d4e1831aae0beba5cbddf728c72}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{6}
+      \field{title}{{Ecuador: señas particulares}}
+      \field{year}{2000}
+    \endentry
+    \entry{Akerlof.1980}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f198b417f1390a0f8ff279349b43f47d}{%
+           family={Akerlof},
+           familyi={A\bibinitperiod},
+           given={George\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f198b417f1390a0f8ff279349b43f47d}
+      \strng{fullhash}{f198b417f1390a0f8ff279349b43f47d}
+      \strng{bibnamehash}{f198b417f1390a0f8ff279349b43f47d}
+      \strng{authorbibnamehash}{f198b417f1390a0f8ff279349b43f47d}
+      \strng{authornamehash}{f198b417f1390a0f8ff279349b43f47d}
+      \strng{authorfullhash}{f198b417f1390a0f8ff279349b43f47d}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0033-5533}
+      \field{journaltitle}{{The Quarterly Journal of Economics}}
+      \field{number}{4}
+      \field{title}{{A Theory of Social Custom, of Which Unemployment May be One Consequence}}
+      \field{volume}{94}
+      \field{year}{1980}
+      \field{pages}{749}
+      \range{pages}{1}
+      \verb{doi}
+      \verb \url{10.2307/1885667}
+      \endverb
+      \verb{file}
+      \verb Akerlof 1980 - A Theory of Social Custom:Attachments/Akerlof 1980 - A Theory of Social Custom.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{AlarconSalvador.2020}{misc}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=7fb47a2c46c81bdc3458a5eb33f8850c}{%
+           family={Alarcón},
+           familyi={A\bibinitperiod},
+           given={Mauricio},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d2d3c328f6c7f36d5487abf976cf849}{%
+           family={{Espinel Vallejo}},
+           familyi={E\bibinitperiod},
+           given={Marcelo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7b0cf26f776b28468e9121f0981e7f7f}{%
+           family={{Zelaya Perdomo}},
+           familyi={Z\bibinitperiod},
+           given={Denise},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff57f84259445bb9d69cdd1969a9f2ff}{%
+           family={{Vega, Rojas, Claudia}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Pan American Development Foundation}%
+      }
+      \list{location}{1}{%
+        {Quito}%
+      }
+      \strng{namehash}{71aab4b4568aa415db23b4a8ab6b96f9}
+      \strng{fullhash}{c23163300e77bca45a01d187b393f01d}
+      \strng{bibnamehash}{c23163300e77bca45a01d187b393f01d}
+      \strng{authorbibnamehash}{c23163300e77bca45a01d187b393f01d}
+      \strng{authornamehash}{71aab4b4568aa415db23b4a8ab6b96f9}
+      \strng{authorfullhash}{c23163300e77bca45a01d187b393f01d}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Diagnóstico sobre áreas prioritarias para la cooperación contra la corrupción en Ecuador}}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb \url{https://padf.org/wp-content/uploads/2020/09/Informe-de-consultoria-con-portada.pdf}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://padf.org/wp-content/uploads/2020/09/Informe-de-consultoria-con-portada.pdf%7D
+      \endverb
+    \endentry
+    \entry{Press.1222018}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=332e67e876d799d4cab3cd0174eeb031}{%
+           family={{Associated Press}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{332e67e876d799d4cab3cd0174eeb031}
+      \strng{fullhash}{332e67e876d799d4cab3cd0174eeb031}
+      \strng{bibnamehash}{332e67e876d799d4cab3cd0174eeb031}
+      \strng{authorbibnamehash}{332e67e876d799d4cab3cd0174eeb031}
+      \strng{authornamehash}{332e67e876d799d4cab3cd0174eeb031}
+      \strng{authorfullhash}{332e67e876d799d4cab3cd0174eeb031}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{President Lenin Moreno said a top aide, Jose Briones, would occupy the vice presidency, but gave no indication for how long}
+      \field{title}{{Ecuador VP Removed, Accused of Taking Kickbacks from Aide}}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb \url{https://www.voanews.com/a/ecuador-vp-removed-accused-of-taking-kickbacks-from-aide/4685125.html}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://www.voanews.com/a/ecuador-vp-removed-accused-of-taking-kickbacks-from-aide/4685125.html%7D
+      \endverb
+    \endentry
+    \entry{Bergh.2017}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4964abab7f3a496d9e3b2e534af7e8cb}{%
+           family={Bergh},
+           familyi={B\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f1810c23ba83f53ab99ca7d49503c6db}{%
+           family={Fink},
+           familyi={F\bibinitperiod},
+           given={Günther},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=35f3d0d214fcdf86d42ea77d90c04d91}{%
+           family={Öhrvall},
+           familyi={Ö\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d29f70f887ecf166fe1eaf7cacf38740}
+      \strng{fullhash}{ab3a51c04a445ccdbb98393748d5c952}
+      \strng{bibnamehash}{ab3a51c04a445ccdbb98393748d5c952}
+      \strng{authorbibnamehash}{ab3a51c04a445ccdbb98393748d5c952}
+      \strng{authornamehash}{d29f70f887ecf166fe1eaf7cacf38740}
+      \strng{authorfullhash}{ab3a51c04a445ccdbb98393748d5c952}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In the literature on political economy and public choice, it is typically assumed that government size correlates positively with public corruption. The empirical literature, however, is inconclusive, owing to both measurement problems and endogeneity. This paper creates a corruption index based on original data from a survey covering top politicians and civil servants in all Swedish municipalities. The effect of more politicians on corruption problems is analyzed using discontinuities in the required minimum size of local councils. Despite the fact that Sweden consistently has been ranked among the least corrupt countries in the world, the survey suggest that non-trivial corruption problems are present in Sweden. Municipalities with more local council seats have more reported corruption problems, and the regression discontinuity design suggests that the effect is causal.}
+      \field{number}{172}
+      \field{title}{{More politicians, more corruption: evidence from Swedish municipalities}}
+      \field{volume}{Public Choice}
+      \field{year}{2017}
+      \field{pages}{483\bibrangedash 500}
+      \range{pages}{18}
+      \verb{file}
+      \verb Bergh2017{\_}Article{\_}MorePoliticiansMoreCorruption:Attachments/Bergh2017{\_}Article{\_}MorePoliticiansMoreCorruption.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb \url{https://link.springer.com/article/10.1007/s11127-017-0458-4#auth-G_nther-Fink}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://link.springer.com/article/10.1007/s11127-017-0458-4#auth-G_nther-Fink%7D
+      \endverb
+    \endentry
+    \entry{BHCompliance.2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f60040996761b5cb90148d974234b40e}{%
+           family={{BH Compliance}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{f60040996761b5cb90148d974234b40e}
+      \strng{fullhash}{f60040996761b5cb90148d974234b40e}
+      \strng{bibnamehash}{f60040996761b5cb90148d974234b40e}
+      \strng{authorbibnamehash}{f60040996761b5cb90148d974234b40e}
+      \strng{authornamehash}{f60040996761b5cb90148d974234b40e}
+      \strng{authorfullhash}{f60040996761b5cb90148d974234b40e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This article first appeared on El Comercio on October 14, 2021. The Public Prosecutor's Office is investigating 172 alleged cases of corruption perpetrated during the covid-19 pandemic in Ecuador. However, the majority of investigations show slow progress. A statistical report Read More}
+      \field{title}{{[Ecuador] Corruption cases during pandemic record slow progress}}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb \url{https://www.bh-compliance.com/en/ecuador-corruption-cases-during-pandemic-record-slow-progress/}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://www.bh-compliance.com/en/ecuador-corruption-cases-during-pandemic-record-slow-progress/%7D
+      \endverb
+    \endentry
+    \entry{Campbell.2014}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7b8fb042993072d32f95ea4be45a9bd3}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={Jamie-Lee},
+           giveni={J\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ebe65c95f76974badfe15a261426783f}{%
+           family={Göritz},
+           familyi={G\bibinitperiod},
+           given={Anja\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{897403c46ff8a0b492218f29da82d889}
+      \strng{fullhash}{897403c46ff8a0b492218f29da82d889}
+      \strng{bibnamehash}{897403c46ff8a0b492218f29da82d889}
+      \strng{authorbibnamehash}{897403c46ff8a0b492218f29da82d889}
+      \strng{authornamehash}{897403c46ff8a0b492218f29da82d889}
+      \strng{authorfullhash}{897403c46ff8a0b492218f29da82d889}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{[Although theory refers to organizational culture as an important variable in corrupt organizations, only little empirical research has addressed the characteristics of a corrupt organizational culture. Besides some characteristics that go hand in hand with unethical behavior and other features of corrupt organizations, we are still not able to describe a corrupt organizational culture in terms of its underlying assumptions, values, and norms. With a qualitative approach, we studied similarities of organizational culture across different corrupt organizations. In this study, we performed content analysis on interviews of 14 independent experts about their experience with corrupt organizations. With this approach, we gained insights about different corrupt organizations spanning different branches (e.g., government, foreign trade, pharmacy, sports, building industry). We found that corrupt organizations perceive themselves to fight in a war, which leads to their taken-for-granted assumption that {"}the end justifies the means{"}. This assumption inspires many values and norms of the organizational culture. An important value in a corrupt organization is {"}security{"}, and an important norm is punishment of deviant (i.e., non-corrupt) behavior. Furthermore, managers and employees differ in their perception of organizational culture. While the management endorses values, such as success, results, and performance, and implements these values in their norms of goal setting, employees make use of rationalization strategies and endorse values of security and team spirit.]}
+      \field{issn}{01674544}
+      \field{journaltitle}{{Journal of Business Ethics}}
+      \field{number}{3}
+      \field{title}{{Culture Corrupts! A Qualitative Study of Organizational Culture in Corrupt Organizations}}
+      \field{volume}{120}
+      \field{year}{2014}
+      \field{pages}{291\bibrangedash 311}
+      \range{pages}{21}
+      \verb{urlraw}
+      \verb \url{http://www.jstor.org/stable/42921339}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttp://www.jstor.org/stable/42921339%7D
+      \endverb
+    \endentry
+    \entry{Castro.2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5fe6d219dddbb0236587c892ce5938cc}{%
+           family={Castro},
+           familyi={C\bibinitperiod},
+           given={Mayuri},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5fe6d219dddbb0236587c892ce5938cc}
+      \strng{fullhash}{5fe6d219dddbb0236587c892ce5938cc}
+      \strng{bibnamehash}{5fe6d219dddbb0236587c892ce5938cc}
+      \strng{authorbibnamehash}{5fe6d219dddbb0236587c892ce5938cc}
+      \strng{authornamehash}{5fe6d219dddbb0236587c892ce5938cc}
+      \strng{authorfullhash}{5fe6d219dddbb0236587c892ce5938cc}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Rosa Cerda es asambleísta por Pachakutik. El sábado circularon videos en las que se la escucha decir a una audiencia que ``roben bien''. Este es un breve perfil de la legisladora.}
+      \field{title}{{?`Quién es Rosa Cerda, la asambleísta de Pachakutik? Rosa Cerda es asambleísta de Napo por Pachakutik}}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb \url{https://gk.city/2021/07/19/rosa-cerda-asambleista-pachakutik-roben-bien/}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://gk.city/2021/07/19/rosa-cerda-asambleista-pachakutik-roben-bien/%7D
+      \endverb
+    \endentry
+    \entry{Celi.2020}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fa4e50ff3ed442cd590f9eec0ae4b5d9}{%
+           family={Celi},
+           familyi={C\bibinitperiod},
+           given={Estefanía},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fa4e50ff3ed442cd590f9eec0ae4b5d9}
+      \strng{fullhash}{fa4e50ff3ed442cd590f9eec0ae4b5d9}
+      \strng{bibnamehash}{fa4e50ff3ed442cd590f9eec0ae4b5d9}
+      \strng{authorbibnamehash}{fa4e50ff3ed442cd590f9eec0ae4b5d9}
+      \strng{authornamehash}{fa4e50ff3ed442cd590f9eec0ae4b5d9}
+      \strng{authorfullhash}{fa4e50ff3ed442cd590f9eec0ae4b5d9}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{El presidente Lenín Moreno aceptó que los asambleístas piden cargos en la administración pública, aunque negó que se hayan entregado hospitales.}
+      \field{title}{{El reparto de hospitales: el nuevo escándalo de la actual Asamblea}}
+      \field{year}{2020}
+      \verb{file}
+      \verb Celi 6 16 2020 - El reparto de hospitales (2):Attachments/Celi 6 16 2020 - El reparto de hospitales (2).pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb \url{https://www.primicias.ec/noticias/politica/reparto-hospitales-escandalo-nuevo-actual-asamblea/}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://www.primicias.ec/noticias/politica/reparto-hospitales-escandalo-nuevo-actual-asamblea/%7D
+      \endverb
+    \endentry
+    \entry{Comercio.2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=333898eb376ab5bdd40edc363f981431}{%
+           family={{El Comercio}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{333898eb376ab5bdd40edc363f981431}
+      \strng{fullhash}{333898eb376ab5bdd40edc363f981431}
+      \strng{bibnamehash}{333898eb376ab5bdd40edc363f981431}
+      \strng{authorbibnamehash}{333898eb376ab5bdd40edc363f981431}
+      \strng{authornamehash}{333898eb376ab5bdd40edc363f981431}
+      \strng{authorfullhash}{333898eb376ab5bdd40edc363f981431}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{QUITO, Ecuador (AP) --- The mayor of Ecuador's capital was removed from office on Thursday following multiple allegations of wrongdoing and the opening of a corruption investigation by prosecutors. Quito city councilors voted to dismiss Jorge Yunda after complaints about a lack of transparency, including the failure to provide details about municipal budget spending.}
+      \field{title}{{Quién es Jorge Yunda, el alcalde de Quito investigado por corrupción que acaba de ser destituido}}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb \url{https://elcomercio.pe/mundo/latinoamerica/ecuador-quien-es-jorge-yunda-el-alcalde-de-quito-investigado-por-corrupcion-que-acaba-de-ser-destituido-noticia/}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://elcomercio.pe/mundo/latinoamerica/ecuador-quien-es-jorge-yunda-el-alcalde-de-quito-investigado-por-corrupcion-que-acaba-de-ser-destituido-noticia/%7D
+      \endverb
+    \endentry
+    \entry{Espana.2020}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4663acdc85e1421f42c4af904d2a283a}{%
+           family={España},
+           familyi={E\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4663acdc85e1421f42c4af904d2a283a}
+      \strng{fullhash}{4663acdc85e1421f42c4af904d2a283a}
+      \strng{bibnamehash}{4663acdc85e1421f42c4af904d2a283a}
+      \strng{authorbibnamehash}{4663acdc85e1421f42c4af904d2a283a}
+      \strng{authornamehash}{4663acdc85e1421f42c4af904d2a283a}
+      \strng{authorfullhash}{4663acdc85e1421f42c4af904d2a283a}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Cientos de irregularidades en compra de material médico descomponen los tres niveles de la Administración. Hay 17 detenidos, entre ellos el expresidente Bucaram}
+      \field{title}{{Una oleada de casos de corrupción golpea Ecuador en medio de la pandemia}}
+      \field{year}{2020}
+      \verb{file}
+      \verb Espa{\~n}a 6 4 2020 - Una oleada de casos:Attachments/Espa{\~n}a 6 4 2020 - Una oleada de casos.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb \url{https://elpais.com/sociedad/2020-06-05/una-oleada-de-casos-de-corrupcion-golpea-ecuador-en-medio-de-la-pandemia.html}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://elpais.com/sociedad/2020-06-05/una-oleada-de-casos-de-corrupcion-golpea-ecuador-en-medio-de-la-pandemia.html%7D
+      \endverb
+    \endentry
+    \entry{Espinosa.2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8a32f76d1696fe35fbf2f8c1f1a48efa}{%
+           family={Espinosa},
+           familyi={E\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8a32f76d1696fe35fbf2f8c1f1a48efa}
+      \strng{fullhash}{8a32f76d1696fe35fbf2f8c1f1a48efa}
+      \strng{bibnamehash}{8a32f76d1696fe35fbf2f8c1f1a48efa}
+      \strng{authorbibnamehash}{8a32f76d1696fe35fbf2f8c1f1a48efa}
+      \strng{authornamehash}{8a32f76d1696fe35fbf2f8c1f1a48efa}
+      \strng{authorfullhash}{8a32f76d1696fe35fbf2f8c1f1a48efa}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{La Fiscalía formulará cargos por el presunto delito de falsificación y uso de documento falso contra María Alejandra Vicuña y otras 11 personas.}
+      \field{title}{{Fiscalía formulará cargos contra la exvicepresidenta de la República María Alejandra Vicuña}}
+      \field{year}{2021}
+      \verb{file}
+      \verb Espinosa 6 23 2021 - Fiscal{\'i}a formular{\'a} cargos:Attachments/Espinosa 6 23 2021 - Fiscal{\'i}a formular{\'a} cargos.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb \url{https://www.elcomercio.com/actualidad/seguridad/fiscalia-cargos-exvicepresidenta-maria-alejandra-vicuna.html}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://www.elcomercio.com/actualidad/seguridad/fiscalia-cargos-exvicepresidenta-maria-alejandra-vicuna.html%7D
+      \endverb
+    \endentry
+    \entry{Gonzalez.2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2fece0bc1ff0219a94a2f5a6df491841}{%
+           family={González},
+           familyi={G\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2fece0bc1ff0219a94a2f5a6df491841}
+      \strng{fullhash}{2fece0bc1ff0219a94a2f5a6df491841}
+      \strng{bibnamehash}{2fece0bc1ff0219a94a2f5a6df491841}
+      \strng{authorbibnamehash}{2fece0bc1ff0219a94a2f5a6df491841}
+      \strng{authornamehash}{2fece0bc1ff0219a94a2f5a6df491841}
+      \strng{authorfullhash}{2fece0bc1ff0219a94a2f5a6df491841}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{La legisladora por la provincia del Guayas ya no forma parte de la Izquierda Democrática, que la auspició para ganar una curul.}
+      \field{title}{{?`Quién es Bella Jiménez?, segunda vicepresidenta de la Asamblea y señalada por supuesto cobro de coima}}
+      \field{year}{2021}
+      \verb{file}
+      \verb Gonz{\'a}lez 8 23 2021 - ?`Qui{\'e}n es Bella Jim{\'e}nez:Attachments/Gonz{\'a}lez 8 23 2021 - ?`Qui{\'e}n es Bella Jim{\'e}nez.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb \url{https://www.eluniverso.com/noticias/ecuador/quien-es-bella-jimenez-segunda-vicepresidenta-de-la-asamblea-acusada-de-gestionar-cargos-publicos-a-cambio-de-dinero-nota/}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://www.eluniverso.com/noticias/ecuador/quien-es-bella-jimenez-segunda-vicepresidenta-de-la-asamblea-acusada-de-gestionar-cargos-publicos-a-cambio-de-dinero-nota/%7D
+      \endverb
+    \endentry
+    \entry{Hurtado.2007}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cbf4340a0ac1c7de200ff125c1147425}{%
+           family={Hurtado},
+           familyi={H\bibinitperiod},
+           given={Osvaldo},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Editorial Planeta del Ecuador, C.A.}%
+      }
+      \strng{namehash}{cbf4340a0ac1c7de200ff125c1147425}
+      \strng{fullhash}{cbf4340a0ac1c7de200ff125c1147425}
+      \strng{bibnamehash}{cbf4340a0ac1c7de200ff125c1147425}
+      \strng{authorbibnamehash}{cbf4340a0ac1c7de200ff125c1147425}
+      \strng{authornamehash}{cbf4340a0ac1c7de200ff125c1147425}
+      \strng{authorfullhash}{cbf4340a0ac1c7de200ff125c1147425}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9789585446298}
+      \field{title}{{Las costumbres de los ecuatorianos}}
+      \field{year}{2007}
+    \endentry
+    \entry{Cabrera.2020}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=234c0606f601a76452f4ecd954a5ed59}{%
+           family={León},
+           familyi={L\bibinitperiod},
+           given={Jose\bibnamedelima María},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{234c0606f601a76452f4ecd954a5ed59}
+      \strng{fullhash}{234c0606f601a76452f4ecd954a5ed59}
+      \strng{bibnamehash}{234c0606f601a76452f4ecd954a5ed59}
+      \strng{authorbibnamehash}{234c0606f601a76452f4ecd954a5ed59}
+      \strng{authornamehash}{234c0606f601a76452f4ecd954a5ed59}
+      \strng{authorfullhash}{234c0606f601a76452f4ecd954a5ed59}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The outcome of Rafael Correa's closely watched trial is likely to affect Ecuador's political landscape for years to come.}
+      \field{title}{{Ecuador's Former President Convicted on Corruption Charges: The outcome of Rafael Correa's closely watched trial is likely to affect Ecuador's political landscape for years to come.}}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb \url{https://www.nytimes.com/2020/04/07/world/americas/ecuador-correa-corruption-verdict.html}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://www.nytimes.com/2020/04/07/world/americas/ecuador-correa-corruption-verdict.html%7D
+      \endverb
+    \endentry
+    \entry{Loaiza.2019}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=416aa1a0bc27c691dda302e535aa9fb9}{%
+           family={Loaiza},
+           familyi={L\bibinitperiod},
+           given={Yalilé},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{416aa1a0bc27c691dda302e535aa9fb9}
+      \strng{fullhash}{416aa1a0bc27c691dda302e535aa9fb9}
+      \strng{bibnamehash}{416aa1a0bc27c691dda302e535aa9fb9}
+      \strng{authorbibnamehash}{416aa1a0bc27c691dda302e535aa9fb9}
+      \strng{authornamehash}{416aa1a0bc27c691dda302e535aa9fb9}
+      \strng{authorfullhash}{416aa1a0bc27c691dda302e535aa9fb9}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Los políticos corruptos en el Ecuador no son sorpresa. Las cifras muestran que los ecuatorianos están de acuerdo con la corrupción a cambio de obras.}
+      \field{title}{{Políticos corruptos en el Ecuador: ?`cuánto aceptamos la corrupción?}}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb \url{https://gk.city/2019/07/27/politicos-corruptos-ecuador/}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://gk.city/2019/07/27/politicos-corruptos-ecuador/%7D
+      \endverb
+    \endentry
+    \entry{Moscoso.2018}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=842026be5ed5d1c2ae3ccf32a2076d1a}{%
+           family={Moscoso},
+           familyi={M\bibinitperiod},
+           given={Arturo},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{6}{}{%
+        {{hash=ce6f1845e1b8967d20b953635dce0e35}{%
+           family={Donoso},
+           familyi={D\bibinitperiod},
+           given={Juan\bibnamedelima Carlos},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=ebb326b545465bbbe1decea15334b5e8}{%
+           family={Moncagatta},
+           familyi={M\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=842026be5ed5d1c2ae3ccf32a2076d1a}{%
+           family={Moscoso},
+           familyi={M\bibinitperiod},
+           given={Arturo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ced5d411dcddecda5ec8d04207b4c91b}{%
+           family={Pachano},
+           familyi={P\bibinitperiod},
+           given={Simón},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5c3839d6b854ed654301c4a5c3619c12}{%
+           family={Montalvo},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi Daniel},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=1ccea66e355a33f067424cfbd57abbaa}{%
+           family={Zechmeister},
+           familyi={Z\bibinitperiod},
+           given={Elizabeth\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{842026be5ed5d1c2ae3ccf32a2076d1a}
+      \strng{fullhash}{842026be5ed5d1c2ae3ccf32a2076d1a}
+      \strng{bibnamehash}{842026be5ed5d1c2ae3ccf32a2076d1a}
+      \strng{authorbibnamehash}{842026be5ed5d1c2ae3ccf32a2076d1a}
+      \strng{authornamehash}{842026be5ed5d1c2ae3ccf32a2076d1a}
+      \strng{authorfullhash}{842026be5ed5d1c2ae3ccf32a2076d1a}
+      \strng{editorbibnamehash}{21a2f04b71be6fbab3eb102e71b2d4b0}
+      \strng{editornamehash}{906f69974259946a3671cdbd74b025c9}
+      \strng{editorfullhash}{21a2f04b71be6fbab3eb102e71b2d4b0}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{Cultura política de la democracia en Ecuador y en las Américas, 2016/17: Un estudio comparado sobre democracia y gobernabilidad}}
+      \field{title}{{Corrupción y democracia en el Ecuador: Efectos de la corrupción en la opinión pública sobre la democracia, el apoyo al sistema y la tolerancia política}}
+      \field{year}{2018}
+      \field{pages}{85\bibrangedash 114}
+      \range{pages}{30}
+    \endentry
+    \entry{Ordonez.2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1a0da1194ee6ffefc07a31bf435489ba}{%
+           family={Ordóñez},
+           familyi={O\bibinitperiod},
+           given={Vicente},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1a0da1194ee6ffefc07a31bf435489ba}
+      \strng{fullhash}{1a0da1194ee6ffefc07a31bf435489ba}
+      \strng{bibnamehash}{1a0da1194ee6ffefc07a31bf435489ba}
+      \strng{authorbibnamehash}{1a0da1194ee6ffefc07a31bf435489ba}
+      \strng{authornamehash}{1a0da1194ee6ffefc07a31bf435489ba}
+      \strng{authorfullhash}{1a0da1194ee6ffefc07a31bf435489ba}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{La sanción aprobada con seis votos se aplicará una vez que sea notificada la legisladora de Pachakutik en representación de la provincia de Napo}
+      \field{title}{{Rosa Cerda por su apología `roben bien' es suspendida como asambleísta por ocho días y sin sueldo}}
+      \field{year}{2021}
+      \verb{file}
+      \verb Ord{\'o}{\~n}ez 8 23 2021 - Rosa Cerda por su apolog{\'i}a:Attachments/Ord{\'o}{\~n}ez 8 23 2021 - Rosa Cerda por su apolog{\'i}a.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb \url{https://www.eluniverso.com/noticias/politica/rosa-cerda-por-su-apologia-roben-bien-es-suspendida-como-asambleista-por-ocho-dias-y-sin-sueldo-nota/}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://www.eluniverso.com/noticias/politica/rosa-cerda-por-su-apologia-roben-bien-es-suspendida-como-asambleista-por-ocho-dias-y-sin-sueldo-nota/%7D
+      \endverb
+    \endentry
+    \entry{Pesantes.9152020}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=457fb41b0dbf7b5ac37e43d147a75104}{%
+           family={Pesantes},
+           familyi={P\bibinitperiod},
+           given={Karla},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{457fb41b0dbf7b5ac37e43d147a75104}
+      \strng{fullhash}{457fb41b0dbf7b5ac37e43d147a75104}
+      \strng{bibnamehash}{457fb41b0dbf7b5ac37e43d147a75104}
+      \strng{authorbibnamehash}{457fb41b0dbf7b5ac37e43d147a75104}
+      \strng{authornamehash}{457fb41b0dbf7b5ac37e43d147a75104}
+      \strng{authorfullhash}{457fb41b0dbf7b5ac37e43d147a75104}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{La Fiscalía procesó a exfuncionarios y proveedores, dentro del caso de delincuencia organizada en la compra de insumos en el hospital del IESS.}
+      \field{title}{{Escándalo de corrupción en hospital del IESS suma siete nuevos acusados}}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb \url{https://www.primicias.ec/noticias/lo-ultimo/corrupcion-hospital-iess-nuevos-acusados/}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://www.primicias.ec/noticias/lo-ultimo/corrupcion-hospital-iess-nuevos-acusados/%7D
+      \endverb
+    \endentry
+    \entry{PlanV.2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8ad80c882910feda9e9ecf26c1cd22b8}{%
+           family={{Plan V}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=5be66ec80bc0899a57b48d1bdeee857b}{%
+           family={{Redacción Plan V}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ad80c882910feda9e9ecf26c1cd22b8}
+      \strng{fullhash}{8ad80c882910feda9e9ecf26c1cd22b8}
+      \strng{bibnamehash}{8ad80c882910feda9e9ecf26c1cd22b8}
+      \strng{authorbibnamehash}{8ad80c882910feda9e9ecf26c1cd22b8}
+      \strng{authornamehash}{8ad80c882910feda9e9ecf26c1cd22b8}
+      \strng{authorfullhash}{8ad80c882910feda9e9ecf26c1cd22b8}
+      \strng{editorbibnamehash}{5be66ec80bc0899a57b48d1bdeee857b}
+      \strng{editornamehash}{5be66ec80bc0899a57b48d1bdeee857b}
+      \strng{editorfullhash}{5be66ec80bc0899a57b48d1bdeee857b}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{La asambleísta que dijo `si roben, roben bien' se enreda más}}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb \url{https://www.planv.com.ec/confidenciales/confidencial-politica/la-asambleista-que-dijo-si-roben-roben-bien-se-enreda-mas}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://www.planv.com.ec/confidenciales/confidencial-politica/la-asambleista-que-dijo-si-roben-roben-bien-se-enreda-mas%7D
+      \endverb
+    \endentry
+    \entry{Quillupangui.2016}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e5419904c9542471f5f62fe9b159c9a8}{%
+           family={Quillupangui},
+           familyi={Q\bibinitperiod},
+           given={Soraya},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=333898eb376ab5bdd40edc363f981431}{%
+           family={{El Comercio}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{e5419904c9542471f5f62fe9b159c9a8}
+      \strng{fullhash}{e5419904c9542471f5f62fe9b159c9a8}
+      \strng{bibnamehash}{e5419904c9542471f5f62fe9b159c9a8}
+      \strng{authorbibnamehash}{e5419904c9542471f5f62fe9b159c9a8}
+      \strng{authornamehash}{e5419904c9542471f5f62fe9b159c9a8}
+      \strng{authorfullhash}{e5419904c9542471f5f62fe9b159c9a8}
+      \strng{editorbibnamehash}{333898eb376ab5bdd40edc363f981431}
+      \strng{editornamehash}{333898eb376ab5bdd40edc363f981431}
+      \strng{editorfullhash}{333898eb376ab5bdd40edc363f981431}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Un 58 {\%} de la población desaprueba la gestión del presidente de Ecuador, Rafael Correa, según una encuesta difundida hoy por la firma Cedatos, que recordó que el gobernante comenzó su mandato en 2007 con un {"}registro inédito{"} del 73 {\%} de aprobación.}
+      \field{title}{{Un 58{\%} de la población desaprueba la gestión del presidente Rafael Correa, según Cedatos}}
+      \field{year}{2016}
+      \verb{file}
+      \verb Quillupangui -0001-11-30T00 00 00 00 00 - Un 58{\%} de la poblaci{\'o}n:Attachments/Quillupangui -0001-11-30T00 00 00 00 00 - Un 58{\%} de la poblaci{\'o}n.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb \url{https://www.elcomercio.com/actualidad/politica/desaprueba-gestion-rafaelcorrea-ecuador-cedatos.html}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://www.elcomercio.com/actualidad/politica/desaprueba-gestion-rafaelcorrea-ecuador-cedatos.html%7D
+      \endverb
+    \endentry
+    \entry{RoaChejin.2020}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=edb6b65f3adc16ee750d6072e4cf02a8}{%
+           family={Roa},
+           familyi={R\bibinitperiod},
+           given={Susana},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{edb6b65f3adc16ee750d6072e4cf02a8}
+      \strng{fullhash}{edb6b65f3adc16ee750d6072e4cf02a8}
+      \strng{bibnamehash}{edb6b65f3adc16ee750d6072e4cf02a8}
+      \strng{authorbibnamehash}{edb6b65f3adc16ee750d6072e4cf02a8}
+      \strng{authornamehash}{edb6b65f3adc16ee750d6072e4cf02a8}
+      \strng{authorfullhash}{edb6b65f3adc16ee750d6072e4cf02a8}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Se habla de sobreprecios de hasta el 9000{\%} en las compras públicas de insumos médicos, ?`cuánto cuesta la corrupción durante la emergencia en Ecuador?}
+      \field{title}{{La cirugía que salió mal}}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb \url{https://gk.city/2020/05/24/corrupcion-emergencia-ecuador/}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://gk.city/2020/05/24/corrupcion-emergencia-ecuador/%7D
+      \endverb
+    \endentry
+    \entry{Shleifer.1993}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6aa767648c42f624d2e546059d0890e7}{%
+           family={Shleifer},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef3e4e1365a697f3917be5a73efb6f7a}{%
+           family={Vishny},
+           familyi={V\bibinitperiod},
+           given={R.\bibnamedelimi W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{82b5362a809a2bab663961331a01cc0c}
+      \strng{fullhash}{82b5362a809a2bab663961331a01cc0c}
+      \strng{bibnamehash}{82b5362a809a2bab663961331a01cc0c}
+      \strng{authorbibnamehash}{82b5362a809a2bab663961331a01cc0c}
+      \strng{authornamehash}{82b5362a809a2bab663961331a01cc0c}
+      \strng{authorfullhash}{82b5362a809a2bab663961331a01cc0c}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0033-5533}
+      \field{journaltitle}{{The Quarterly Journal of Economics}}
+      \field{number}{3}
+      \field{title}{{Corruption}}
+      \field{volume}{108}
+      \field{year}{1993}
+      \field{pages}{599\bibrangedash 617}
+      \range{pages}{19}
+      \verb{doi}
+      \verb \url{10.2307/2118402}
+      \endverb
+      \verb{file}
+      \verb corruption QJE:Attachments/corruption QJE.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{Singer.2016}{inbook}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a9ac23180752ef1005ccf7213a33d3fd}{%
+           family={Singer},
+           familyi={S\bibinitperiod},
+           given={Matthew\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=328d544d2e75be6cce207f786c60558e}{%
+           family={Carlin},
+           familyi={C\bibinitperiod},
+           given={Ryan\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=712af9ce79b692046d7ef8909786e170}{%
+           family={Love},
+           familyi={L\bibinitperiod},
+           given={Gregory\bibnamedelima J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=1ccea66e355a33f067424cfbd57abbaa}{%
+           family={Zechmeister},
+           familyi={Z\bibinitperiod},
+           given={Elizabeth\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{6537f507a48f644711aa3fac19ab8774}
+      \strng{fullhash}{4103657cbabd50ed71d864495588239a}
+      \strng{bibnamehash}{4103657cbabd50ed71d864495588239a}
+      \strng{authorbibnamehash}{4103657cbabd50ed71d864495588239a}
+      \strng{authornamehash}{6537f507a48f644711aa3fac19ab8774}
+      \strng{authorfullhash}{4103657cbabd50ed71d864495588239a}
+      \strng{editorbibnamehash}{1ccea66e355a33f067424cfbd57abbaa}
+      \strng{editornamehash}{1ccea66e355a33f067424cfbd57abbaa}
+      \strng{editorfullhash}{1ccea66e355a33f067424cfbd57abbaa}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{The Political Culture of Democracy in the Americas, 2014: Democratic Governance across 10 Years of the AmericasBarometer}}
+      \field{title}{{Corruption in the Americas}}
+      \field{year}{2016}
+      \field{pages}{143\bibrangedash 163}
+      \range{pages}{21}
+    \endentry
+    \entry{Taj.2021}{misc}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=61036e637921b02f45e6ba5f597bd643}{%
+           family={Taj},
+           familyi={T\bibinitperiod},
+           given={Mitra},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce204c8703448ced8f6d12be4aeebdc3}{%
+           family={Kurmanaev},
+           familyi={K\bibinitperiod},
+           given={Anatoly},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38093b76c7e4ebb804fa05b4bf1ec412}{%
+           family={{Andreoni, Manuela, Politi, Daniel}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ec39f9840c6d02ac9ac228dffabc4a0}
+      \strng{fullhash}{9bc972895d042e8a771a4b7904958122}
+      \strng{bibnamehash}{9bc972895d042e8a771a4b7904958122}
+      \strng{authorbibnamehash}{9bc972895d042e8a771a4b7904958122}
+      \strng{authornamehash}{9ec39f9840c6d02ac9ac228dffabc4a0}
+      \strng{authorfullhash}{9bc972895d042e8a771a4b7904958122}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{`V.I.P. Immunization' for the Powerful and Their Cronies Rattles South America}}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb \url{https://www.nytimes.com/2021/02/25/world/americas/covid-south-america-vaccine-corruption.html?}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://www.nytimes.com/2021/02/25/world/americas/covid-south-america-vaccine-corruption.html?%7D
+      \endverb
+    \endentry
+    \entry{Warren.2004}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ced06a5711fc8fcdbf53fd44bcb1ba5a}{%
+           family={Warren},
+           familyi={W\bibinitperiod},
+           given={Mark\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ced06a5711fc8fcdbf53fd44bcb1ba5a}
+      \strng{fullhash}{ced06a5711fc8fcdbf53fd44bcb1ba5a}
+      \strng{bibnamehash}{ced06a5711fc8fcdbf53fd44bcb1ba5a}
+      \strng{authorbibnamehash}{ced06a5711fc8fcdbf53fd44bcb1ba5a}
+      \strng{authornamehash}{ced06a5711fc8fcdbf53fd44bcb1ba5a}
+      \strng{authorfullhash}{ced06a5711fc8fcdbf53fd44bcb1ba5a}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00925853}
+      \field{journaltitle}{{American Journal of Political Science}}
+      \field{number}{2}
+      \field{title}{{What Does Corruption Mean in a Democracy?}}
+      \field{volume}{48}
+      \field{year}{2004}
+      \field{pages}{328\bibrangedash 343}
+      \range{pages}{16}
+      \verb{doi}
+      \verb \url{10.2307/1519886}
+      \endverb
+    \endentry
+    \entry{Weisbrot.2017}{misc}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f4c9d2a9b3424e5c7109437697b771b0}{%
+           family={Weisbrot},
+           familyi={W\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c5c3d84213fbd6ce0725bbc622be59d1}{%
+           family={Johnston},
+           familyi={J\bibinitperiod},
+           given={Jake},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=acc5e4fc88586cf63938e6ee944fd075}{%
+           family={Merling},
+           familyi={M\bibinitperiod},
+           given={Lara},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Center for Economic and Policy Research}%
+      }
+      \list{location}{1}{%
+        {Washington DC}%
+      }
+      \strng{namehash}{7a89a0a10bbf4c3e58bb1e36062f7a9f}
+      \strng{fullhash}{2341ef7974c213d44de28fde351bfc45}
+      \strng{bibnamehash}{2341ef7974c213d44de28fde351bfc45}
+      \strng{authorbibnamehash}{2341ef7974c213d44de28fde351bfc45}
+      \strng{authornamehash}{7a89a0a10bbf4c3e58bb1e36062f7a9f}
+      \strng{authorfullhash}{2341ef7974c213d44de28fde351bfc45}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Decade of Reform: Ecuador's Macroeconomic Policies, Institutional Changes, and Results}}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb \url{https://cepr.net/images/stories/reports/ecuador-2017-02.pdf}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://cepr.net/images/stories/reports/ecuador-2017-02.pdf%7D
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

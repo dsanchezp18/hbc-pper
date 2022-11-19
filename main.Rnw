@@ -3,7 +3,7 @@
 % ---- Metadata ---- %
 
 \title{Honesty by Convenience: Corruption Tolerance in Ecuador}
-\author{Daniel Hernán Sánchez Pazmiño}
+\author{Daniel Sánchez}
 \date{June 2022}
 
 % ---- Load Packages ---- %
@@ -31,6 +31,12 @@
 \usepackage[margin = 1in]{geometry}
 
 \usepackage{lscape}
+
+% Setting the size of the section titles
+
+\usepackage{titlesec}
+
+\titleformat*{\section}{\normalsize\bfseries}
 
 % Citation & Bibliographies
 
@@ -93,8 +99,6 @@ source('scripts/data_manipulation.R')
 @
 
 \begin{document}
-\maketitle
-\clearpage
 
 % ---- Sections ---- %
 
@@ -106,61 +110,6 @@ source('scripts/data_manipulation.R')
 % Introduction Child Document
 
 <<intro_child, child = 'intro.Rnw'>>=
-@
-
-% Literature Review Child Document
-
-<<litrev_child, child = 'litrev.Rnw'>>=
-@
-
-% Methodology Child Document
-
-<<meth_child, child = 'meth.Rnw'>>=
-@
-
-% Results 1 Child Document
-
-<<res1_child, child = 'results1.Rnw'>>=
-@
-
-% Results 2 Child Document
-
-<<res2_child, child = 'results2.Rnw'>>=
-@
-
-% Results 3 Child Document
-
-<<res3_child, child = 'results3.Rnw'>>=
-@
-
-% Conclusions Child Document
-
-<<conclusions, child = 'conclusions.Rnw'>>=
-@
-
-% Acknowledgments Child Document
-
-<<acknowledgments, child = 'acknowledgments.Rnw'>>=
-@
-
-% Appendix 1 Child Document
-
-<<ap1, child = 'ap1.Rnw'>>=
-@
-
-% Appendix 2 Child Document
-
-<<ap2, child = 'ap2.Rnw'>>=
-@
-
-% Appendix 3 Child Document
-
-<<ap3, child = 'ap3.Rnw'>>=
-@
-
-% Appendix 3 Child Document
-
-<<ap4, child = 'ap4.Rnw'>>=
 @
 
 \end{document}
