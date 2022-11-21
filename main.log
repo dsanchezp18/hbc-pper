@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.5)  18 NOV 2022 19:21
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.5)  20 NOV 2022 10:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -983,14 +983,14 @@ LaTeX Info: Redefining \nameref on input line 135.
 File: images/ctol_map.pdf Graphic file (type pdf)
 <use images/ctol_map.pdf>
 
-Overfull \hbox (12.79999pt too wide) in paragraph at lines 191--192
+Overfull \hbox (12.79999pt too wide) in paragraph at lines 188--189
 [][] 
  []
 
 File: figure/ctol_graph-1.pdf Graphic file (type pdf)
 <use figure/ctol_graph-1.pdf>
 
-Overfull \hbox (9.79999pt too wide) in paragraph at lines 219--220
+Overfull \hbox (9.79999pt too wide) in paragraph at lines 216--217
  [][] 
  []
 

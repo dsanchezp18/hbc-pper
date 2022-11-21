@@ -14,7 +14,4 @@ Attitudes towards corruption may be a strong determinant of its incidence. Using
 data from the AmericasBarometer (AB), binary-outcome empirical models are estimated to discover
 the key determinants of an increase in corruption tolerance in Ecuador between 2014 and
 2016. It is found that two key variables may have influenced this increase. People who approved
-of the President’s job performance initially justified bribes less, but by 2016 supporters justified corruption more. Also, those who identified closer to the political right justified corruption more in 2016. The jump is explained through these variables as the percentage of people
-who approved of the President decreased and the percentage of people identifying with the right
-increased. It is also found that the people who were either employed or outside the labor force
-justified bribes more in 2016 when compared to those who were unemployed.}
+of the President’s job performance initially justified bribes less, but by 2016 supporters justified corruption more. Also, those who identified closer to the political right justified corruption more in 2016. The jump is explained through these variables as the percentage of people who approved of the President decreased and the percentage of people identifying with the right increased. It is also found that the people who were either employed or outside the labor force justified bribes more in 2016 when compared to those who were unemployed.}
