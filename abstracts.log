@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.5)  20 NOV 2022 10:07
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.5)  8 DEC 2022 09:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -643,33 +643,34 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count439
 \@thisrulewidth=\dimen189
 )
+(c:/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip79
+\multirow@cntb=\count440
+\multirow@dima=\skip80
+\bigstrutjot=\dimen190
+)
+(c:/texlive/2021/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box63
+)
 (c:/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
 (c:/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen190
-\captionmargin@=\dimen191
-\captionwidth=\dimen192
-\caption@tempdima=\dimen193
-\caption@indent=\dimen194
-\caption@parindent=\dimen195
-\caption@hangindent=\dimen196
+\captionmargin=\dimen191
+\captionmargin@=\dimen192
+\captionwidth=\dimen193
+\caption@tempdima=\dimen194
+\caption@indent=\dimen195
+\caption@parindent=\dimen196
+\caption@hangindent=\dimen197
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count440
-\c@continuedfloat=\count441
-)
-(c:/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip79
-\multirow@cntb=\count442
-\multirow@dima=\skip80
-\bigstrutjot=\dimen197
-)
-(c:/texlive/2021/texmf-dist/tex/latex/threeparttable/threeparttable.sty
-Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box63
+\c@caption@flags=\count441
+\c@continuedfloat=\count442
+Package caption Info: threeparttable package is loaded.
 )
 (c:/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
@@ -823,7 +824,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip85
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 142.
+h' as default language. on input line 145.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
 
@@ -834,31 +835,31 @@ LaTeX Warning: Unused global option(s):
 (./abstracts.aux)
 \openout1 = `abstracts.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 142.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 145.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-42.
+45.
  (c:/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 142.
-LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -939,8 +940,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'abstracts.bbl' found.
 
 (./abstracts.bbl)
-Package biblatex Info: Reference section=0 on input line 142.
-Package biblatex Info: Reference segment=0 on input line 142.
+Package biblatex Info: Reference section=0 on input line 145.
+Package biblatex Info: Reference segment=0 on input line 145.
 
 (c:/texlive/2021/texmf-dist/tex/latex/translations/translations-basic-dictionar
 y-english.trsl
@@ -948,13 +949,12 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 142.
+or `english'. on input line 145.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
-Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 142.
+Package hyperref Info: Link coloring OFF on input line 145.
  (c:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -966,9 +966,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count462
 )
-LaTeX Info: Redefining \ref on input line 142.
-LaTeX Info: Redefining \pageref on input line 142.
-LaTeX Info: Redefining \nameref on input line 142.
+LaTeX Info: Redefining \ref on input line 145.
+LaTeX Info: Redefining \pageref on input line 145.
+LaTeX Info: Redefining \nameref on input line 145.
 
 (./abstracts.out) (./abstracts.out)
 \@outlinefile=\write4
@@ -984,9 +984,9 @@ Package logreq Info: Writing requests to 'abstracts.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25591 strings out of 476490
- 524521 string characters out of 5818317
- 1394512 words of memory out of 5000000
+ 25592 strings out of 476490
+ 524535 string characters out of 5818317
+ 1394427 words of memory out of 5000000
  45732 multiletter control sequences out of 15000+600000
  403910 words of font info for 43 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

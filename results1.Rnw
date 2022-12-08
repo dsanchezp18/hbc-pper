@@ -53,7 +53,7 @@ modelsummary(base_models_log,
              coef_map = coefficient_names)
 @ 
 \vspace{0.25cm}
-\textbf{Note:} Logit coefficients of the baseline models as described by Equation \ref{eqn:simplemod}. Standard errors consider design effects of the AB complex survey design.\\
+Logit coefficients of the baseline models as described by Equation \ref{eqn:simplemod}. Standard errors consider design effects of the AB complex survey design.\\
 *$p$ < 0.1, **$p$< 0.05, ***$p$ < 0.01.
 \end{table}
 

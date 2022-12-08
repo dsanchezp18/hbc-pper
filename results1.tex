@@ -147,13 +147,13 @@
 
 \section{Results}
 \label{sec:results}
-Section \ref{sec:background} identified some key events which happenned at the same time of the corruption tolerance increase. Two economic variables observed at the individual level through the AB significantly changed during this period: the percent of people who report a worse economic situation as well as unemployment. Variables which proxy attitudes in the political landscape also have significantly changed: the percentage of people who confide in the President, the percentage who approve the President's job and also the percentage of people who identify with the political right wing. These variables where used for simple empirical models, which follow the equation below.
+Section \ref{sec:background} identified some key events which happenned at the same time of the corruption tolerance increase. Two economic variables observed at the individual level through the AB significantly changed during this period: the percent of people who report a worse economic situation as well as unemployment. Variables which proxy attitudes in the political landscape have also significantly changed: the percentage of people who confide in the President, the percentage who approve the President's job and also the percentage of people who identify with the political right wing. These variables where used for simple empirical models, which follow the equation below.
 
 \begin{equation}
 \label{eqn:simplemod}
 P(ctol = 1 | \textbf{\textit{X}} \hspace{0.04cm}) = G \left[ \beta_0 + \delta_0 y_{16} + \beta_1 x^* + \delta_1 (y_{16} \cdot x^*)\right]
 \end{equation}
-where the key regressor $x^*$ can be: a dummy variable set to unity for respondents who answered that their economic situation is worse (Model 1), a dummy variable set to unity for those who report being unemployed (Model 2), a discrete variable with numbers 1-7, where higher values imply a higher degree of confidence in the President (Model 3), a discrete variable with numbers 1-5, with higher numbers implying a higher rating of the President's job performance (Model 4)or a discrete variable with numbers from 1-10 where 1 is the extreme left and 10 is the extreme right (Model 5). Table \ref{tab:simplemodel} presents coefficients of the logistic model for Equation \ref{eqn:simplemod}.
+where the key regressor $x^*$ can be: a dummy variable set to unity for respondents who answered that their economic situation is worse (Model 1), a dummy variable set to unity for those who report being unemployed (Model 2), a discrete variable with numbers 1-7, where higher values imply a higher degree of confidence in the President (Model 3), a discrete variable with numbers 1-5, with higher numbers implying a higher rating of the President's job performance (Model 4) or a discrete variable with numbers from 1-10 where 1 is the extreme left and 10 is the extreme right (Model 5). Table \ref{tab:simplemodel} presents coefficients of the logistic model for Equation \ref{eqn:simplemod}.
 
 % Now I'm going to run the first models, and I'll do so by sourcing a script.
 
@@ -200,7 +200,7 @@ BIC & \num{2926.37} & \num{2920.98} & \num{2881.80} & \num{2876.65} & \num{2606.
 
 
 \vspace{0.25cm}
-\textbf{Note:} Logit coefficients of the baseline models as described by Equation \ref{eqn:simplemod}. Standard errors consider design effects of the AB complex survey design.\\
+Logit coefficients of the baseline models as described by Equation \ref{eqn:simplemod}. Standard errors consider design effects of the AB complex survey design.\\
 *$p$ < 0.1, **$p$< 0.05, ***$p$ < 0.01.
 \end{table}
 
