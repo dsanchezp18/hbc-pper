@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.5)  18 NOV 2022 19:11
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.5)  1 DEC 2022 00:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -293,6 +293,18 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (c:/texlive/2021/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
+(c:/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box53
+\beforetitleunit=\skip53
+\aftertitleunit=\skip54
+\ttl@plus=\dimen165
+\ttl@minus=\dimen166
+\ttl@toksa=\toks25
+\titlewidth=\dimen167
+\titlewidthlast=\dimen168
+\titlewidthfirst=\dimen169
+)
 (c:/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
 
@@ -372,14 +384,14 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@sectionciteorder@0=\count330
 \blx@entrysetcounter=\count331
 \blx@biblioinstance=\count332
-\labelnumberwidth=\skip53
-\labelalphawidth=\skip54
-\biblabelsep=\skip55
-\bibitemsep=\skip56
-\bibnamesep=\skip57
-\bibinitsep=\skip58
-\bibparsep=\skip59
-\bibhang=\skip60
+\labelnumberwidth=\skip55
+\labelalphawidth=\skip56
+\biblabelsep=\skip57
+\bibitemsep=\skip58
+\bibnamesep=\skip59
+\bibinitsep=\skip60
+\bibparsep=\skip61
+\bibhang=\skip62
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language87
@@ -480,20 +492,20 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedcitation=\count413
 \c@pageref=\count414
 \c@savedpageref=\count415
-\shorthandwidth=\skip61
-\shortjournalwidth=\skip62
-\shortserieswidth=\skip63
-\shorttitlewidth=\skip64
-\shortauthorwidth=\skip65
-\shorteditorwidth=\skip66
-\locallabelnumberwidth=\skip67
-\locallabelalphawidth=\skip68
-\localshorthandwidth=\skip69
-\localshortjournalwidth=\skip70
-\localshortserieswidth=\skip71
-\localshorttitlewidth=\skip72
-\localshortauthorwidth=\skip73
-\localshorteditorwidth=\skip74
+\shorthandwidth=\skip63
+\shortjournalwidth=\skip64
+\shortserieswidth=\skip65
+\shorttitlewidth=\skip66
+\shortauthorwidth=\skip67
+\shorteditorwidth=\skip68
+\locallabelnumberwidth=\skip69
+\locallabelalphawidth=\skip70
+\localshorthandwidth=\skip71
+\localshortjournalwidth=\skip72
+\localshortserieswidth=\skip73
+\localshorttitlewidth=\skip74
+\localshortauthorwidth=\skip75
+\localshorteditorwidth=\skip76
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 
@@ -571,9 +583,9 @@ File: biblatex.cfg
 ))
 (c:/texlive/2021/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2021-06-01 v3.0.9 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen165
-\l__siunitx_angle_marker_box=\box53
-\l__siunitx_angle_unit_box=\box54
+\l__siunitx_angle_tmp_dim=\dimen170
+\l__siunitx_angle_marker_box=\box54
+\l__siunitx_angle_unit_box=\box55
 \l__siunitx_compound_count_int=\count427
 
 (c:/texlive/2021/texmf-dist/tex/latex/translations/translations.sty
@@ -585,15 +597,15 @@ s (CN)
 \l__siunitx_number_min_integer_int=\count430
 \l__siunitx_number_round_precision_int=\count431
 \l__siunitx_number_group_minimum_int=\count432
-\l__siunitx_table_tmp_box=\box55
-\l__siunitx_table_tmp_dim=\dimen166
-\l__siunitx_table_column_width_dim=\dimen167
-\l__siunitx_table_integer_box=\box56
-\l__siunitx_table_decimal_box=\box57
-\l__siunitx_table_before_box=\box58
-\l__siunitx_table_after_box=\box59
-\l__siunitx_table_before_dim=\dimen168
-\l__siunitx_table_carry_dim=\dimen169
+\l__siunitx_table_tmp_box=\box56
+\l__siunitx_table_tmp_dim=\dimen171
+\l__siunitx_table_column_width_dim=\dimen172
+\l__siunitx_table_integer_box=\box57
+\l__siunitx_table_decimal_box=\box58
+\l__siunitx_table_before_box=\box59
+\l__siunitx_table_after_box=\box60
+\l__siunitx_table_before_dim=\dimen173
+\l__siunitx_table_carry_dim=\dimen174
 \l__siunitx_unit_tmp_int=\count433
 \l__siunitx_unit_position_int=\count434
 \l__siunitx_unit_total_int=\count435
@@ -603,61 +615,62 @@ Package: l3keys2e 2021-06-01 LaTeX2e option processing using LaTeX3 keys
 )
 (c:/texlive/2021/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
-\col@sep=\dimen170
-\ar@mcellbox=\box60
-\extrarowheight=\dimen171
-\NC@list=\toks25
-\extratabsurround=\skip75
-\backup@length=\skip76
-\ar@cellbox=\box61
+\col@sep=\dimen175
+\ar@mcellbox=\box61
+\extrarowheight=\dimen176
+\NC@list=\toks26
+\extratabsurround=\skip77
+\backup@length=\skip78
+\ar@cellbox=\box62
 ))
 (c:/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen172
-\lightrulewidth=\dimen173
-\cmidrulewidth=\dimen174
-\belowrulesep=\dimen175
-\belowbottomsep=\dimen176
-\aboverulesep=\dimen177
-\abovetopsep=\dimen178
-\cmidrulesep=\dimen179
-\cmidrulekern=\dimen180
-\defaultaddspace=\dimen181
+\heavyrulewidth=\dimen177
+\lightrulewidth=\dimen178
+\cmidrulewidth=\dimen179
+\belowrulesep=\dimen180
+\belowbottomsep=\dimen181
+\aboverulesep=\dimen182
+\abovetopsep=\dimen183
+\cmidrulesep=\dimen184
+\cmidrulekern=\dimen185
+\defaultaddspace=\dimen186
 \@cmidla=\count436
 \@cmidlb=\count437
-\@aboverulesep=\dimen182
-\@belowrulesep=\dimen183
+\@aboverulesep=\dimen187
+\@belowrulesep=\dimen188
 \@thisruleclass=\count438
 \@lastruleclass=\count439
-\@thisrulewidth=\dimen184
+\@thisrulewidth=\dimen189
+)
+(c:/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip79
+\multirow@cntb=\count440
+\multirow@dima=\skip80
+\bigstrutjot=\dimen190
+)
+(c:/texlive/2021/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box63
 )
 (c:/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
 (c:/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen185
-\captionmargin@=\dimen186
-\captionwidth=\dimen187
-\caption@tempdima=\dimen188
-\caption@indent=\dimen189
-\caption@parindent=\dimen190
-\caption@hangindent=\dimen191
+\captionmargin=\dimen191
+\captionmargin@=\dimen192
+\captionwidth=\dimen193
+\caption@tempdima=\dimen194
+\caption@indent=\dimen195
+\caption@parindent=\dimen196
+\caption@hangindent=\dimen197
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count440
-\c@continuedfloat=\count441
-)
-(c:/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip77
-\multirow@cntb=\count442
-\multirow@dima=\skip78
-\bigstrutjot=\dimen192
-)
-(c:/texlive/2021/texmf-dist/tex/latex/threeparttable/threeparttable.sty
-Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box62
+\c@caption@flags=\count441
+\c@continuedfloat=\count442
+Package caption Info: threeparttable package is loaded.
 )
 (c:/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
@@ -667,7 +680,7 @@ Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
 \csq@qlevel=\count446
 \csq@maxlvl=\count447
 \csq@tshold=\count448
-\csq@ltx@everypar=\toks26
+\csq@ltx@everypar=\toks27
 
 (c:/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
@@ -684,18 +697,18 @@ Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
 (c:/texlive/2021/texmf-dist/tex/latex/nextpage/nextpage.sty
 Package: nextpage 2009/09/03 v1.1a additional page commands
 )
-\beforeepigraphskip=\skip79
-\afterepigraphskip=\skip80
-\epigraphwidth=\skip81
-\epigraphrule=\skip82
+\beforeepigraphskip=\skip81
+\afterepigraphskip=\skip82
+\epigraphwidth=\skip83
+\epigraphrule=\skip84
 )
 (c:/texlive/2021/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count449
-\float@exts=\toks27
-\float@box=\box63
-\@float@everytoks=\toks28
-\@floatcapt=\box64
+\float@exts=\toks28
+\float@box=\box64
+\@float@everytoks=\toks29
+\@floatcapt=\box65
 )
 (c:/texlive/2021/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
@@ -718,7 +731,7 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 (c:/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen193
+\@linkdim=\dimen198
 \Hy@linkcounter=\count450
 \Hy@pagecounter=\count451
 
@@ -749,7 +762,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
 \c@Hy@tempcnt=\count453
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen194
+\XeTeXLinkMargin=\dimen199
 
 (c:/texlive/2021/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -759,8 +772,8 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count454
-\Field@Width=\dimen195
-\Fld@charsize=\dimen196
+\Field@Width=\dimen256
+\Fld@charsize=\dimen257
 Package hyperref Info: Hyper figures OFF on input line 6075.
 Package hyperref Info: Link nesting OFF on input line 6080.
 Package hyperref Info: Hyper index ON on input line 6083.
@@ -788,7 +801,7 @@ File: hxetex.def 2021-02-27 v7.00k Hyperref driver for XeTeX
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box65
+\pdfm@box=\box66
 \c@Hy@AnnotLevel=\count458
 \HyField@AnnotCount=\count459
 \Fld@listcount=\count460
@@ -808,10 +821,10 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip83
+\Hy@SectionHShift=\skip85
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 136.
+h' as default language. on input line 145.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
 
@@ -822,31 +835,31 @@ LaTeX Warning: Unused global option(s):
 (./intro.aux)
 \openout1 = `intro.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 136.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 145.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-36.
+45.
  (c:/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -926,8 +939,8 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'intro.bbl' found.
  (./intro.bbl)
-Package biblatex Info: Reference section=0 on input line 136.
-Package biblatex Info: Reference segment=0 on input line 136.
+Package biblatex Info: Reference section=0 on input line 145.
+Package biblatex Info: Reference segment=0 on input line 145.
 
 (c:/texlive/2021/texmf-dist/tex/latex/translations/translations-basic-dictionar
 y-english.trsl
@@ -935,13 +948,12 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 136.
+or `english'. on input line 145.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
-Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 136.
+Package hyperref Info: Link coloring OFF on input line 145.
  (c:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -953,45 +965,53 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count462
 )
-LaTeX Info: Redefining \ref on input line 136.
-LaTeX Info: Redefining \pageref on input line 136.
-LaTeX Info: Redefining \nameref on input line 136.
+LaTeX Info: Redefining \ref on input line 145.
+LaTeX Info: Redefining \pageref on input line 145.
+LaTeX Info: Redefining \nameref on input line 145.
 
 (./intro.out) (./intro.out)
 \@outlinefile=\write4
 \openout4 = `intro.out'.
 
+
+
+Package caption Warning: \label without proper reference on input line 165.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:ctolmap' on page 1 undefined on input line 158.
+
 File: images/ctol_map.pdf Graphic file (type pdf)
 <use images/ctol_map.pdf>
 
-Overfull \hbox (12.79999pt too wide) in paragraph at lines 164--165
-[][] 
- []
+Package caption Warning: \label without proper reference on input line 179.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:ctoly' on page 1 undefined on input line 174.
 
 [1
 
 ] [2]
 File: figure/ctol_graph-1.pdf Graphic file (type pdf)
 <use figure/ctol_graph-1.pdf>
+ [3] [4] (./intro.aux)
 
-Overfull \hbox (9.79999pt too wide) in paragraph at lines 192--193
- [][] 
- []
+LaTeX Warning: There were undefined references.
 
-[3] [4] [5] (./intro.aux)
 Package rerunfilecheck Info: File `intro.out' has not changed.
-(rerunfilecheck)             Checksum: 9814C2D956916ADB9290ECA4E25C967A;103.
+(rerunfilecheck)             Checksum: 454FA7EF05B2E394B0AF9169439A713B;195.
 Package logreq Info: Writing requests to 'intro.run.xml'.
 \openout1 = `intro.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25663 strings out of 476490
- 528786 string characters out of 5818317
- 1398624 words of memory out of 5000000
- 45781 multiletter control sequences out of 15000+600000
+ 25909 strings out of 476490
+ 531321 string characters out of 5818317
+ 1406877 words of memory out of 5000000
+ 46022 multiletter control sequences out of 15000+600000
  407870 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 87i,9n,117p,1696b,5016s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,8n,117p,1696b,5005s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on intro.pdf (5 pages).
+Output written on intro.pdf (4 pages).

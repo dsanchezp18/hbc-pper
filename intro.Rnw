@@ -4,115 +4,39 @@ set_parent('main.Rnw') # Set the parent document preamble
 @
 
 \section{Introduction}
-\enquote{Even if you are from [my political party], I will fulfill my duties. If you steal, steal well!  Justify well! But do not let your affairs be seen, comrades\footnote{Translated from Cerda, 2021 in \cite[para. 2]{PlanV.2021}}}. Uttered publicly by Rosa Cerda, Ecuadorian congresswoman for the Napo province \parencite{Castro.2021}, these comments met widespread criticism around the country, although the remarks were initially met by cheers from an audience of the indigenous movements convention she was addressing. This happened soon after a heated presidential election where corruption was one of the most important debate topics. Both candidates denounced each other's alleged dishonest acts, and promised their voters to punish corrupt behavior and foster a clean government. However, Cerda's declarations did not transcend an eight day suspension \parencite{Ordonez.2021} and the whole event was soon almost completely forgotten by most citizens. 
+\enquote{Even if you are from [my political party], I will fulfill my duties. If you steal, steal well!  Justify well! But do not let your affairs be seen, comrades\footnote{Translated from Cerda, 2021 in \cite[para. 2]{PlanV.2021}}}. Uttered publicly by Rosa Cerda, Ecuadorian congresswoman for the Napo province \parencite{Castro.2021}, these comments met widespread criticism around the country, although the remarks were initially met by cheers from the audience she addressed. However, Cerda's declarations did not transcend an eight day suspension \parencite{Ordonez.2021} and the whole event was soon forgotten by most citizens. 
 
-This episode is only one of many corruption-related scandals that have happened in the last years in the country. It is almost as if these no longer outrage the average Ecuadorian: at most, they cause a sigh of disappointment or social media outrage which dwindles shortly after. A convicted former president as well as two vicepresidents impeached and removed on charges of corruption (\cite{Press.1222018}; \cite{Cabrera.2020}), along with other several major corruption scandals (\cite{BHCompliance.2021}; \cite{Espana.2020}) are some events which have contributed to Ecuador placing well above the corruption median in the world according to both Transparency International's and the World Bank's corruption indexes. 
+This episode is only one of many corruption-related scandals that have happened in Ecuador, a middle-income country in South America. The country has seen increased COVID-19 vaccine inequality \parencite{Taj.2021}, weakened public health services \parencite{Celi.2020}, policymakers charging fees for political positions \parencite{Espinosa.2021}, lost Social Security funds \parencite{Pesantes.9152020}, a convicted former president as well as two vice-presidents impeached and removed on charges of corruption \parencite{Cabrera.2020}, among others. However, it is almost as if these no longer cause outrage: at most, they cause a sigh of disappointment or social media outrage which dwindles shortly after.
 
-% Perform all survey-robust tabulations by sourcing the R Script
+% Perform all survey-robust tabulations by sourcing the R Script. 
+% These are used on the text later.
 <<source-tabs>>=
 source('scripts/tabulations.R')
 @
-Close to \Sexpr{round(corrpernew_time[8,2]*100)+2}\% of voting-age Ecuadorians believe that at least half of politicians are corrupt and more than a quarter of them admit having been asked to pay or actually paid a bribe in 2019, according to the AmericasBarometer (AB) survey data. However, a mere \Sexpr{round(corprob_time[8,2]*100,2)}\% consider that corruption is the most serious problem faced by the country and in fact \Sexpr{round(ctol_time[8,2]*100,2)}\% of Ecuadorians believe that paying a bribe is justified, \enquote{given the way things are} \parencite[p. 96]{Moscoso.2018}. In fact, the data from the AB has shown that tolerance to corruption has risen \Sexpr{round((ctol_time[8,2]-ctol_time[6,2])*100, 2)} percentage points from 2014 to 2019. Furthermore, Figure \ref{fig:ctolmap} shows that Ecuador is also one of the countries with the highest corruption tolerance in the region.
+
+This apparent ambivalence has seen Ecuador place well above the corruption median in the world according to both Transparency International's and the World Bank's corruption indexes. About \Sexpr{round(corrpernew_time[8,2]*100)+2}\% of voting-age Ecuadorians believe that at least half of politicians are corrupt and more than a quarter of them admit having been involved with bribes in 2019, according to the AmericasBarometer (AB) survey, by the Latin American Public Opinion Project (LAPOP). However, a mere \Sexpr{round(corprob_time[8,2]*100,2)}\% consider that corruption is the most serious problem faced by the country and in fact \Sexpr{round(ctol_time[8,2]*100,2)}\% of Ecuadorians believe that paying a bribe is justified. Further, tolerance to corruption has risen \Sexpr{round((ctol_time[8,2]-ctol_time[6,2])*100, 2)} percentage points from 2014 to 2019. Furthermore, Figure \ref{fig:ctolmap} shows that Ecuador is also one of the countries with the highest corruption tolerance in the region.
 
 % Corruption Tolerance Choropleth Map based on 2019 values
 
-% Sorry, this map was done with the paid AmericasBarometer databases, so I cannot actually put my source code and have it executed by KNITR. USFQ students are free to access another version of the document, they must only email me. Third parties must wait until I do it with the free databases.
+% Sorry, this map was done with the paid AmericasBarometer databases, so I cannot actually put my source code and have it executed by KNITR. USFQ students are free to access another version of the document, they must only email me. Third parties must wait until I do it with the free databases. Check out hbc-v2 for some more info.
 
 \begin{figure}[htbp]
-  \fbox{
-    \begin{minipage}{\textwidth}
+  \label{fig:ctolmap}
       \caption{Corruption Tolerance (\%) Choropleth Map in 2019}
-      \label{fig:ctolmap}
-      \begin{center}
-      \includegraphics{images/ctol_map.pdf}
-      \end{center}
-      \textbf{Note:}
-      A choropleth map showing corruption tolerance percentages across Latin America in 2019, where Ecuador places third in        the most corruption tolerant countries. Darker areas imply higher percentages of corruption tolerance. Figure                prepared by the author with data from the \textregistered AmericasBarometer 2018/19. 
-    \end{minipage}
-  }
+    \begin{center}
+    \includegraphics{images/ctol_map.pdf}
+    \end{center}
+
+A choropleth map showing corruption tolerance percentages across Latin America in 2019, where Ecuador places third in the most corruption tolerant countries. Darker areas imply higher percentages of corruption tolerance. Figure prepared by the author with data from the \textregistered AmericasBarometer 2018/19. 
 \end{figure}
 
-% This is the source code I used to make the graph. Of course, it doesn't work without the data, but, as you can see, making the graph is not too difficult.
-
-<<code_map_not_run, include = F, eval = F>>=
-# Tabulate the ctol data 2019 for the chloropleth graph
-ctol_country<-svyby(~ ctol, 
-                    ~ country, 
-                    design = lapop_des19,
-                    svymean, 
-                    na.rm = T)
-
-ctol_country$country<-c('Mexico',
-                        'Guatemala',
-                        'El Salvador',
-                        'Honduras',
-                        'Nicaragua',
-                        'Costa Rica',
-                        'Panama',
-                        'Colombia',
-                        'Ecuador',
-                        'Bolivia',
-                        'Peru',
-                        'Paraguay',
-                        'Chile',
-                        'Uruguay',
-                        'Brazil',
-                        'Argentina',
-                        'Dominican Republic',
-                        'Jamaica',
-                        'USA',
-                        'Canada')
-
-rownames(ctol_country)<-c()
-
-ctol_country<-ctol_country[1:18,] %>% rename('region' = country)
-
-ctol_country$ctol<-ctol_country$ctol*100
-
-# Call the map dataframe from the maps
-
-map<-map_data('world')
-
-# Join both dataframes
-
-map<-left_join(map, ctol_country, by = 'region')
-
-# Now do the actual choropleth map
-
-  ggplot(map,aes(x = long, y = lat, fill = ctol, group = group))+
-  geom_polygon(color = 'black')+
-  scale_fill_gradient2(low = 'white', 
-                       mid = '#0B6623', 
-                       high = '#003300',
-                       midpoint = mean(map$ctol, na.rm = T),
-                       na.value = '#bbbbbb')+
-  theme_minimal()+
-  theme(
-    axis.line = element_blank(),
-    axis.text = element_blank(),
-    axis.title = element_blank(),
-    axis.ticks = element_blank(),
-    panel.grid.major = element_blank(),
-    panel.grid.minor = element_blank(),
-    panel.background = element_rect(colour= "black", size= 1),
-    text = element_text(family = 'serif')) +
-  coord_fixed(xlim= c(-100,-35),
-              ylim= c(-53,20),
-              ratio = 1.2)+
-  labs(fill = 'Corruption\nTolerance (%)')
-@
-
-
-Corruption, if framed as any kind of inappropriate use of common power to benefit a select few at the expense of others \parencite{Warren.2004}, affects Ecuadorians extensively in their daily lives. According to \textcite{AlarconSalvador.2020}, up to 1.5 billion USD may be have been lost in 2019 due to corrupt practices in public contracting. During the decade-long Revolución Ciudadana regime, the local Anti-Corruption Comission estimates a 35 billion USD cost of corruption \parencite{RoaChejin.2020}. Ecuador has also seen increased COVID-19 vaccine inequality as top public officers inoculated non-priority subjects in their private circles \parencite{Taj.2021}, weakened public health services (\cite{Celi.2020}; \cite{Comercio.2021}; \cite{RoaChejin.2020}), policymakers charging fees for political positions (\cite{Espinosa.2021}; \cite{Gonzalez.2021}), lost Social Security funds \parencite{Pesantes.9152020}, among others. With the impairment of so many public services which Ecuadorians pay for and depend on, it would be expected that corrupt activities become publicly denounced and repudiated.
+This paper aims to investigate the determinants of the largest corruption tolerance increase in Ecuador, seen from 2014 to 2016, as it can be seen in Figure \ref{fig:ctoly}. This period coincided with two key events in the country. First, the popularity of the governing regime sharply dropped for the first time in a decade \parencite{Quillupangui.2016}. Second, the country faced an economic recession \parencite{Weisbrot.2017}. The present paper will seek to relate  This is done by estimating a binary-outcome model through logistic regression, which relates the probability of tolerating corruption to several individual-level public opinion and economic indicators using the data from the AB. It is determined that changes in presidential job approval as well as in political wing preferences during the 2014 and 2016 period could have influenced the corruption tolerance increase. It is also found that those not unemployed justified corruption more in 2016 relative to those who were unemployed.
 
 % Corruption Tolerance Time Series Graph
 
 \begin{figure}[htbp]
-\centering
-\fbox{
-\begin{minipage}{\textwidth}
-\caption{Percent of Ecuadorians who justify corruption, by year}
 \label{fig:ctoly}
+\caption{Percent of Ecuadorians who justify corruption, by year}
 <<ctol_graph, include = T, echo = F, fig.width = 10, fig.alt= 4, fig.align='center'>>=
 # Corruption Tolerance Time Series for Ecuador
 ctol_time_graph<-ggplot(ctol_time,
@@ -137,17 +61,17 @@ ctol_time_graph<-ggplot(ctol_time,
 ctol_time_graph
 
 @
-\textbf{Note:} The evolution of corruption tolerance for Ecuador. The largest increase is seen from 2014 to 2016. Error bars show 95\% confidence intervals, considering survey design effects. Figure prepared by the author, with the open-access AB data.
-\end{minipage}}
+
+
+The evolution of corruption tolerance for Ecuador. The largest increase is seen from 2014 to 2016. Error bars show 95\% confidence intervals, considering survey design effects. Figure prepared by the author, with the open-access AB data.
 \end{figure}
 
-The largest increase in corruption tolerance was seen from 2014 to 2016, as it can be seen in Figure \ref{fig:ctoly}, where it increased from a historical low of \Sexpr{round(ctol_time[6,2]*100,2)} to a high of \Sexpr{round(ctol_time[7,2]*100,2)}\%. This period coincides with two key events in the country. First, the popularity of a left-leaning and apparently omnipotent regime sharply dropped among accusations of corruption and poor management of the economy \parencite{Quillupangui.2016}. Second, a considerable economic recession hit the country which was mostly attributable to a commodity price collapse \parencite{Weisbrot.2017}. 
+Changes to the attitudes toward corruption can be important for studying corruption incidence. A higher degree of corruption tolerance will eventually lead to larger corruption environments \parencite{Campbell.2014}. Learning what drives corruption tolerance can then foster better policymaking and citizen attitudes which steers individuals away from becoming involved in corruption.
 
-This study aims to explain the jump in corruption tolerance using survey data from the America's Barometer. The empirical analysis provides evidence that changes to the public's support of the political regime as well as a deteriorating economic environment came into play to increase corruption tolerance. The individual-level and across-time approach is a novelty in corruption literature and could be a better empirical approach to these kinds of research questions, as omitted-variable biases can be better controlled compared to cross-country approaches \parencite{Bergh.2017}. 
+The rest of the paper proceeds as follows. The following section gives an institutional and historical background of the paper's setting, Ecuador. Section 3 reviews the relevant literature. Section 4 develops the empirical methodology. Section 5 reviews the results from the empirical estimation. Section 6 discusses these results, and Section 7 concludes. 
 
-The mentioned events may have interacted with each other to cause political and economic turmoil as presidential elections approached in 2017 and many questioned the regime for the first time. Apart from the deterioration of the economy, the rule of President Rafael Correa saw its approval rating drop \Sexpr{round((japrov_time[6,2]-japrov_time[7,2])*100)} percentage points according to the AB. These are significant changes in public opinion, so it is sensible to look at these as potential drivers for the increase in corruption tolerance. It should also be noted that historically, Ecuadorian citizens have tended to recognize corruption as an inevitable consequence of any political process, seemingly imagining a trade-off between corruption and public goods \parencite{Adoum.2000}. This account was confirmed by another public opinion in 2018, which estimates that 44\% of Ecuadorians justify corruption if it is done in exchange of goods and services provided by the public sector \parencite{Loaiza.2019}. Additionally, \textcite{Hurtado.2007} and \textcite{Adoum.2000} recognize multiple behavioral patterns in Ecuadorian citizens which lead to attitudes of resignation to the mechanisms of corruption, which may normalize corruption and thus create environments that foster its growth. 
+\section{Institutional and Historical Context}
 
-Changes to the attitudes toward corruption can be as important to understand as the consequences or causes of actual corruption. First, a higher degree of corruption tolerance will eventually lead to larger corruption environments \parencite{Campbell.2014}. Social sanctions or rewards can significantly affect outcomes according to \textcite{Akerlof.1980}, even if these lead to smaller economic payoffs. Higher tolerance to corrupt acts, such as bribing, will mean that the social sanction of engaging in them is smaller, hence making the total payoff of the corrupt action higher, since a positive economic payoff to the corrupt individual is implied \parencite{Shleifer.1993}. However, corruption almost always entails that the economic payoff to the corrupt individual is done at the expense of the majority \parencite{Warren.2004}, thus affecting outcomes across all society, notably economic development and political stability \parencite{Singer.2016}. It thus becomes of prime importance to learn what drives corruption tolerance to be able to foster better policy-making and citizen attitudes which drive citizens away from enacting in and justifying corrupt actions.
 
 
 
