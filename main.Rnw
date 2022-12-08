@@ -115,4 +115,9 @@ source('scripts/data_manipulation.R')
 <<intro_child, child = 'intro.Rnw'>>=
 @
 
+% Institutional Background Child Document
+
+<<background_child, child = 'background.Rnw'>>=
+@
+
 \end{document}

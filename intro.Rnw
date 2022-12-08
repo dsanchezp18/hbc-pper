@@ -69,9 +69,3 @@ The evolution of corruption tolerance for Ecuador. The largest increase is seen 
 Changes to the attitudes toward corruption can be important for studying corruption incidence. A higher degree of corruption tolerance will eventually lead to larger corruption environments \parencite{Campbell.2014}. Learning what drives corruption tolerance can then foster better policymaking and citizen attitudes which steers individuals away from becoming involved in corruption.
 
 The rest of the paper proceeds as follows. The following section gives an institutional and historical background of the paper's setting, Ecuador. Section 3 reviews the relevant literature. Section 4 develops the empirical methodology. Section 5 reviews the results from the empirical estimation. Section 6 discusses these results, and Section 7 concludes. 
-
-\section{Institutional and Historical Context}
-
-
-
-
