@@ -1,7 +1,150 @@
+\documentclass[12pt,a4]{article}
+\usepackage[]{graphicx}\usepackage[]{xcolor}
+% maxwidth is the original width if it is less than linewidth
+% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+\let\hlipl\hlkwb
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt}
+\newcommand{\SweaveOpts}[1]{}  % do not interfere with LaTeX
+\newcommand{\SweaveInput}[1]{} % because they are not real TeX commands
+\newcommand{\Sexpr}[1]{}       % will only be parsed by R
+
+
+
+% ---- Metadata ---- %
+
+\title{Honesty by Convenience: Corruption Tolerance in Ecuador}
+\author{Daniel Sánchez}
+\date{June 2022}
+
+% ---- Load Packages ---- %
+
+% Math
+
+\usepackage{savesym} % Need to "save" the command that is already defined \varTheta
+
+\usepackage{amsmath}
+  \savesymbol{varTheta} 
+
+% Fonts
+
+% To set the TNR font for both text and equations:
+
+\usepackage{mathspec}
+  \setallmainfonts(Digits,Greek,Latin){Times New Roman}
+\restoresymbol{MTP}{varTheta}
+
+% Formatting
+
+\usepackage{setspace}
+  \doublespacing
+
+\usepackage[margin = 1in]{geometry}
+
+\usepackage{lscape}
+
+% Setting the size of the section titles
+
+\usepackage{titlesec}
+
+\titleformat*{\section}{\normalsize\bfseries}
+
+% Citation & Bibliographies
+
+\usepackage[backend = biber, style = apa, citestyle = apa]{biblatex}
+  \addbibresource{refs.bib}
+  
+% For tables:
+
+ % For the modelsummary tables:
+\usepackage{siunitx}
+\usepackage{booktabs} 
+  \newcolumntype{d}{S[input-symbols = ()]}
+\usepackage{multirow}
+\usepackage[flushleft]{threeparttable}
+
+% For figure and table captions
+
+\usepackage{caption}
+  \captionsetup{labelfont = bf} % All in bold  
+  
+% Other packages
+
+\usepackage{csquotes} % For quotation marks
+
+\usepackage{epigraph} % For epigraph
+  \setlength\epigraphwidth{9cm}
+  \setlength\epigraphrule{1pt}
+
+\usepackage{float} % For the H float option- only used in emergencies (lol)
+
+\usepackage{textcomp} % For the registered trademark symbol.
+
+% Always load these packages at the end of the preamble:
+
+\usepackage{hyperref}
+
+% ---- R Stuff to be used in the whole document ----
+
+% Here I will execute or source R code through chunks that I need to use throughout the whole document.
+
+% General settings
+
+
+
+% Load the data by sourcing the data manipulation script. Note that survey design objects are indeed created in this script.
+
+
+
+
+\begin{document}
 % Methodology .Rnw File
-<<parent_tometh, include = F>>=
-set_parent('main.Rnw') # Set the parent document preamble
-@
+
 
 \section{Methodology}
 \label{sec:methodology} % Label the section to cross-reference later.
@@ -13,7 +156,7 @@ The AmericasBarometer (AB) survey from the Latin American Public Opinion project
 \begin{table}[htbp!]
 \onehalfspacing
 \begin{center}
-\caption{Descriptive statistics for all variables}
+\caption{Descriptive statistics for all variables used in the empirical models}
 \label{tab:descrip}
 \begin{tabular}{llcccc}
 \toprule
@@ -42,10 +185,11 @@ Exposed to corruption                         & EXC 2,6,11,13,14,15,16          
 \bottomrule
 \end{tabular}
 \end{center}
-Descriptive statistics table with estimates (Est.) and robust standard errors (SE), where age, years of education and the external and internal political efficacies are arithmetic means. All other variables are percentages, calculated for 2014 and 2016. Standard errors are adjusted for survey-design effects. Data is from the open-access AmericasBarometer.
+\doublespacing
+\textbf{Note:} Descriptive statistics table with estimates (Est.) and robust standard errors (SE), where age, years of education and the external and internal political efficacies are arithmetic means. All other variables are percentages, calculated for 2014 and 2016. Standard errors are adjusted for survey-design effects. Data is from the open-access AmericasBarometer.
 \end{table}
 
-The empirical models estimated in this study will use the 2014 and 2016 rounds of the AB in Ecuador, with $n_{2014}=\Sexpr{nrow(df_2014)}$ and $n_{2016}= \Sexpr{nrow(df_2016)}$. The survey is based on a multi-stage national probability design. The survey-design adjusted errors for each of these surveys are $\pm 2.5\%$ and $\pm 1.9\%$, respectively (\cite{LAPOP.2014}; \cite{LAPOP.2017}). Both surveys are self-weighted, however, 95\% confidence intervals for the descriptive statistics which are adjusted for survey-design effects are presented when relevant. 
+The empirical models estimated in this study will use the 2014 and 2016 rounds of the AB in Ecuador, with $n_{2014}=1489$ and $n_{2016}= 1545$. The survey is based on a multi-stage national probability design. The survey-design adjusted errors for each of these surveys are $\pm 2.5\%$ and $\pm 1.9\%$, respectively (\cite{LAPOP.2014}; \cite{LAPOP.2017}). Both surveys are self-weighted, however, 95\% confidence intervals for the descriptive statistics which are adjusted for survey-design effects are presented when relevant. 
 
 The empirical analysis is concerned with the \emph{EXC18} question: \enquote{Do you think given the way things are, sometimes paying a bribe is justified?} \parencite[p.96]{Moscoso.2018}, originally asked in Spanish. The question has been asked in all survey rounds in Ecuador and is the last one after a set of questions regarding corruption exposure and perception. This variable ($ctol$) is equal to 1 when the respondent answers \enquote{Yes}, 0 when the answer is \enquote{No} and dropped from the model otherwise. All models have $ctol$ as the explained variable and responses to other questions are used as regressors. 
 
@@ -68,3 +212,4 @@ Consider the partial effect of the key regressor $x^*$ on $P(ctol =1| \textbf{\t
 The parameter $\delta_1$ would then measure the ceteris paribus effect of a change in the key regressor $x^*$ from 2014 to 2016 in $ctol$. Therefore, the coefficient of interest in this study is $\widehat{\delta}_1$. If there has been a change in 2016 in $x^*$ which significantly influences corruption tolerance, $\widehat{\delta_1}$ should be statistically significant. Further, a $\widehat{\delta}_1$ coefficient not statistically different from zero would mean that individuals with and without this key characteristic are equally likely to justify corruption across time. 
 
 Average partial effects tables are shown for all models. I use survey-weighting to adjust for complex-survey design effects, as suggested by \textcite{Castorena.2021}. Since the sample is self-weighted, survey-weighting does not affect magnitudes, only standard errors.
+\end{document}

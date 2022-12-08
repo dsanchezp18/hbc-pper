@@ -1,0 +1,207 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{Castorena.2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0f5e147da3e23f2909335c76317f847b}{%
+           family={Castorena},
+           familyi={C\bibinitperiod},
+           given={Oscar},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {LAPOP}%
+      }
+      \strng{namehash}{0f5e147da3e23f2909335c76317f847b}
+      \strng{fullhash}{0f5e147da3e23f2909335c76317f847b}
+      \strng{bibnamehash}{0f5e147da3e23f2909335c76317f847b}
+      \strng{authorbibnamehash}{0f5e147da3e23f2909335c76317f847b}
+      \strng{authornamehash}{0f5e147da3e23f2909335c76317f847b}
+      \strng{authorfullhash}{0f5e147da3e23f2909335c76317f847b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Survey Weights in AmericasBarometer data}}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb \url{https://www.vanderbilt.edu/lapop/insights/IMN007en.pdf}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://www.vanderbilt.edu/lapop/insights/IMN007en.pdf%7D
+      \endverb
+    \endentry
+    \entry{LAPOP.2014}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=697243cd5a6e5ab09b461b220db89072}{%
+           family={LAPOP},
+           familyi={L\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=697243cd5a6e5ab09b461b220db89072}{%
+           family={LAPOP},
+           familyi={L\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {LAPOP}%
+      }
+      \strng{namehash}{697243cd5a6e5ab09b461b220db89072}
+      \strng{fullhash}{697243cd5a6e5ab09b461b220db89072}
+      \strng{bibnamehash}{697243cd5a6e5ab09b461b220db89072}
+      \strng{authorbibnamehash}{697243cd5a6e5ab09b461b220db89072}
+      \strng{authornamehash}{697243cd5a6e5ab09b461b220db89072}
+      \strng{authorfullhash}{697243cd5a6e5ab09b461b220db89072}
+      \strng{editorbibnamehash}{697243cd5a6e5ab09b461b220db89072}
+      \strng{editornamehash}{697243cd5a6e5ab09b461b220db89072}
+      \strng{editorfullhash}{697243cd5a6e5ab09b461b220db89072}
+      \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{AmericasBarometer 2014: Sample Design}}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb \url{http://www.vanderbilt.edu/lapop/ab2014/AB-2014-Tech-Info-112114-W.pdf}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttp://www.vanderbilt.edu/lapop/ab2014/AB-2014-Tech-Info-112114-W.pdf%7D
+      \endverb
+    \endentry
+    \entry{LAPOP.2017}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=697243cd5a6e5ab09b461b220db89072}{%
+           family={LAPOP},
+           familyi={L\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=697243cd5a6e5ab09b461b220db89072}{%
+           family={LAPOP},
+           familyi={L\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {LAPOP}%
+      }
+      \strng{namehash}{697243cd5a6e5ab09b461b220db89072}
+      \strng{fullhash}{697243cd5a6e5ab09b461b220db89072}
+      \strng{bibnamehash}{697243cd5a6e5ab09b461b220db89072}
+      \strng{authorbibnamehash}{697243cd5a6e5ab09b461b220db89072}
+      \strng{authornamehash}{697243cd5a6e5ab09b461b220db89072}
+      \strng{authorfullhash}{697243cd5a6e5ab09b461b220db89072}
+      \strng{editorbibnamehash}{697243cd5a6e5ab09b461b220db89072}
+      \strng{editornamehash}{697243cd5a6e5ab09b461b220db89072}
+      \strng{editorfullhash}{697243cd5a6e5ab09b461b220db89072}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{AmericasBarometer, 2016/17: Technical Information}}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb \url{https://www.vanderbilt.edu/lapop/ab2016/AmericasBarometer_2016-17_Sample_Design.pdf}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://www.vanderbilt.edu/lapop/ab2016/AmericasBarometer_2016-17_Sample_Design.pdf%7D
+      \endverb
+    \endentry
+    \entry{Moscoso.2018}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=842026be5ed5d1c2ae3ccf32a2076d1a}{%
+           family={Moscoso},
+           familyi={M\bibinitperiod},
+           given={Arturo},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{6}{}{%
+        {{hash=ce6f1845e1b8967d20b953635dce0e35}{%
+           family={Donoso},
+           familyi={D\bibinitperiod},
+           given={Juan\bibnamedelima Carlos},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=ebb326b545465bbbe1decea15334b5e8}{%
+           family={Moncagatta},
+           familyi={M\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=842026be5ed5d1c2ae3ccf32a2076d1a}{%
+           family={Moscoso},
+           familyi={M\bibinitperiod},
+           given={Arturo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ced5d411dcddecda5ec8d04207b4c91b}{%
+           family={Pachano},
+           familyi={P\bibinitperiod},
+           given={Simón},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5c3839d6b854ed654301c4a5c3619c12}{%
+           family={Montalvo},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi Daniel},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=1ccea66e355a33f067424cfbd57abbaa}{%
+           family={Zechmeister},
+           familyi={Z\bibinitperiod},
+           given={Elizabeth\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{842026be5ed5d1c2ae3ccf32a2076d1a}
+      \strng{fullhash}{842026be5ed5d1c2ae3ccf32a2076d1a}
+      \strng{bibnamehash}{842026be5ed5d1c2ae3ccf32a2076d1a}
+      \strng{authorbibnamehash}{842026be5ed5d1c2ae3ccf32a2076d1a}
+      \strng{authornamehash}{842026be5ed5d1c2ae3ccf32a2076d1a}
+      \strng{authorfullhash}{842026be5ed5d1c2ae3ccf32a2076d1a}
+      \strng{editorbibnamehash}{21a2f04b71be6fbab3eb102e71b2d4b0}
+      \strng{editornamehash}{906f69974259946a3671cdbd74b025c9}
+      \strng{editorfullhash}{21a2f04b71be6fbab3eb102e71b2d4b0}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{Cultura política de la democracia en Ecuador y en las Américas, 2016/17: Un estudio comparado sobre democracia y gobernabilidad}}
+      \field{title}{{Corrupción y democracia en el Ecuador: Efectos de la corrupción en la opinión pública sobre la democracia, el apoyo al sistema y la tolerancia política}}
+      \field{year}{2018}
+      \field{pages}{85\bibrangedash 114}
+      \range{pages}{30}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
