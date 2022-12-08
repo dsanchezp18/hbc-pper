@@ -1,319 +1,371 @@
-% Results I .Rnw File
-<<parent_tores1,include = F>>=
+% Results II .Rnw File
+<<parent_tores2,include = F>>=
 set_parent('main.Rnw') # Set the parent document preamble
 @
-
 \section{Results}
-\label{sec:findings}
-\subsection{Potential drivers of the increase in corruption tolerance}
-As pointed out previously, the corruption tolerance increase happened at the same time as other key events. First, AB indicators denote a political crisis, as support for President Rafael Correa's regime took a sharp hit. Second, a recession hit Ecuador due to a commodity price collapse, an earthquake and other circumstances. Below, Figure \ref{fig:ecua_pol} shows several public opinion indicators and Figure \ref{fig:ecua_ec} displays economic conditions, both observed and perceived from 2014 to 2019. 
+\label{sec:results}
+Section \ref{sec:background} identified some key events which happenned at the same time of the corruption tolerance increase. Two economic variables observed at the individual level through the AB significantly changed during this period: the percent of people who report a worse economic situation as well as unemployment. Variables which proxy attitudes in the political landscape have also significantly changed: the percentage of people who confide in the President, the percentage who approve the President's job and also the percentage of people who identify with the political right wing. These variables where used for simple empirical models, which follow the equation below.
 
-% Create the data to be used for the political opinion variables:
-<<political-graph-data, cache = T>>=
+\begin{equation}
+\label{eqn:simplemod}
+P(ctol = 1 | \textbf{\textit{X}} \hspace{0.04cm}) = G \left[ \beta_0 + \delta_0 y_{16} + \beta_1 x^* + \delta_1 (y_{16} \cdot x^*)\right]
+\end{equation}
+where the key regressor $x^*$ can be: a dummy variable set to unity for respondents who answered that their economic situation is worse (Model 1), a dummy variable set to unity for those who report being unemployed (Model 2), a discrete variable with numbers 1-7, where higher values imply a higher degree of confidence in the President (Model 3), a discrete variable with numbers 1-5, with higher numbers implying a higher rating of the President's job performance (Model 4) or a discrete variable with numbers from 1-10 where 1 is the extreme left and 10 is the extreme right (Model 5). Table \ref{tab:simplemodel} presents coefficients of the logistic model for Equation \ref{eqn:simplemod}.
 
-# Wrangle the time series of confidence in the president
+% Now I'm going to run the first models, and I'll do so by sourcing a script.
+<<source-baseline-regs, cache = F>>=
+source('scripts/baseline_regs.R')
+@
 
-political_graph_df<-
-  pconf_time %>%
-  select(year, 
-         pres_conf_dicYes, 
-         se.pres_conf_dicYes) %>% 
-  rename(perc = pres_conf_dicYes, 
-         se = se.pres_conf_dicYes) %>% 
-  mutate(legend = '% who confide in the President') %>% 
-  filter(year != 2004, 
-         year != 2006)
+% Now, I'll make the table with modelsummary from the sourced stuff. 
+\begin{table}[htbp]
+\caption{Logit coefficients for baseline models}
+\label{tab:simplemodel}
+<<baseline-regs-coefficient-table, include = T, results = 'asis', cache = T>>=
+# Deploy coefficient names
 
-# The same but for the job approval rating variable
+coefficient_names<-c('(Intercept)' = 'Constant', 
+                     'year2016' = '2016 Dummy',
+                     'econ_sitWorse' = 'Worse Economic Situation',
+                     'unem2_4a' = 'Unemployment',
+                     'pres_conf' = 'Confidence in President',
+                     'pres_aprov' = 'Approval of Pres. Performance',
+                     'polscore' = 'Political Wing',
+                     'year2016:econ_sitWorse' = 'Econ. Situation Interaction',
+                     'year2016:unem2_4a' = 'Unemployment Interaction',
+                     'year2016:pres_conf' = 'Pres. Confidence Interaction',
+                     'year2016:pres_aprov' = 'Pres. Approval Interaction',
+                     'year2016:polscore' = 'Pol. Wing Interaction')
 
-japrov_df_g<-
-  japrov_time %>%
-  select(year, 
-         pres_aprov_dicYes, 
-         se.pres_aprov_dicYes) %>% 
-  rename(perc = pres_aprov_dicYes,
-         se = se.pres_aprov_dicYes) %>% 
-  mutate(legend = '% who approve the President\'s job performance')
+# Create the mapping of the goodness of fit coefficients.
 
-# Same for leftists and rightists
+base_models_stats<-
+  list(list("raw" = "nobs", "clean" = "$N$", "fmt" = 0),
+       list("raw" = "aic", "clean" = "AIC", "fmt" = 2),
+       list("raw" = "bic", "clean" = "BIC", "fmt" = 2))
 
-leftists_df_g<-
-  leftist_time %>%
-  rename(perc = leftist) %>%
-  mutate(legend = '% who identiy with the political left')
-    
+# Do the table
 
-rightists_df_g<-
-  rightist_time %>% 
-  rename(perc = rightist) %>% 
-  mutate(legend = '% who identiy with the political right')
+modelsummary(base_models_log,
+             stars = c('*'= 0.1, '**' = 0.05, '***'= 0.01),
+             output = 'latex_tabular',
+             gof_map = base_models_stats,
+             coef_map = coefficient_names)
+@ 
+\vspace{0.25cm}
+\textbf{Note:} Logit coefficients of the baseline models as described by Equation \ref{eqn:simplemod}. Standard errors consider design effects of the AB complex survey design.\\
+*$p$ < 0.1, **$p$< 0.05, ***$p$ < 0.01.
+\end{table}
 
-# Now unite all of these in the same dataframe to plot it. 
+The coefficient for the year dummy shows the significance of the jump in corruption tolerance for year 2016. This significance is lost when considering interaction terms with confidence in the President. The year dummy actually has a negative sign when the approval of his job performance and the political score variable are considered. While unemployment does seem to have a significant effect in year 2014 and also in an interaction term, its inclusion does not eliminate the significance of the year dummy. The coefficients also suggest that a person who reports having a worse economic situation does not tolerate corruption more or less than those who report a same or equal economic situation. 
 
-political_graph_df<-
-  bind_rows(political_graph_df,
-            japrov_df_g,
-            leftists_df_g,
-            rightists_df_g)
+Model 1 suggests that a person who reports having a worse economic situation does not tolerate corruption differently than those who report a same or higher economic situation. Model 2 shows that respondents who were unemployed were more likely to justify corruption than those who were not unemployed (either employed or not in the labor force, see \hyperref[app:first]{Appendix A}). The interaction term in this model has a negative sign, which shows that the effect of unemployment in 2016 was less than the effect in 2014. While this relationship would not clearly explain the jump in corruption tolerance, it is an interesting finding which will be explored further. 
 
-rownames(political_graph_df)<-NULL
+Models 3 and 4 display the same relationship: people who either trust or approve of the President in a higher degree also tolerate corruption less. A more zealous supporter of the regime will believe that bribes are not justified given the actual situation, however, this appears to change in 2016. The interaction term for both variables are significant and positive: in 2016 regime supporters started to justify corruption in a higher degree relative to 2014 levels. This could explain the jump in corruption tolerance since support for the President eroded in 2016, which meant that the number of non-supporters was higher; these respondents justified corruption more than supporters. Also, the supporters that remained started to justify bribes to a higher degree for this year. In Model 3, the significance of the year dummy is lost, while in Model 4 its sign is reversed.
+
+The political identification of respondents is taken into account in Model 5. The coefficients show that a person who identifies closer to the political right does not justify corruption differently relative to people identifying closer to the political left. However, the interaction term shows that people answering higher values of this variable justified corruption more in 2016. Once again, the significance of the year dummy is lost when considering this variable. With a higher number of respondents identifying with the political right wing, who appear to justify corruption more, it would be understood how overall corruption tolerance increased. This estimate, however, is less statistically significant than the other three interaction terms in the other models. 
+
+All of these results hold with the logit and linear probability models, which can be seen in Appendix \label{app:second}. Table \ref{tab:apebase} presents average partial effects for the model estimations in Table \ref{tab:simplemodel}. Table \ref{tab:apesimp} presents average partial effects for the five models of Table \ref{tab:simplemodel}. These figures show that an unemployed person is 5.9\% more likely to justify corruption. Additionally, a respondent who answered one number higher for an increased degree of confidence in the President was 2.4\% less likely to justify corruption. Finally, a person who rated the President's job performance one unit higher was 4.4\% less likely to justify corruption. All other partial effects are not significant. Similar magnitudes are obtained for the probit model average partial effects, as seen in Table \ref{tab:probitsimpape}. 
+
+% Do the APE table
+\begin{table}[htbp]
+\caption{Average partial effects for logit models in Table \ref{tab:simplemodel}}
+\label{tab:apesimp}
+<<baseline-aoes-table, include = T, results = 'asis', cache = T>>=
+# Coefficient mappings
+
+coefficient_names_ape<-c('year' = '2016 Dummy',
+                         'econ_sit' = 'Worse Economic Situation',
+                         'unem2_4a' = 'Unemployment',
+                         'pres_conf' = 'Confidence in President',
+                         'pres_aprov' = 'Approval of Pres. Performance',
+                         'polscore' = 'Political Wing')
+
+# Goodness of fit mappings
+
+gof_simpapes<-
+  list(list("raw" = "nobs", "clean" = "$N$", "fmt" = 0))
+
+modelsummary(base_logit_mfx,
+             stars = c('*'= 0.1, '**' = 0.05, '***'= 0.01),
+             output = 'latex_tabular',
+             coef_map = coefficient_names_ape,
+             gof_map = gof_simpapes)
+ @
+\vspace{0.25cm}
+\textbf{Note:} Average partial effects for the models estimated in Table \ref{tab:simplemodel}. Data from the open-access AB databases. Standard errors consider design effects of the AB complex survey design.\\
+*$p$ < 0.1, **$p$< 0.05, ***$p$ < 0.01.
+\end{table}
+
+% I need to draw the graph which shows the visual differences between groups and their corruption tolerance
+
+% I draw my data by sourcing the tabulations script.
+
+<<source-data-tabs, cache = T>>=
+source('scripts/tabulations.R')
+@
+
+% Now I do the data wrangling needed for this
+
+<<ctol-wrangling-difgraph, cache = T>>=
+# Corruption tolerance by employment status wrangling
+
+unem_14_ctol<-
+  ctol_byunem14 %>%
+  mutate(unem2_4a = dplyr::recode(unem2_4a, '1' = 'Unemployed', '0' = 'Not Unemployed'),
+         legend = unem2_4a,
+         year = 2014,
+         facet = 'unem')
+
+unem_16_ctol<-
+  ctol_byunem16 %>%
+  mutate(unem2_4a = dplyr::recode(unem2_4a, '1' = 'Unemployed', '0' = 'Not Unemployed'),
+         legend = unem2_4a,
+         year = 2016,
+         facet = 'unem')
+
+# Create the dataframe
+
+ctol_unem<-
+  bind_rows(unem_14_ctol,
+            unem_16_ctol) %>% 
+  select(ctol,
+         se,
+         legend,
+         year)
+
+# Clear row names
+
+rownames(ctol_unem) <- NULL
+
+# Corruption tolerance by pconf wrangling
+
+pconf_14_ctol<-
+  ctol_bypconf14 %>%
+  mutate(pres_conf_dic = dplyr::recode(pres_conf_dic, 'No' = 'Does not trust', 'Yes' = 'Trusts'),
+         legend = pres_conf_dic,
+         year = 2014,
+         facet = 'pconf')
+
+pconf_16_ctol<-
+  ctol_bypconf16 %>%
+  mutate(pres_conf_dic = dplyr::recode(pres_conf_dic, 'No' = 'Does not trust', 'Yes' = 'Trusts'),
+         legend = pres_conf_dic,
+         year = 2016,
+         facet = 'pconf')
+
+# Create the dataframe
+
+ctol_pconf<-
+  bind_rows(pconf_14_ctol,
+            pconf_16_ctol) %>% 
+  select(ctol,
+         se,
+         legend,
+         year)  
+
+# Clear row names
+
+rownames(ctol_pconf) <- NULL
+
+# Corruption tolerance by job aproval rating wrangling
+
+aprov_14_ctol<-
+  ctol_byaprov14 %>% 
+  mutate(pres_aprov_dic = dplyr::recode(pres_aprov_dic, 'No' = 'Does not approve', 'Yes' = 'Approves'),
+         legend = pres_aprov_dic,
+         year = 2014,
+         facet = 'japrov')  
+
+aprov_16_ctol<-
+  ctol_byaprov16 %>% 
+  mutate(pres_aprov_dic = dplyr::recode(pres_aprov_dic, 'No' = 'Does not approve', 'Yes' = 'Approves'),
+         legend = pres_aprov_dic,
+         year = 2016,
+         facet = 'japrov')
+
+# Create the dataframe
+
+ctol_aprov<-
+  bind_rows(aprov_14_ctol,
+            aprov_16_ctol) %>% 
+  select(ctol,
+         se,
+         legend,
+         year)
+
+# Clear row names
+
+rownames(ctol_aprov) <- NULL
+
+# Corruption tolerance by political groups rating wrangling
+
+plgroup_14_ctol<-
+  ctol_bypls14 %>% 
+  mutate(legend = pol_group,
+         year = 2014,
+         facet = 'polgroup')
+
+plgroup_16_ctol<-
+  ctol_bypls16 %>% 
+  mutate(legend = pol_group,
+         year = 2016,
+         facet = 'polgroup')
+
+# Create the dataframe
+
+ctol_pls<-
+  bind_rows(plgroup_14_ctol,
+            plgroup_16_ctol) %>% 
+  select(ctol,
+         se,
+         legend,
+         year)
+
+# Clear row names
+
+rownames(ctol_pls) <- NULL
+
 @
 % Now do the graph
 \begin{figure}[htbp]
-\centering
+\caption{Graphical representations of corruption tolerance across key explanatory variables}
+\label{fig:difgraph}
 \fbox{
 \begin{minipage}{\textwidth}
-\caption{Ecuadorian public opinion indicators, 2004-2019}
-\label{fig:ecua_pol}
-<<political_graph, fig.align='center', include = T, echo = F, fig.width = 10, cache = T>>=
-pol_graph<-ggplot(political_graph_df,
-                  aes(x = year, y = perc, color = legend, group = legend))+
-                  geom_line(size = 0.8)+
-                  scale_color_manual(values = c('#FF4500', '#800080', '#800000', '#6495ED'))+
-                  geom_point(size = 2.15)+
-                  geom_line(aes(x = year, 
-                                y = perc - 1.96*se),
-                            size = 0.7,
-                            color = 'grey50', 
-                            linetype = 'dotted')+
-                  geom_line(aes(x = year, 
-                                y = perc + 1.96*se),
-                            size = 0.7,
-                            color = 'grey50', 
-                            linetype = 'dotted')+
-                  annotate('rect', xmin = 2.5, xmax = 7.5, ymin = 0, ymax = 0.75,
-                           alpha = 0.1, fill = 'green')+
-                  annotate('label', x = 5, y = 0.4, label = 'Correa Tenure', family = 'serif')+
-                  annotate('rect', xmin = 0.5, xmax = 2.5, ymin = 0, ymax = 0.75,
-                           alpha = 0.1, fill = 'red')+
-                  annotate('label', x = 1.5, y = 0.5, label = 'Gutiérrez-Palacio Tenure', family = 'serif')+
-                  annotate('rect', xmin = 7.5, xmax = 9, ymin = 0, ymax = 0.75,
-                           alpha = 0.1, fill = 'blue')+
-                  annotate('label', x = 8.3, y = 0.5, label = 'Moreno Tenure', family = 'serif')+
-                  scale_y_continuous(breaks = c(0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9),
-                                     labels = c(10, 20, 30, 40, 50, 60, 70, 80, 90))+
-                  labs(x = '',
-                       y = 'Percent (%) of Ecuadorian voting-age population',
-                       color = '')+
-                  theme_bw()+
-                  theme(panel.grid.major = element_blank(),
-                        panel.grid.minor = element_blank(),
-                        text = element_text(size = 12, family = 'serif'),
-                        axis.ticks.y = element_blank(), 
-                        legend.position = c(0.22,0.88),
-                        legend.background = element_blank())
-pol_graph
-@
-\textbf{Note:} The graph shows time series for political public opinion questions asked in the AB. Percentages are estimated as explained in \hyperref[app:first]{Appendix A} and error bars show 95\% confidence intervals considering design effects. Figure prepared by the author. \end{minipage}
-}
-\end{figure}
+<<difgraph, cache = T, include = T, fig.align='center', fig.width= 10, fig.height= 10, cache = T>>=
+# First graph: Unemployment
 
-The AB data shows that indeed the President reached an all-time high popularity in 2014 and then a severe drop in 2016. This is seen through the percent of people who approve the President's job performance and the percent who report confidence in him. Another notable change in the political landscape is the way that voting-age population politically identified. There was a strong increase of the people who identified as the \enquote{right}, while those who identified with the \enquote{left} did not see significant changes.
-
-Regarding the economic recession, \textcite{Orozco.2015} holds that although the commodity price collapse in 2008 was greater, there was little reduction in economic activity as the country had greater possibilities of international financing and savings left over from past oil funds, which were used to keep government expenditure high. In 2016, as savings eroded and government debt had grown bigger, the economy stagnated significantly for the first time in the Correa administration. Combined with the lack of competitiveness in exports due to US dollar appreciations and the poor public finance administration \parencite{Hurtado.2018}, the country fell into a deep economic recession. While the official GDP figures may show only a small reduction in GDP growth, \textcite{Hurtado.2018} holds that these figures are overestimated.
-
-% Here I create my graph, but I need to load some libraries first and create the data needed for my graphs.
-<<load-libraries-data-results, cache = T>>=
-
-# Source the tabulations script where I use all required tabulations.
-
-source('scripts/tabulations.R')
-
-# Load my libraries
-
-library(Quandl) # To extract financial data from several sources
-library(WDI) # World Bank database
-library(patchwork) # Combine plots into one sole output
-library(ggpubr) # Arrange plots (another way)
-library(DataCombine) # Calculate a PCT change
-
-# Create my data for the graphs
-
-# Load the WTI oil barrel price data from FRED using the Quandl library
-# 
-# oil_price <- Quandl("FRED/DCOILWTICO",
-#                      type = "raw",
-#                      collapse = "monthly",
-#                      start_date = "2004-1-1",
-#                      end_date = "2019-12-31")
-
-# Save it, I do this because the code won't run because I'll need a FRED API after a while. I comment out this code so no errors pop out in somebody else's attempt to run the code.
-
-# save(oil_price, file = 'data/oil.Rdata')
-
-# Load the data (if you didn't run that code by yourself)
-
-load('data/oil.Rdata')
-
-# Order by time
-
-oil_price<-
-  oil_price %>% 
-    arrange(desc(Date))
-
-# Calculate a percent change
-
-oil_price<-
-  oil_price %>% 
-    change('Value',
-            NewVar = 'pct_change',
-            slideBy = -1,
-            type = 'percent')
-
-# GDP growth rate through the WDI package to extract data from the World Bank database. 
-
-gdp_wdi<-WDI(country = 'EC',
-             indicator = 'NY.GDP.MKTP.KD.ZG')
-
-unem_wdi<-WDI(country = 'EC',
-              indicator = 'SL.UEM.TOTL.ZS')
-
-# Wrangle the GDP
-
-gdp_wdi<-
-  gdp_wdi %>% 
-  select(NY.GDP.MKTP.KD.ZG, year) %>% 
-  rename(growth = NY.GDP.MKTP.KD.ZG) %>%
-  relocate(year, .before = growth) %>% 
-  filter(year >= 2004, year <= 2019)
-
-# Wrangle the unemployment
-
-unem_wdi<-
-  unem_wdi %>% 
-  select(SL.UEM.TOTL.ZS, year) %>% 
-  rename(growth = SL.UEM.TOTL.ZS) %>% 
-  relocate(year, .before = growth) %>% 
-  filter(year >= 2004, year <= 2019)
-
-# Join the two series for ggplot graphing
-
-# Add the legend for the gdp_wdi
-
-gdp_wdi$legend<-'Real GDP Growth Rate'
-unem_wdi$legend<-'Unemployment (ILO estimate)'
-
-# Then merge
-
-econ_graph_df<-bind_rows(gdp_wdi, 
-                         unem_wdi)
-
-# Now, wrangle the economic indicators for the LAPOP survey 
-
-# Crate a new data frame to later append to the econ_g
-
-econ_lapop<-
-  ecsit_time %>%
-  rename('perc' = econ_sitWorse,
-         'se' = se.econ_sitWorse) %>% 
-  select(year, perc, se) %>% 
-  mutate(perc = perc * 100 %>% as.numeric(),
-         legend = 'Worse Economic Situation')
-
-# Now wrangle the unemployment rate (both types, open and closed) from the LAPOP survey
-
-unem_lapop<-
-  unem_time %>% 
-  rename('perc' = unem2_4a) %>% 
-  select(year, perc, se) %>% 
-  mutate(perc = perc * 100 %>% as.numeric(),
-         legend = 'Unemployed')
-
-# Now join both bases as well as the unemployment
-
-econ_lapop<-
-  bind_rows(econ_lapop,
-            unem_lapop) %>% 
-  filter(perc > 0) # Eliminate the rows where I have an indicator not asked in that year.
-
-rownames(econ_lapop)<-c() # Delete the row names, as they are redundant with the year.
-
-@
-% Now I do the graph:
-\begin{figure}[htbp]
-\begin{center}
-\fbox{
-\begin{minipage}{\textwidth}
-\caption{Ecuadorian economic conditions 2004-2019}
-\label{fig:ecua_ec}
-<<econ_graph, fig.align='center', include = T, echo = F, fig.width = 10, fig.height= 10, cache = T>>=
-econ_graph<-ggplot(econ_graph_df,
-                   aes(x = year, y = growth, color = legend, group = legend))+
-                   geom_line(size = 0.8)+
-                   geom_hline(yintercept = 0, linetype = 'longdash')+
-                   scale_colour_brewer(palette = 'Set2')+
-                   geom_point(size = 2.15)+
-                   scale_x_continuous(breaks = c(2004,2006,2008,2010,2012,2014,2016,2018))+
-                   theme_bw()+
-                   theme(panel.grid.major = element_blank(),
-                         panel.grid.minor = element_blank(),
-                         text = element_text(size = 12, family = 'serif'),
-                         legend.position = c(0.8,0.9),
-                         legend.background = element_blank())+
-                   labs(x = '',
-                        y = 'Percentage points (%)',
-                        color = '',
-                        title = 'World Bank macroeconomic indicators')
-
-oil_graph<-ggplot(oil_price,
-                   aes(x = Date, y = Value))+
-                   scale_x_date(date_labels = '%Y', date_breaks = '1 year',
-                                limit = c(as.Date('2004-01-01'), as.Date('2019-12-31')))+
-                   geom_line(size = 0.8, color = 'orange')+
-                   geom_point(size = 1)+
-                   scale_y_continuous(breaks = c(seq(from = 30, to = 150, by = 20)))+
-                   theme_bw()+
-                   theme(panel.grid.major = element_blank(),
-                         panel.grid.minor = element_blank(),
-                         text = element_text(size = 12, family = 'serif'),
-                         legend.position = c(0.13,0.20),
-                         legend.background = element_blank())+
-                    labs(x = '',
-                        y = 'USD per WTI barrel',
-                        title = 'Monthly WTI oil prices')
-
-ecsit_graph<-ggplot(econ_lapop,
-                    aes(x = year, 
-                        y = perc, 
-                        color = legend, 
-                        group = legend))+
-             geom_line(aes(x = year,
-                           y= perc),
-                       size = 0.8)+
-             geom_line(aes(x = year, 
-                           y = perc - 1.96*100*se),
-                           size = 0.7,
-                           color = 'grey50', 
-                           linetype = 'dotted')+
-             geom_line(aes(x = year, 
-                           y = perc + 1.96*100*se),
-                           size = 0.7,
-                           color = 'grey50', 
-                           linetype = 'dotted')+
-             scale_colour_brewer(palette = 'Set1')+
-             geom_point(size = 2.15)+
+ctol_unem_g<-ggplot(ctol_unem,
+                    aes(x = year, y = ctol, fill = legend))+
+             geom_col(position = 'dodge',
+                      color = 'black')+
+             scale_fill_manual(values = c('chartreuse3', 'forestgreen'))+
+             geom_errorbar(aes(ymin = ctol - 1.96*se,
+                               ymax = ctol + 1.96*se),
+                               width = 0.5,
+                               position = position_dodge(1.8))+
+             geom_text(aes(label= round(ctol, 4)*100),
+                       size = 3.5,
+                       vjust = 11,
+                       position = position_dodge(1.8))+
+             scale_x_continuous(breaks = c(2014, 2016))+
              theme_bw()+
              theme(panel.grid.major = element_blank(),
                    panel.grid.minor = element_blank(),
-                   text = element_text(size = 12, family = 'serif'),
-                   legend.position = c(0.14,0.2),
+                   axis.text.y = element_blank(),
+                   axis.ticks = element_blank(),
+                   legend.position = c(0.15,0.95),
+                   text = element_text(family = 'serif'),
+                   plot.title = element_text(size = 12),
                    legend.background = element_blank())+
              labs(x = '',
-                  y = 'Percent of voting-age Ecuadorians',
-                  color = '',
-                  title = 'Unemployment and economic situation in the AB survey')
+                  y = '',
+                  fill = '',
+                  title = '(a) Corruption tolerance by unemployment status')
 
-econ_graph + oil_graph + ecsit_graph +
-  plot_layout(nrow = 3,
-              heights = c(4,4,4))
+# Second graph: political groups
+
+ctol_pls_g<-ggplot(ctol_pls,
+                   aes(x = year, y = ctol, fill = legend))+
+            geom_col(position = 'dodge',
+                     color = 'black')+
+            scale_fill_manual(values = c('green', 'chartreuse3', '#40916c', 'forestgreen'))+
+            geom_errorbar(aes(ymin = ctol - 1.96*se,
+                              ymax = ctol + 1.96*se),
+                              width = 0.5,
+                              position = position_dodge(1.8))+
+            geom_text(aes(label= round(ctol, 4)*100),
+                      size = 3.5,
+                      vjust = 9.5,
+                      position = position_dodge(1.8))+
+            scale_x_continuous(breaks = c(2014, 2016))+
+            theme_bw()+
+            theme(panel.grid.major = element_blank(),
+                  panel.grid.minor = element_blank(),
+                  axis.text.y = element_blank(),
+                  axis.ticks = element_blank(),
+                  legend.position = c(0.1 ,0.9),
+                  text = element_text(family = 'serif'),
+                  plot.title = element_text(size = 12),
+                  legend.background = element_blank())+
+            labs(x = '',
+                 y = '',
+                fill = '',
+                title = '(b) Corruption tolerance by political identification groups')
+
+# Third graph: Confidence in the president
+
+ctol_pconf_g<-ggplot(ctol_pconf,
+                    aes(x = year, y = ctol, fill = legend))+
+             geom_col(position = 'dodge',
+                      color = 'black')+
+             scale_fill_manual(values = c('chartreuse3', 'forestgreen'))+
+             geom_errorbar(aes(ymin = ctol - 1.96*se,
+                               ymax = ctol + 1.96*se),
+                               width = 0.5,
+                               position = position_dodge(1.8))+
+             geom_text(aes(label= round(ctol, 4)*100),
+                       size = 3.5,
+                       vjust = 9,
+                       position = position_dodge(1.8))+
+             scale_x_continuous(breaks = c(2014, 2016))+
+             theme_bw()+
+             theme(panel.grid.major = element_blank(),
+                   panel.grid.minor = element_blank(),
+                   axis.text.y = element_blank(),
+                   axis.ticks = element_blank(),
+                   legend.position = c(0.15 ,0.95),
+                   text = element_text(family = 'serif'),
+                   plot.title = element_text(size = 12),
+                   legend.background = element_blank())+
+             labs(x = '',
+                  y = '',
+                  fill = '',
+                  title = '(c) Corruption tolerance by confidence on the President')
+
+# Fourth graph: job approval ratings:
+
+ctol_aprov_g<-ggplot(ctol_aprov,
+                    aes(x = year, y = ctol, fill = legend))+
+             geom_col(position = 'dodge',
+                      color = 'black')+
+             scale_fill_manual(values = c('chartreuse3', 'forestgreen'))+
+             geom_errorbar(aes(ymin = ctol - 1.96*se,
+                               ymax = ctol + 1.96*se),
+                               width = 0.5,
+                               position = position_dodge(1.8))+
+             geom_text(aes(label= round(ctol, 4)*100),
+                       size = 3.5,
+                       vjust = 8,
+                       position = position_dodge(1.8))+
+             scale_x_continuous(breaks = c(2014, 2016))+
+             theme_bw()+
+             theme(panel.grid.major = element_blank(),
+                   panel.grid.minor = element_blank(),
+                   axis.text.y = element_blank(),
+                   axis.ticks = element_blank(),
+                   legend.position = c(0.15,0.95),
+                   text = element_text(family = 'serif'),
+                   plot.title = element_text(size = 12),
+                   legend.background = element_blank())+
+             labs(x = '',
+                  y = '',
+                  fill = '',
+                  title = '(d) Corruption tolerance by approval rating')
+
+# Now draw the actual graph
+ctol_unem_g + ctol_pconf_g + ctol_aprov_g + ctol_pls_g + 
+  plot_layout(ncol = 2, 
+              nrow = 2, 
+              heights = c(5,5,5,5),
+              widths = c(5,5,5,5))
 
 @
-\textbf{Note:} Time series line graphs showing key economic indicators for the country between 2004 and 2019. Real GDP growth and unemployment rates extracted from the World Bank's World Development Indicators. WTI oil barrel prices extracted from FRED. The rest are estimates computed with the open-access AB databases, which include 95\% confidence intervals adjusted for design effects. See \hyperref[app:first]{Appendix A} for details on calculations. Figure prepared by the author. 
-\end{minipage}}
-\end{center}
+\textbf{Note:} Figures show the percent of respondents that justify corruption across the groups used as explanatory models in Table \ref{tab:simplemodel}. Data from the open-access databases of the AB. Error bars represent the 95\% confidence intervals considering design effects. Figure prepared by the author. 
+\end{minipage}
+}
 \end{figure}
 
-Figure \ref{fig:ecua_pol} shows several indicators of public opinion in the country. The AB data shows that indeed the President reached an all-time high popularity in 2014 and then a severe drop in 2016. This is seen through the percent of people who approve the President's job performance and the percent who report confidence in him. Another notable change in the political landscape of this period is the way that voting-age population identified politically. There was a notable increase of the people who identified as the \enquote{right} of the political wings, while those who identified with the \enquote{left} did not see significant changes.
-
-
+The findings of these models can be further explained by Figure \ref{fig:difgraph}. According to panel (a), in 2014, only 12.03\% of people who were not unemployed justified corruption, while in 2016 this figure increased to 27.03\%, very close to the percentage of unemployed people who justified it in 2016. The difference between time periods of these percentages is not statistically significant, which means that in 2016 the effect of unemployment in corruption tolerance approached zero. Thus, Figure \ref{fig:difgraph} along with Model 2 of Table \ref{tab:simplemodel} show that it was not the unemployed who started to justify corruption less, it was that the people who were not unemployed started to justify it more. Panels (b) and (c) of Figure \ref{fig:difgraph} show that the percentage of people who either confided in or approved the President and justified corruption increased significantly  between 2014 and 2016. This means that the negative effect of supporting the executive in 2016 was smaller than in 2014, as confirmed by the interaction term in Models 3 and 4 of Table \ref{tab:simplemodel}. In panel (d) of Figure \ref{fig:difgraph}, where four different political groups are considered: the left, right, center and those who did not answer the question. All four groups saw increases in the percent of group members who justify corruption. All increases in corruption tolerance are significant, except for those who identify with the left wing. This is consistent with the coefficient sign seen in Model 5 for the political score variable. 
 

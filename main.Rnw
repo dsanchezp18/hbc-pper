@@ -120,4 +120,15 @@ source('scripts/data_manipulation.R')
 <<background_child, child = 'background.Rnw'>>=
 @
 
+% Methodology Child Document
+
+<<meth_child, child = 'meth.Rnw'>>=
+@
+
+% Results 1 Child Document
+
+<<res1_child, child = 'results1.Rnw'>>=
+@
+
+
 \end{document}
