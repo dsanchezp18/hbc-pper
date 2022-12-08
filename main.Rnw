@@ -79,13 +79,14 @@
 
 % General settings
 
-<<setup, include = F>>=
+<<setup, include = F, cache = F>>=
 # Chunk options
 knitr::opts_chunk$set(echo = F,
                       eval = T, 
                       include = F,
                       warning = F, 
-                      message = F)
+                      message = F,
+                      autodep = T)
 
 system(paste("biber", sub("\\.Rnw$", "", current_input())))
 
@@ -94,12 +95,28 @@ library(tidyverse)
 library(survey)
 library(modelsummary)
 library(patchwork)
+library(knitr)
 @
 
 % Load the data by sourcing the data manipulation script. Note that survey design objects are indeed created in this script.
-<<source-data>>=
+% We use the time argument in the chunks to reread or rerun the chunk in case external files are updated and chunks need to be rerun and re-cached.
+<<source-data, cache = T, time = file.info('scripts/data_manipulation.R')>>= 
+# Dependencies issue
+opts_chunk$set(autodep = T)
+# Run the data manipulation script
 source('scripts/data_manipulation.R')
 @
+
+% Perform all survey-robust tabulations by sourcing the R Script. 
+% These are used on the text later.
+<<source-tabs, cache = T, time = file.info('scripts/tabulations.R')>>=
+# Dependencies issue
+opts_chunk$set(autodep = T)
+dep_prev()
+# Run calculations
+source('scripts/tabulations.R')
+@
+
 
 \begin{document}
 

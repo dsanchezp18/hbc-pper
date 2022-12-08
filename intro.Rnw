@@ -8,12 +8,6 @@ set_parent('main.Rnw') # Set the parent document preamble
 
 This episode is only one of many corruption-related scandals that have happened in Ecuador, a middle-income country in South America. The country has seen increased COVID-19 vaccine inequality \parencite{Taj.2021}, weakened public health services \parencite{Celi.2020}, policymakers charging fees for political positions \parencite{Espinosa.2021}, lost Social Security funds \parencite{Pesantes.9152020}, a convicted former president as well as two vice-presidents impeached and removed on charges of corruption \parencite{Cabrera.2020}, among others. However, it is almost as if these no longer cause outrage: at most, they cause a sigh of disappointment or social media outrage which dwindles shortly after.
 
-% Perform all survey-robust tabulations by sourcing the R Script. 
-% These are used on the text later.
-<<source-tabs>>=
-source('scripts/tabulations.R')
-@
-
 This apparent ambivalence has seen Ecuador place well above the corruption median in the world according to both Transparency International's and the World Bank's corruption indexes. About \Sexpr{round(corrpernew_time[8,2]*100)+2}\% of voting-age Ecuadorians believe that at least half of politicians are corrupt and more than a quarter of them admit having been involved with bribes in 2019, according to the AmericasBarometer (AB) survey, by the Latin American Public Opinion Project (LAPOP). However, a mere \Sexpr{round(corprob_time[8,2]*100,2)}\% consider that corruption is the most serious problem faced by the country and in fact \Sexpr{round(ctol_time[8,2]*100,2)}\% of Ecuadorians believe that paying a bribe is justified. Further, tolerance to corruption has risen \Sexpr{round((ctol_time[8,2]-ctol_time[6,2])*100, 2)} percentage points from 2014 to 2019. Furthermore, Figure \ref{fig:ctolmap} shows that Ecuador is also one of the countries with the highest corruption tolerance in the region.
 
 % Corruption Tolerance Choropleth Map based on 2019 values
