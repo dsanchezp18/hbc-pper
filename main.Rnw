@@ -117,6 +117,14 @@ dep_prev()
 source('scripts/tabulations.R')
 @
 
+% Run the first models
+<<source-baseline-regs, cache = F>>=
+# Dependencies issue
+opts_chunk$set(autodep = T)
+dep_prev()
+# Models
+source('scripts/baseline_regs.R')
+@
 
 \begin{document}
 

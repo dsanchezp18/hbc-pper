@@ -2822,6 +2822,16 @@
     <bcf:citekey order="9">Quillupangui.2016</bcf:citekey>
     <bcf:citekey order="10">Weisbrot.2017</bcf:citekey>
     <bcf:citekey order="11">Campbell.2014</bcf:citekey>
+    <bcf:citekey order="12">Orozco.2015</bcf:citekey>
+    <bcf:citekey order="13">Orozco.2015</bcf:citekey>
+    <bcf:citekey order="14">Hurtado.2018</bcf:citekey>
+    <bcf:citekey order="15">Hurtado.2018</bcf:citekey>
+    <bcf:citekey order="16">Hurtado.2018</bcf:citekey>
+    <bcf:citekey order="17">LAPOP.2014</bcf:citekey>
+    <bcf:citekey order="18">LAPOP.2017</bcf:citekey>
+    <bcf:citekey order="19">Moscoso.2018</bcf:citekey>
+    <bcf:citekey order="20">Castorena.2021</bcf:citekey>
+    <bcf:citekey order="21">Castorena.2021</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

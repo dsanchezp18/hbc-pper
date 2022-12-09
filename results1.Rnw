@@ -12,11 +12,6 @@ P(ctol = 1 | \textbf{\textit{X}} \hspace{0.04cm}) = G \left[ \beta_0 + \delta_0 
 \end{equation}
 where the key regressor $x^*$ can be: a dummy variable set to unity for respondents who answered that their economic situation is worse (Model 1), a dummy variable set to unity for those who report being unemployed (Model 2), a discrete variable with numbers 1-7, where higher values imply a higher degree of confidence in the President (Model 3), a discrete variable with numbers 1-5, with higher numbers implying a higher rating of the President's job performance (Model 4) or a discrete variable with numbers from 1-10 where 1 is the extreme left and 10 is the extreme right (Model 5). Table \ref{tab:simplemodel} presents coefficients of the logistic model for Equation \ref{eqn:simplemod}.
 
-% Now I'm going to run the first models, and I'll do so by sourcing a script.
-<<source-baseline-regs, cache = F>>=
-source('scripts/baseline_regs.R')
-@
-
 % Now, I'll make the table with modelsummary from the sourced stuff. 
 \begin{table}[htbp]
 \caption{Logit coefficients for baseline models}

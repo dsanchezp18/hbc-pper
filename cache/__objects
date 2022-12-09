@@ -1,2 +1,11 @@
 source-data	df	df_2014	df_2016	df46	lapop_des	lapop_des14	lapop_des16	lapop_des46
 source-tabs	corprob_time	corrper_time	corrpernew_time	ctol_byaprov14	ctol_byaprov16	ctol_bypconf14	ctol_bypconf16	ctol_bypls14	ctol_bypls16	ctol_byunem14	ctol_byunem16	ctol_time	ecsit_time	eff2_time	intpol_dic_time	intpol_year	japrov_time	leftist_time	pconf_time	rightist_time	unem_t	unem_time
+political-graph-data	japrov_df_g	leftists_df_g	political_graph_df	rightists_df_g
+political_graph	pol_graph
+load-libraries-data-results	econ_graph_df	econ_lapop	gdp_wdi	oil_price	unem_lapop	unem_wdi
+econ_graph	econ_graph	ecsit_graph	oil_graph
+baseline-regs-coefficient-table	base_models_stats	coefficient_names
+baseline-aoes-table	coefficient_names_ape	gof_simpapes
+source-data-tabs	
+ctol-wrangling-difgraph	aprov_14_ctol	aprov_16_ctol	ctol_aprov	ctol_pconf	ctol_pls	ctol_unem	pconf_14_ctol	pconf_16_ctol	plgroup_14_ctol	plgroup_16_ctol	unem_14_ctol	unem_16_ctol
+difgraph	ctol_aprov_g	ctol_pconf_g	ctol_pls_g	ctol_unem_g
