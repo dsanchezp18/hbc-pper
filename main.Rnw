@@ -88,14 +88,16 @@ knitr::opts_chunk$set(echo = F,
                       message = F,
                       autodep = T)
 
-system(paste("biber", sub("\\.Rnw$", "", current_input())))
-
 # Libraries
 library(tidyverse)
 library(survey)
 library(modelsummary)
 library(patchwork)
 library(knitr)
+
+# For biblatex
+system(paste("biber", sub("\\.Rnw$", "", current_input())))
+
 @
 
 % Load the data by sourcing the data manipulation script. Note that survey design objects are indeed created in this script.

@@ -16,10 +16,6 @@ library(tidyverse) # Ggplot and dplyr
 library(openxlsx) # Import and export XL files
 library(survey) # For survey robust calculations. 
 
-# Load the data ----------------------------------------------------------------------------------------------------------
-
-source('scripts/data_manipulation.R')
-
 # ================================================= Cross-year tabulations ================================================
 
 # Corruption variables ---------------------------------------------------------------------------------------------------
