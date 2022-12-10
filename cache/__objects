@@ -9,3 +9,4 @@ baseline-aoes-table	coefficient_names_ape	gof_simpapes
 source-data-tabs	
 ctol-wrangling-difgraph	aprov_14_ctol	aprov_16_ctol	ctol_aprov	ctol_pconf	ctol_pls	ctol_unem	pconf_14_ctol	pconf_16_ctol	plgroup_14_ctol	plgroup_16_ctol	unem_14_ctol	unem_16_ctol
 difgraph	ctol_aprov_g	ctol_pconf_g	ctol_pls_g	ctol_unem_g
+modified-regs	log_aprov_m	log_pols_m	log_unem_m	lpm_aprov_m	lpm_pols_m	lpm_unem_m	modified_logit_mfx	modified_models_log	modified_models_lpm	modified_models_prob	modified_probit_mfx	prob_aprov_m	prob_pols_m	prob_unem_m

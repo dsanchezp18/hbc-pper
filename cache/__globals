@@ -9,3 +9,4 @@ baseline-aoes-table	base_logit_mfx	c	list	modelsummary
 source-data-tabs	source
 ctol-wrangling-difgraph	%>%	::	bind_rows	ctol	ctol_byaprov14	ctol_byaprov16	ctol_bypconf14	ctol_bypconf16	ctol_bypls14	ctol_bypls16	ctol_byunem14	ctol_byunem16	legend	mutate	pol_group	pres_aprov_dic	pres_conf_dic	rownames<-	se	select	unem2_4a	year
 difgraph	aes	c	ctol	ctol_aprov	ctol_pconf	ctol_pls	ctol_unem	element_blank	element_text	geom_col	geom_errorbar	geom_text	ggplot	labs	legend	plot_layout	position_dodge	round	scale_fill_manual	scale_x_continuous	se	theme	theme_bw	year
+modified-regs	source
