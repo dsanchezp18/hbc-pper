@@ -368,7 +368,7 @@ where the key regressor $x^*$ can be: a dummy variable set to unity for responde
 Table \ref{tab:simplemodel} presents coefficients of the logistic model for Equation \ref{eqn:simplemod} and Table \ref{tab:apesimp} presents their associated average partial effects. It is show that an unemployed person is 5.9\% more likely to justify corruption. Additionally, a respondent who answered one number higher for an increased degree of confidence in the President was 2.4\% less likely to justify corruption. Finally, a person who rated the President's job performance one unit higher was 4.4\% less likely to justify corruption. All other partial effects are not significant.
 
 % Now, I'll make the table with modelsummary from the sourced stuff. 
-\begin{table}[htbp]
+\begin{table}[htbp!]
 \caption{Logit coefficients for baseline models}
 \label{tab:simplemodel}
 
@@ -408,13 +408,14 @@ BIC & \num{2926.37} & \num{2920.98} & \num{2881.80} & \num{2876.65} & \num{2606.
 \end{tabular}
 
 
-\vspace{0.25cm}
-Logit coefficients of baseline models (Equation \ref{eqn:simplemod}) with design-adjusted std. errors.\\
-*$p$ < 0.1, **$p$< 0.05, ***$p$ < 0.01.
+\vspace{0.15cm}
+Logit coefficients of baseline models (Equation \ref{eqn:simplemod}) with design-adjusted std. errors. *$p$ < 0.1, **$p$< 0.05, ***$p$ < 0.01.
 \end{table}
 
+Consider the logit coefficients in Table \ref{tab:simplemodel}. The coefficient for the year dummy confirms the significance of the corruption tolerance increase in 2016, which is lost when considering interaction terms with confidence in the President, and actually has a negative sign with the other political variables. The inclusion of unemployment and economic situation do not eliminate the significance of the year dummy. Model 1 suggests that a person who reports having a worse economic situation does not tolerate corruption differently than those who report a same or equal economic situation. According to Model 2, respondents who were unemployed were more likely to justify corruption than those who were not unemployed\footnote{In this case, not being unemployed means either being employed, salary and hours worked notwithstanding, and also not being in the labor force (students, rentists, among others). Results all throughout this paper are robust to including an employment variable.} The interaction term in this model has a negative sign, which shows that the effect of unemployment in 2016 was less than the effect in 2014, meaning unemployed people actually justified corruption less after political instability set in. 
+
 % Do the APE table
-\begin{table}[htbp]
+\begin{table}[htbp!]
 \caption{Average partial effects for logit models in Table \ref{tab:simplemodel}}
 \label{tab:apesimp}
 
@@ -440,12 +441,9 @@ $N$ & \num{2948} & \num{2950} & \num{2944} & \num{2941} & \num{2535}\\
 \end{tabular}
 
 
-\vspace{0.25cm}
-Average partial effects for models in Table \ref{tab:simplemodel}, with design-adjusted std. errors.\\
-*$p$ < 0.1, **$p$< 0.05, ***$p$ < 0.01.
+\vspace{0.15cm}
+Average partial effects for models in Table \ref{tab:simplemodel}, with design-adjusted std. errors. *$p$ < 0.1, **$p$< 0.05, ***$p$ < 0.01.
 \end{table}
-
-Consider the logit coefficients in Table \ref{tab:simplemodel}. The coefficient for the year dummy confirms the significance of the corruption tolerance increase in 2016, which is lost when considering interaction terms with confidence in the President, and actually has a negative sign with the other political variables. The inclusion of unemployment and economic situation do not eliminate the significance of the year dummy. Model 1 suggests that a person who reports having a worse economic situation does not tolerate corruption differently than those who report a same or equal economic situation. According to Model 2, respondents who were unemployed were more likely to justify corruption than those who were not unemployed\footnote{In this case, not being unemployed means either being employed, salary and hours worked notwithstanding, and also not being in the labor force (students, rentists, among others). Results all throughout this paper are robust to including an employment variable.} The interaction term in this model has a negative sign, which shows that the effect of unemployment in 2016 was less than the effect in 2014, meaning unemployed people actually justified corruption less after political instability set in. 
 
 Models 3 and 4 display the same relationship: people who either trust or approve of the President in a higher degree also tolerate corruption less. A more zealous supporter of the regime believed bribes were not justified; however, this appears to change for 2016. The interaction terms for both variables are significant and positive: in 2016 supporters started to justify corruption more. This could explain the jump in corruption tolerance as regime support eroded in 2016, which meant that the number of non-supporters was higher and these respondents justified corruption more than supporters. Also, the supporters that remained started to justify bribes to a higher degree. In Model 3, the significance of the year dummy is lost, while in Model 4 its sign reversed.
 
@@ -457,7 +455,7 @@ The coefficients in Model 5 show that a person who identifies closer to the poli
 
 
 % Now do the graph
-\begin{figure}[htbp]
+\begin{figure}[htbp!]
 \begin{knitrout}
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.5)  9 DEC 2022 20:38
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.5)  10 DEC 2022 01:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1049,7 +1049,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  25987 strings out of 476490
  533388 string characters out of 5818317
- 1416908 words of memory out of 5000000
+ 1411908 words of memory out of 5000000
  46090 multiletter control sequences out of 15000+600000
  407894 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
