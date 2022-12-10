@@ -409,7 +409,7 @@ BIC & \num{2926.37} & \num{2920.98} & \num{2881.80} & \num{2876.65} & \num{2606.
 
 
 \vspace{0.25cm}
-Logit coefficients of the baseline models as described by Equation \ref{eqn:simplemod} with survey-weighted std. errors.\\
+Logit coefficients of baseline models (Equation \ref{eqn:simplemod}) with design-adjusted std. errors.\\
 *$p$ < 0.1, **$p$< 0.05, ***$p$ < 0.01.
 \end{table}
 
@@ -441,7 +441,7 @@ $N$ & \num{2948} & \num{2950} & \num{2944} & \num{2941} & \num{2535}\\
 
 
 \vspace{0.25cm}
-Average partial effects for the models estimated in Table \ref{tab:simplemodel}, with survey-weighted std. errors.\\
+Average partial effects for models in Table \ref{tab:simplemodel}, with design-adjusted std. errors.\\
 *$p$ < 0.1, **$p$< 0.05, ***$p$ < 0.01.
 \end{table}
 
@@ -458,10 +458,6 @@ The coefficients in Model 5 show that a person who identifies closer to the poli
 
 % Now do the graph
 \begin{figure}[htbp]
-\caption{Graphical representations of corruption tolerance across key explanatory variables}
-\label{fig:difgraph}
-\fbox{
-\begin{minipage}{\textwidth}
 \begin{knitrout}
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
@@ -471,9 +467,9 @@ The coefficients in Model 5 show that a person who identifies closer to the poli
 
 
 \end{knitrout}
-Figures show the percent of respondents that justify corruption across the groups used as explanatory models in Table \ref{tab:simplemodel}. Data from the open-access databases of the AB. Error bars represent the 95\% confidence intervals considering design effects. 
-\end{minipage}
-}
+\caption{Graphical representations of corruption tolerance across key explanatory variables}
+\label{fig:difgraph}
+Figures show the percent that justify corruption across the groups used as explanatory models in Table \ref{tab:simplemodel}. Error bars represent the 95\% confidence intervals adjusted for design effects.
 \end{figure}
 
 These findings are supported by Figure \ref{fig:difgraph}. According to panel (a), in 2014, only 12.03\% of those not unemployed justified corruption, while in 2016 this figure increased to 27.03\%, very close to the percentage of unemployed people who justified it in 2016. The time difference between these point estimates is not statistically significant, which means that in 2016 the effect of unemployment in corruption tolerance approached zero. Thus, Figure \ref{fig:difgraph} along with Model 2 of Table \ref{tab:simplemodel} show that it was not the unemployed who started to justify corruption less, it was that the people who were not unemployed started to justify it more. Panels (b) and (c) of Figure \ref{fig:difgraph} show that the percentage of people who either confided in or approved the President and justified corruption increased significantly  between 2014 and 2016. This means that the negative effect of supporting the executive in 2016 was smaller than in 2014, as confirmed by the interaction term in Models 3 and 4 of Table \ref{tab:simplemodel}. In panel (d) of Figure \ref{fig:difgraph}, where four different political groups are considered: the left, right, center and those who did not answer the question. All four groups saw increases in the percent of group members who justify corruption. All increases in corruption tolerance are significant, except for those who identify with the left wing. This is consistent with the coefficient sign seen in Model 5 for the political score variable. 

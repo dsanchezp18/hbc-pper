@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.5)  8 DEC 2022 22:55
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.5)  9 DEC 2022 20:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1036,12 +1036,7 @@ Overfull \hbox (25.5163pt too wide) in paragraph at lines 375--409
 [11] [12] [13]
 File: figure/difgraph-1.pdf Graphic file (type pdf)
 <use figure/difgraph-1.pdf>
-
-Overfull \hbox (12.79999pt too wide) in paragraph at lines 476--477
-[][] 
- []
-
-[14] [15] (./main.aux)
+ [14] [15] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 

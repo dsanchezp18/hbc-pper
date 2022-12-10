@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.5)  8 DEC 2022 23:02
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.5)  9 DEC 2022 23:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -989,12 +989,7 @@ Overfull \hbox (25.5163pt too wide) in paragraph at lines 173--207
 ] [2] [3]
 File: figure/difgraph-1.pdf Graphic file (type pdf)
 <use figure/difgraph-1.pdf>
-
-Overfull \hbox (12.79999pt too wide) in paragraph at lines 274--275
-[][] 
- []
-
-[4] [5] (./results1.aux)
+ [4] [5] (./results1.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1007,7 +1002,7 @@ Package logreq Info: Writing requests to 'results1.run.xml'.
 Here is how much of TeX's memory you used:
  25681 strings out of 476490
  526746 string characters out of 5818317
- 1420740 words of memory out of 5000000
+ 1415740 words of memory out of 5000000
  45793 multiletter control sequences out of 15000+600000
  407894 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
