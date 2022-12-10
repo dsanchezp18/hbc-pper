@@ -157,5 +157,15 @@ source('scripts/baseline_regs.R')
 <<res1_child, child = 'results1.Rnw'>>=
 @
 
+% Results 2 Child Document
+
+<<res2_child, child = 'results2.Rnw'>>=
+@
+
+% Conclusions Child Document
+
+<<conclusion_child, child = 'conclusions.Rnw'>>=
+@
+
 
 \end{document}

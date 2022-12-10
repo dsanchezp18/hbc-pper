@@ -19,6 +19,83 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
+    \entry{Adoum.2000}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=06994d4e1831aae0beba5cbddf728c72}{%
+           family={Adoum},
+           familyi={A\bibinitperiod},
+           given={Jorge\bibnamedelima Enrique},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Quito}%
+      }
+      \list{publisher}{1}{%
+        {Eskeletra Editorial}%
+      }
+      \strng{namehash}{06994d4e1831aae0beba5cbddf728c72}
+      \strng{fullhash}{06994d4e1831aae0beba5cbddf728c72}
+      \strng{bibnamehash}{06994d4e1831aae0beba5cbddf728c72}
+      \strng{authorbibnamehash}{06994d4e1831aae0beba5cbddf728c72}
+      \strng{authornamehash}{06994d4e1831aae0beba5cbddf728c72}
+      \strng{authorfullhash}{06994d4e1831aae0beba5cbddf728c72}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{6}
+      \field{title}{{Ecuador: señas particulares}}
+      \field{year}{2000}
+    \endentry
+    \entry{Ashforth.2003}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f18b86b2536cbc63a2959528af4433e7}{%
+           family={Ashforth},
+           familyi={A\bibinitperiod},
+           given={Blake\bibnamedelima E.},
+           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9fec12eceb7796b8ff9b51789b611587}{%
+           family={Anand},
+           familyi={A\bibinitperiod},
+           given={Vikas},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{80cc54f54e9c1c2d0d75a96884af04a1}
+      \strng{fullhash}{80cc54f54e9c1c2d0d75a96884af04a1}
+      \strng{bibnamehash}{80cc54f54e9c1c2d0d75a96884af04a1}
+      \strng{authorbibnamehash}{80cc54f54e9c1c2d0d75a96884af04a1}
+      \strng{authornamehash}{80cc54f54e9c1c2d0d75a96884af04a1}
+      \strng{authorfullhash}{80cc54f54e9c1c2d0d75a96884af04a1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0191-3085}
+      \field{journaltitle}{{Research in Organizational Behavior}}
+      \field{title}{{The Normalization of Corruption in Organizations}}
+      \field{volume}{25}
+      \field{year}{2003}
+      \field{pages}{1\bibrangedash 52}
+      \range{pages}{52}
+      \verb{doi}
+      \verb \url{10.1016/S0191-3085(03)25001-2}
+      \endverb
+      \verb{urlraw}
+      \verb \url{https://asu.pure.elsevier.com/en/publications/the-normalization-of-corruption-in-organizations}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://asu.pure.elsevier.com/en/publications/the-normalization-of-corruption-in-organizations%7D
+      \endverb
+    \endentry
     \entry{Campbell.2014}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=7b8fb042993072d32f95ea4be45a9bd3}{%
@@ -165,6 +242,35 @@
       \verb %5Curl%7Bhttps://www.primicias.ec/noticias/politica/reparto-hospitales-escandalo-nuevo-actual-asamblea/%7D
       \endverb
     \endentry
+    \entry{Telegrafo.2016}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=82b4ac5c289f73163b4ef747ab0ce63b}{%
+           family={{El Telégrafo}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{82b4ac5c289f73163b4ef747ab0ce63b}
+      \strng{fullhash}{82b4ac5c289f73163b4ef747ab0ce63b}
+      \strng{bibnamehash}{82b4ac5c289f73163b4ef747ab0ce63b}
+      \strng{authorbibnamehash}{82b4ac5c289f73163b4ef747ab0ce63b}
+      \strng{authornamehash}{82b4ac5c289f73163b4ef747ab0ce63b}
+      \strng{authorfullhash}{82b4ac5c289f73163b4ef747ab0ce63b}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{El presidente ecuatoriano, Rafael Correa, pidió el martes en Nueva York una {"}campaña mundial{"} para que se dé a conocer {"}toda la i...}
+      \field{title}{{Presidente Correa pide {"}campaña mundial{"} para revelar {"}toda la información{"} de 'Panama Papers'}}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb \url{https://www.eltelegrafo.com.ec/noticias/economia/8/presidente-correa-pide-campana-mundial-para-revelar-toda-la-informacion-de-panama-papers}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://www.eltelegrafo.com.ec/noticias/economia/8/presidente-correa-pide-campana-mundial-para-revelar-toda-la-informacion-de-panama-papers%7D
+      \endverb
+    \endentry
     \entry{Espinosa.2021}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8a32f76d1696fe35fbf2f8c1f1a48efa}{%
@@ -198,6 +304,84 @@
       \endverb
       \verb{url}
       \verb %5Curl%7Bhttps://www.elcomercio.com/actualidad/seguridad/fiscalia-cargos-exvicepresidenta-maria-alejandra-vicuna.html%7D
+      \endverb
+    \endentry
+    \entry{Hedgecoe.2009}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=be5d78e86c24656cd000a7ce027210ed}{%
+           family={Hedgecoe},
+           familyi={H\bibinitperiod},
+           given={Guy},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{be5d78e86c24656cd000a7ce027210ed}
+      \strng{fullhash}{be5d78e86c24656cd000a7ce027210ed}
+      \strng{bibnamehash}{be5d78e86c24656cd000a7ce027210ed}
+      \strng{authorbibnamehash}{be5d78e86c24656cd000a7ce027210ed}
+      \strng{authornamehash}{be5d78e86c24656cd000a7ce027210ed}
+      \strng{authorfullhash}{be5d78e86c24656cd000a7ce027210ed}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Rafael Correa: an Ecuadorian journey}}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb \url{https://www.opendemocracy.net/en/rafael-correa-an-ecuadorian-journey/}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://www.opendemocracy.net/en/rafael-correa-an-ecuadorian-journey/%7D
+      \endverb
+    \endentry
+    \entry{Holcombe.2015}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=656958e4183deeddf2b4832e2df152d2}{%
+           family={Holcombe},
+           familyi={H\bibinitperiod},
+           given={Randall\bibnamedelima G.},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=517428ee6b9af5d01dbd5c4c941ec005}{%
+           family={Boudreaux},
+           familyi={B\bibinitperiod},
+           given={Christopher\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{818355511789d1f3af6722b2930427ae}
+      \strng{fullhash}{818355511789d1f3af6722b2930427ae}
+      \strng{bibnamehash}{818355511789d1f3af6722b2930427ae}
+      \strng{authorbibnamehash}{818355511789d1f3af6722b2930427ae}
+      \strng{authornamehash}{818355511789d1f3af6722b2930427ae}
+      \strng{authorfullhash}{818355511789d1f3af6722b2930427ae}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Higher levels of government expenditures and more regulation naturally invite corruption, because they provide the opportunity for government officials to be paid off for regulatory favors, subsidies, and government contracts. Some countries have relatively large governments but lower levels of corruption. Scandinavian countries offer examples. While institutional differences may explain some of the cross-country differences in corruption, the most consistent relationship is that high levels of regulation are associated with more corruption. When looking at the effect of the size of government, it is the regulatory state, rather than the productive or redistributive state, that is associated with corruption.}
+      \field{issn}{0048-5829}
+      \field{journaltitle}{{Public Choice}}
+      \field{number}{1-2}
+      \field{title}{{Regulation and corruption}}
+      \field{volume}{164}
+      \field{year}{2015}
+      \field{pages}{75\bibrangedash 85}
+      \range{pages}{11}
+      \verb{doi}
+      \verb \url{10.1007/s11127-015-0263-x}
+      \endverb
+      \verb{urlraw}
+      \verb \url{https://link.springer.com/article/10.1007/s11127-015-0263-x}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://link.springer.com/article/10.1007/s11127-015-0263-x%7D
       \endverb
     \endentry
     \entry{Hurtado.2018}{book}{}
@@ -348,6 +532,205 @@
       \verb %5Curl%7Bhttps://www.nytimes.com/2020/04/07/world/americas/ecuador-correa-corruption-verdict.html%7D
       \endverb
     \endentry
+    \entry{Lupu.2017}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4071099126da38e95b221dcacf2b1e28}{%
+           family={Lupu},
+           familyi={L\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=c4b7b0b8ca69314a943adf74c0061034}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Mollie\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=4071099126da38e95b221dcacf2b1e28}{%
+           family={Lupu},
+           familyi={L\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod}}}%
+        {{hash=1ccea66e355a33f067424cfbd57abbaa}{%
+           family={Zechmeister},
+           familyi={Z\bibinitperiod},
+           given={Elizabeth\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4071099126da38e95b221dcacf2b1e28}
+      \strng{fullhash}{4071099126da38e95b221dcacf2b1e28}
+      \strng{bibnamehash}{4071099126da38e95b221dcacf2b1e28}
+      \strng{authorbibnamehash}{4071099126da38e95b221dcacf2b1e28}
+      \strng{authornamehash}{4071099126da38e95b221dcacf2b1e28}
+      \strng{authorfullhash}{4071099126da38e95b221dcacf2b1e28}
+      \strng{editorbibnamehash}{fce968eb20ab0fb3136584305b17800e}
+      \strng{editornamehash}{492cdb656d8a148c9a0339ff7fbac743}
+      \strng{editorfullhash}{fce968eb20ab0fb3136584305b17800e}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{The Political Culture of Democracy in the Americas, 2016/17: A comparative study of Democracy and Governance}}
+      \field{title}{{Corruption in the Americas}}
+      \field{year}{2017}
+      \field{pages}{49\bibrangedash 67}
+      \range{pages}{19}
+    \endentry
+    \entry{Melendez.2017}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5a0c824a318606a1910bd236447a88d7}{%
+           family={Meléndez},
+           familyi={M\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ebb326b545465bbbe1decea15334b5e8}{%
+           family={Moncagatta},
+           familyi={M\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9a76bfad25c92539b145ac1017f8745f}
+      \strng{fullhash}{9a76bfad25c92539b145ac1017f8745f}
+      \strng{bibnamehash}{9a76bfad25c92539b145ac1017f8745f}
+      \strng{authorbibnamehash}{9a76bfad25c92539b145ac1017f8745f}
+      \strng{authornamehash}{9a76bfad25c92539b145ac1017f8745f}
+      \strng{authorfullhash}{9a76bfad25c92539b145ac1017f8745f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{Revista de ciencia política (Santiago)}}
+      \field{number}{2}
+      \field{title}{{Ecuador: Una década de correísmo}}
+      \field{volume}{37}
+      \field{year}{2017}
+      \field{pages}{413\bibrangedash 448}
+      \range{pages}{36}
+      \verb{doi}
+      \verb \url{10.4067/s0718-090x2017000200413}
+      \endverb
+      \verb{file}
+      \verb Mel{\'e}ndez, Moncagatta 2017 - Ecuador Una d{\'e}cada de corre{\'i}smo:Attachments/Mel{\'e}ndez, Moncagatta 2017 - Ecuador Una d{\'e}cada de corre{\'i}smo.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{Moncagatta.2020b}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ebb326b545465bbbe1decea15334b5e8}{%
+           family={Moncagatta},
+           familyi={M\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b96b149982b3a1f455d7715b210613f5}{%
+           family={Poveda},
+           familyi={P\bibinitperiod},
+           given={Ana\bibnamedelima Emilia},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=ebb326b545465bbbe1decea15334b5e8}{%
+           family={Moncagatta},
+           familyi={M\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=842026be5ed5d1c2ae3ccf32a2076d1a}{%
+           family={Moscoso},
+           familyi={M\bibinitperiod},
+           given={Arturo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ced5d411dcddecda5ec8d04207b4c91b}{%
+           family={Pachano},
+           familyi={P\bibinitperiod},
+           given={Simón},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5c3839d6b854ed654301c4a5c3619c12}{%
+           family={Montalvo},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi Daniel},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=1ccea66e355a33f067424cfbd57abbaa}{%
+           family={Zechmeister},
+           familyi={Z\bibinitperiod},
+           given={Elizabeth\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{88b5bc65e30fec8158ccf7a69e39e830}
+      \strng{fullhash}{88b5bc65e30fec8158ccf7a69e39e830}
+      \strng{bibnamehash}{88b5bc65e30fec8158ccf7a69e39e830}
+      \strng{authorbibnamehash}{88b5bc65e30fec8158ccf7a69e39e830}
+      \strng{authornamehash}{88b5bc65e30fec8158ccf7a69e39e830}
+      \strng{authorfullhash}{88b5bc65e30fec8158ccf7a69e39e830}
+      \strng{editorbibnamehash}{60b18e35a7650bc5189d01dad6204179}
+      \strng{editornamehash}{96e66efae7cd7f97739ad38f8157c821}
+      \strng{editorfullhash}{60b18e35a7650bc5189d01dad6204179}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{The Political Culture of Democracy in Ecuador and in the Americas, 2018/19: Taking the Pulse of Democracy}}
+      \field{title}{{The Politicization of Citizens and Ideological Polarization in Ecuador}}
+      \field{year}{2020}
+      \field{pages}{73\bibrangedash 88}
+      \range{pages}{16}
+    \endentry
+    \entry{Morris.2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7a3ea81d7f286c0e25d9b1d4fab70e2e}{%
+           family={Morris},
+           familyi={M\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Rice University}%
+      }
+      \list{publisher}{1}{%
+        {James A. Baker III Institute for Public Policy of Rice University}%
+      }
+      \strng{namehash}{7a3ea81d7f286c0e25d9b1d4fab70e2e}
+      \strng{fullhash}{7a3ea81d7f286c0e25d9b1d4fab70e2e}
+      \strng{bibnamehash}{7a3ea81d7f286c0e25d9b1d4fab70e2e}
+      \strng{authorbibnamehash}{7a3ea81d7f286c0e25d9b1d4fab70e2e}
+      \strng{authornamehash}{7a3ea81d7f286c0e25d9b1d4fab70e2e}
+      \strng{authorfullhash}{7a3ea81d7f286c0e25d9b1d4fab70e2e}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{``Corruption and Purity.''}
+      \field{title}{{Corruption and Anti-Corruption from the Left and Right in the Americas}}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb \url{10.25613/61ZB-RW45}
+      \endverb
+      \verb{file}
+      \verb Corruption and Anti-Corruption from the Left and Right in the Americas:Attachments/Corruption and Anti-Corruption from the Left and Right in the Americas.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb \url{https://www.bakerinstitute.org/media/files/files/b298016d/bi-brief-072021-usmx-anticorruption.pdf}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://www.bakerinstitute.org/media/files/files/b298016d/bi-brief-072021-usmx-anticorruption.pdf%7D
+      \endverb
+    \endentry
     \entry{Moscoso.2018}{inbook}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=842026be5ed5d1c2ae3ccf32a2076d1a}{%
@@ -410,6 +793,70 @@
       \field{year}{2018}
       \field{pages}{85\bibrangedash 114}
       \range{pages}{30}
+    \endentry
+    \entry{Moscoso.2020}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=842026be5ed5d1c2ae3ccf32a2076d1a}{%
+           family={Moscoso},
+           familyi={M\bibinitperiod},
+           given={Arturo},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ebb326b545465bbbe1decea15334b5e8}{%
+           family={Moncagatta},
+           familyi={M\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=ebb326b545465bbbe1decea15334b5e8}{%
+           family={Moncagatta},
+           familyi={M\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=842026be5ed5d1c2ae3ccf32a2076d1a}{%
+           family={Moscoso},
+           familyi={M\bibinitperiod},
+           given={Arturo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ced5d411dcddecda5ec8d04207b4c91b}{%
+           family={Pachano},
+           familyi={P\bibinitperiod},
+           given={Simón},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5c3839d6b854ed654301c4a5c3619c12}{%
+           family={Montalvo},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi Daniel},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=1ccea66e355a33f067424cfbd57abbaa}{%
+           family={Zechmeister},
+           familyi={Z\bibinitperiod},
+           given={Elizabeth\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d30ee5fd7c1151b1af53de1c496d9e6}
+      \strng{fullhash}{1d30ee5fd7c1151b1af53de1c496d9e6}
+      \strng{bibnamehash}{1d30ee5fd7c1151b1af53de1c496d9e6}
+      \strng{authorbibnamehash}{1d30ee5fd7c1151b1af53de1c496d9e6}
+      \strng{authornamehash}{1d30ee5fd7c1151b1af53de1c496d9e6}
+      \strng{authorfullhash}{1d30ee5fd7c1151b1af53de1c496d9e6}
+      \strng{editorbibnamehash}{60b18e35a7650bc5189d01dad6204179}
+      \strng{editornamehash}{96e66efae7cd7f97739ad38f8157c821}
+      \strng{editorfullhash}{60b18e35a7650bc5189d01dad6204179}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{The Political Culture of Democracy in Ecuador and in the Americas, 2018/19: Taking the Pulse of Democracy}}
+      \field{title}{{Attitudes Towards Corruption in Ecuador}}
+      \field{year}{2020}
+      \field{pages}{113\bibrangedash 123}
+      \range{pages}{11}
     \endentry
     \entry{Ordonez.2021}{misc}{}
       \name{author}{1}{}{%
@@ -476,6 +923,38 @@
       \endverb
       \verb{url}
       \verb %5Curl%7Bhttps://www.elcomercio.com/actualidad/negocios/crisis-2009-2015-son-distintas.html%7D
+      \endverb
+    \endentry
+    \entry{Ortiz.2013}{misc}{}
+      \name{editor}{1}{}{%
+        {{un=0,uniquepart=base,hash=ad746032e38dcfcb59d145968b970a32}{%
+           family={Ortiz},
+           familyi={O\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ad746032e38dcfcb59d145968b970a32}
+      \strng{fullhash}{ad746032e38dcfcb59d145968b970a32}
+      \strng{bibnamehash}{ad746032e38dcfcb59d145968b970a32}
+      \strng{editorbibnamehash}{ad746032e38dcfcb59d145968b970a32}
+      \strng{editornamehash}{ad746032e38dcfcb59d145968b970a32}
+      \strng{editorfullhash}{ad746032e38dcfcb59d145968b970a32}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{abstract}{CIDOB Barcelona Centre for International Affairs}
+      \field{title}{{Rafael Correa Delgado: Biografías de Líderes Políticos}}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb \url{https://www.cidob.org/biografias_lideres_politicos/america_del_sur/ecuador/rafael_correa_delgado}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://www.cidob.org/biografias_lideres_politicos/america_del_sur/ecuador/rafael_correa_delgado%7D
       \endverb
     \endentry
     \entry{Pesantes.9152020}{misc}{}
@@ -589,6 +1068,143 @@
       \verb %5Curl%7Bhttps://www.elcomercio.com/actualidad/politica/desaprueba-gestion-rafaelcorrea-ecuador-cedatos.html%7D
       \endverb
     \endentry
+    \entry{Shleifer.1993}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6aa767648c42f624d2e546059d0890e7}{%
+           family={Shleifer},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef3e4e1365a697f3917be5a73efb6f7a}{%
+           family={Vishny},
+           familyi={V\bibinitperiod},
+           given={R.\bibnamedelimi W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{82b5362a809a2bab663961331a01cc0c}
+      \strng{fullhash}{82b5362a809a2bab663961331a01cc0c}
+      \strng{bibnamehash}{82b5362a809a2bab663961331a01cc0c}
+      \strng{authorbibnamehash}{82b5362a809a2bab663961331a01cc0c}
+      \strng{authornamehash}{82b5362a809a2bab663961331a01cc0c}
+      \strng{authorfullhash}{82b5362a809a2bab663961331a01cc0c}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0033-5533}
+      \field{journaltitle}{{The Quarterly Journal of Economics}}
+      \field{number}{3}
+      \field{title}{{Corruption}}
+      \field{volume}{108}
+      \field{year}{1993}
+      \field{pages}{599\bibrangedash 617}
+      \range{pages}{19}
+      \verb{doi}
+      \verb \url{10.2307/2118402}
+      \endverb
+      \verb{file}
+      \verb corruption QJE:Attachments/corruption QJE.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{Singer.2016}{inbook}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a9ac23180752ef1005ccf7213a33d3fd}{%
+           family={Singer},
+           familyi={S\bibinitperiod},
+           given={Matthew\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=328d544d2e75be6cce207f786c60558e}{%
+           family={Carlin},
+           familyi={C\bibinitperiod},
+           given={Ryan\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=712af9ce79b692046d7ef8909786e170}{%
+           family={Love},
+           familyi={L\bibinitperiod},
+           given={Gregory\bibnamedelima J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=1ccea66e355a33f067424cfbd57abbaa}{%
+           family={Zechmeister},
+           familyi={Z\bibinitperiod},
+           given={Elizabeth\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{6537f507a48f644711aa3fac19ab8774}
+      \strng{fullhash}{4103657cbabd50ed71d864495588239a}
+      \strng{bibnamehash}{4103657cbabd50ed71d864495588239a}
+      \strng{authorbibnamehash}{4103657cbabd50ed71d864495588239a}
+      \strng{authornamehash}{6537f507a48f644711aa3fac19ab8774}
+      \strng{authorfullhash}{4103657cbabd50ed71d864495588239a}
+      \strng{editorbibnamehash}{1ccea66e355a33f067424cfbd57abbaa}
+      \strng{editornamehash}{1ccea66e355a33f067424cfbd57abbaa}
+      \strng{editorfullhash}{1ccea66e355a33f067424cfbd57abbaa}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{The Political Culture of Democracy in the Americas, 2014: Democratic Governance across 10 Years of the AmericasBarometer}}
+      \field{title}{{Corruption in the Americas}}
+      \field{year}{2016}
+      \field{pages}{143\bibrangedash 163}
+      \range{pages}{21}
+    \endentry
+    \entry{Siverson.2014}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5e209a03f3080904d972e6231c9cff5e}{%
+           family={Siverson},
+           familyi={S\bibinitperiod},
+           given={Randolph\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb758988c55c184a863476dd9ebbba7e}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Richard\bibnamedelima A.I.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{14d51b9115b855668d9ac0771bab94cf}
+      \strng{fullhash}{14d51b9115b855668d9ac0771bab94cf}
+      \strng{bibnamehash}{14d51b9115b855668d9ac0771bab94cf}
+      \strng{authorbibnamehash}{14d51b9115b855668d9ac0771bab94cf}
+      \strng{authornamehash}{14d51b9115b855668d9ac0771bab94cf}
+      \strng{authorfullhash}{14d51b9115b855668d9ac0771bab94cf}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We address the consequences of corruption within a state on the extent to which populations have shortened life expectancy due to political corruption. Using three variables to estimate corruption, the results support the expectation that corruption increases average disability shortened life years (DALY). The results persist when estimating the model including measures of deaths from civil war and the number of bordering states experiencing civil war, both previously shown to have an effect on DALY, although these two variables are not statistically significant in our models. While the estimated effects of the corruption variables continue to capture much of the variation in DALY for a global group of nations, they completely fail to explain any variation in Sub-Saharan African states, probably because of the devastating effects of AIDS and malaria in that region. Finally, we discuss why this failure occurs and discuss the implications of our results.}
+      \field{issn}{00208833}
+      \field{journaltitle}{{International Studies Quarterly}}
+      \field{number}{1}
+      \field{title}{{Politics and Parasites: The Contribution of Corruption to Human Misery}}
+      \field{volume}{58}
+      \field{year}{2014}
+      \field{pages}{199\bibrangedash 206}
+      \range{pages}{8}
+      \verb{urlraw}
+      \verb \url{http://www.jstor.org/stable/24017858}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttp://www.jstor.org/stable/24017858%7D
+      \endverb
+    \endentry
     \entry{Taj.2021}{misc}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=61036e637921b02f45e6ba5f597bd643}{%
@@ -628,6 +1244,47 @@
       \verb{url}
       \verb %5Curl%7Bhttps://www.nytimes.com/2021/02/25/world/americas/covid-south-america-vaccine-corruption.html?%7D
       \endverb
+    \endentry
+    \entry{Villavicencio.2019}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=23b485c3ab1c1f3ca80eb475969598fa}{%
+           family={Villavicencio},
+           familyi={V\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab5c0d42b9d54a598f0aec8f7b324b3c}{%
+           family={Zurita},
+           familyi={Z\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=937439e483071433e40ef17f54d185d9}{%
+           family={Christan},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {La Fuente Periodismo de Investigación}%
+      }
+      \list{location}{1}{%
+        {Quito}%
+      }
+      \list{publisher}{1}{%
+        {Editorial La Fuente}%
+      }
+      \strng{namehash}{da0e658e85ff644a6a97d961d594daf4}
+      \strng{fullhash}{538d3662e70dc2c07f932c1af2f6dd3f}
+      \strng{bibnamehash}{538d3662e70dc2c07f932c1af2f6dd3f}
+      \strng{authorbibnamehash}{538d3662e70dc2c07f932c1af2f6dd3f}
+      \strng{authornamehash}{da0e658e85ff644a6a97d961d594daf4}
+      \strng{authorfullhash}{538d3662e70dc2c07f932c1af2f6dd3f}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{title}{{Arroz Verde: La Industria del Soborno}}
+      \field{year}{2019}
     \endentry
     \entry{Weisbrot.2017}{misc}{}
       \name{author}{3}{}{%
