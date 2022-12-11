@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.5)  10 DEC 2022 08:55
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.5)  10 DEC 2022 18:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -998,65 +998,65 @@ LaTeX Warning: Reference `fig:ctoly' on page 2 undefined on input line 196.
 
 File: figure/ctol_graph-1.pdf Graphic file (type pdf)
 <use figure/ctol_graph-1.pdf>
-[2] [3] [4]
+[2] [3] [4] [5]
 File: figure/political_graph-1.pdf Graphic file (type pdf)
 <use figure/political_graph-1.pdf>
 
 
-LaTeX Warning: Hyper reference `app:first' on page 5 undefined on input line 24
-9.
+LaTeX Warning: Hyper reference `app:first' on page 6 undefined on input line 25
+8.
 
 
-Overfull \hbox (12.79999pt too wide) in paragraph at lines 249--250
+Overfull \hbox (12.79999pt too wide) in paragraph at lines 258--259
  [][] 
  []
 
 File: figure/econ_graph-1.pdf Graphic file (type pdf)
 <use figure/econ_graph-1.pdf>
 
-LaTeX Warning: Hyper reference `app:first' on page 5 undefined on input line 27
-5.
+LaTeX Warning: Hyper reference `app:first' on page 6 undefined on input line 28
+4.
 
 
-Overfull \hbox (9.79999pt too wide) in paragraph at lines 275--276
+Overfull \hbox (9.79999pt too wide) in paragraph at lines 284--285
  [] 
  []
 
-[5] [6] [7] [8] [9]
-Overfull \hbox (3.42807pt too wide) in paragraph at lines 351--352
+[6] [7] [8] [9] [10] [11] [12] [13] [14]
+Overfull \hbox (3.42807pt too wide) in paragraph at lines 392--393
 \TU/TimesNewRoman(0)/m/n/12 complex-survey design effects, as suggested by []Ca
 storena ([]2021[]). Since the sample is self-weighted,
  []
 
-[10]
-Overfull \hbox (25.5163pt too wide) in paragraph at lines 375--409
+[15]
+Overfull \hbox (25.5163pt too wide) in paragraph at lines 416--450
 [][] 
  []
 
-[11] [12] [13]
+[16] [17] [18]
 File: figure/difgraph-1.pdf Graphic file (type pdf)
 <use figure/difgraph-1.pdf>
- [14]
+ [19] [20]
 
-LaTeX Warning: Float too large for page by 13.50018pt on input line 543.
+LaTeX Warning: Float too large for page by 13.50018pt on input line 584.
 
-[15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] (./main.aux)
+[21] [22] [23] [24] [25] [26] [27] [28] [29] [30] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CD3E66126F8F7F1EB0CAAFDE13B63B67;624.
+(rerunfilecheck)             Checksum: D326AAF517F8E8FDE763F79F8F3A1BE6;755.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26027 strings out of 476490
- 534415 string characters out of 5818317
- 1423593 words of memory out of 5000000
- 46130 multiletter control sequences out of 15000+600000
+ 26053 strings out of 476490
+ 534925 string characters out of 5818317
+ 1422837 words of memory out of 5000000
+ 46156 multiletter control sequences out of 15000+600000
  407894 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  87i,16n,117p,1695b,5015s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (25 pages).
+Output written on main.pdf (30 pages).

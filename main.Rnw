@@ -147,6 +147,11 @@ source('scripts/baseline_regs.R')
 <<background_child, child = 'background.Rnw'>>=
 @
 
+% Literature Review Child Document
+
+<<litrev_child, child = 'litrev.Rnw'>>=
+@
+
 % Methodology Child Document
 
 <<meth_child, child = 'meth.Rnw'>>=
@@ -166,6 +171,5 @@ source('scripts/baseline_regs.R')
 
 <<conclusion_child, child = 'conclusions.Rnw'>>=
 @
-
 
 \end{document}

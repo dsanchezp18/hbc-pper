@@ -51,6 +51,85 @@
       \field{title}{{Ecuador: señas particulares}}
       \field{year}{2000}
     \endentry
+    \entry{Akerlof.1980}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f198b417f1390a0f8ff279349b43f47d}{%
+           family={Akerlof},
+           familyi={A\bibinitperiod},
+           given={George\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f198b417f1390a0f8ff279349b43f47d}
+      \strng{fullhash}{f198b417f1390a0f8ff279349b43f47d}
+      \strng{bibnamehash}{f198b417f1390a0f8ff279349b43f47d}
+      \strng{authorbibnamehash}{f198b417f1390a0f8ff279349b43f47d}
+      \strng{authornamehash}{f198b417f1390a0f8ff279349b43f47d}
+      \strng{authorfullhash}{f198b417f1390a0f8ff279349b43f47d}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0033-5533}
+      \field{journaltitle}{{The Quarterly Journal of Economics}}
+      \field{number}{4}
+      \field{title}{{A Theory of Social Custom, of Which Unemployment May be One Consequence}}
+      \field{volume}{94}
+      \field{year}{1980}
+      \field{pages}{749}
+      \range{pages}{1}
+      \verb{doi}
+      \verb \url{10.2307/1885667}
+      \endverb
+      \verb{file}
+      \verb Akerlof 1980 - A Theory of Social Custom:Attachments/Akerlof 1980 - A Theory of Social Custom.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{Ariely.2019}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=71ec597571f84eda16f077607686f56b}{%
+           family={Ariely},
+           familyi={A\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=143e243e227b2977c1af1f59f92609ec}{%
+           family={Garcia-Rada},
+           familyi={G\bibinithyphendelim R\bibinitperiod},
+           given={Ximena},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{770b88277e71d37af9e83f6fdee3ea54}
+      \strng{fullhash}{770b88277e71d37af9e83f6fdee3ea54}
+      \strng{bibnamehash}{770b88277e71d37af9e83f6fdee3ea54}
+      \strng{authorbibnamehash}{770b88277e71d37af9e83f6fdee3ea54}
+      \strng{authornamehash}{770b88277e71d37af9e83f6fdee3ea54}
+      \strng{authorfullhash}{770b88277e71d37af9e83f6fdee3ea54}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{Scientific American}}
+      \field{number}{3}
+      \field{title}{{Contagious Dishonesty: Dishonesty begets dishonesty, rapidly spreading unethical behavior through a society}}
+      \field{volume}{321}
+      \field{year}{2019}
+      \field{pages}{63\bibrangedash 66}
+      \range{pages}{4}
+      \verb{urlraw}
+      \verb \url{https://www.scientificamerican.com/article/corruption-is-contagious/}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://www.scientificamerican.com/article/corruption-is-contagious/%7D
+      \endverb
+    \endentry
     \entry{Ashforth.2003}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=f18b86b2536cbc63a2959528af4433e7}{%
@@ -306,6 +385,56 @@
       \verb %5Curl%7Bhttps://www.elcomercio.com/actualidad/seguridad/fiscalia-cargos-exvicepresidenta-maria-alejandra-vicuna.html%7D
       \endverb
     \endentry
+    \entry{Gino.2009}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e97a6f02787e7f21e380a00786dbe93e}{%
+           family={Gino},
+           familyi={G\bibinitperiod},
+           given={Francesca},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca4d834442ca0224946f941cdb08a3c9}{%
+           family={Ayal},
+           familyi={A\bibinitperiod},
+           given={Shahar},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=71ec597571f84eda16f077607686f56b}{%
+           family={Ariely},
+           familyi={A\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6c6eff77303dadd17be6a88cd86a141c}
+      \strng{fullhash}{c0b782d53a4c3ae869e8b52bb450e6b7}
+      \strng{bibnamehash}{c0b782d53a4c3ae869e8b52bb450e6b7}
+      \strng{authorbibnamehash}{c0b782d53a4c3ae869e8b52bb450e6b7}
+      \strng{authornamehash}{6c6eff77303dadd17be6a88cd86a141c}
+      \strng{authorfullhash}{c0b782d53a4c3ae869e8b52bb450e6b7}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{[In a world where encounters with dishonesty are frequent, it is important to know if exposure to other people's unethical behavior can increase or decrease an individual's dishonesty. In Experiment 1, our confederate cheated ostentatiously by finishing a task impossibly quickly and leaving the room with the maximum reward. In line with social-norms theory, participants' level of unethical behavior increased when the confederate was an in-group member, but decreased when the confederate was an out-group member. In Experiment 2, our confederate instead asked a question about cheating, which merely strengthened the saliency of this possibility. This manipulation decreased the level of unethical behavior among the other group members. These results suggest that individuals' unethicality does not depend on the simple calculations of cost-benefit analysis, but rather depends on the social norms implied by the dishonesty of others and also on the saliency of dishonesty.]}
+      \field{issn}{09567976}
+      \field{journaltitle}{{Psychological Science}}
+      \field{number}{3}
+      \field{title}{{Contagion and Differentiation in Unethical Behavior: The Effect of One Bad Apple on the Barrel}}
+      \field{volume}{20}
+      \field{year}{2009}
+      \field{pages}{393\bibrangedash 398}
+      \range{pages}{6}
+      \verb{urlraw}
+      \verb \url{http://www.jstor.org/stable/40575030}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttp://www.jstor.org/stable/40575030%7D
+      \endverb
+    \endentry
     \entry{Hedgecoe.2009}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=be5d78e86c24656cd000a7ce027210ed}{%
@@ -384,6 +513,36 @@
       \verb %5Curl%7Bhttps://link.springer.com/article/10.1007/s11127-015-0263-x%7D
       \endverb
     \endentry
+    \entry{Hurtado.2007}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cbf4340a0ac1c7de200ff125c1147425}{%
+           family={Hurtado},
+           familyi={H\bibinitperiod},
+           given={Osvaldo},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Editorial Planeta del Ecuador, C.A.}%
+      }
+      \strng{namehash}{cbf4340a0ac1c7de200ff125c1147425}
+      \strng{fullhash}{cbf4340a0ac1c7de200ff125c1147425}
+      \strng{bibnamehash}{cbf4340a0ac1c7de200ff125c1147425}
+      \strng{authorbibnamehash}{cbf4340a0ac1c7de200ff125c1147425}
+      \strng{authornamehash}{cbf4340a0ac1c7de200ff125c1147425}
+      \strng{authorfullhash}{cbf4340a0ac1c7de200ff125c1147425}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9789585446298}
+      \field{title}{{Las costumbres de los ecuatorianos}}
+      \field{year}{2007}
+    \endentry
     \entry{Hurtado.2018}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=cbf4340a0ac1c7de200ff125c1147425}{%
@@ -405,6 +564,7 @@
       \strng{authorbibnamehash}{cbf4340a0ac1c7de200ff125c1147425}
       \strng{authornamehash}{cbf4340a0ac1c7de200ff125c1147425}
       \strng{authorfullhash}{cbf4340a0ac1c7de200ff125c1147425}
+      \field{extraname}{2}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -530,6 +690,38 @@
       \endverb
       \verb{url}
       \verb %5Curl%7Bhttps://www.nytimes.com/2020/04/07/world/americas/ecuador-correa-corruption-verdict.html%7D
+      \endverb
+    \endentry
+    \entry{Loaiza.2019}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=416aa1a0bc27c691dda302e535aa9fb9}{%
+           family={Loaiza},
+           familyi={L\bibinitperiod},
+           given={Yalilé},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{416aa1a0bc27c691dda302e535aa9fb9}
+      \strng{fullhash}{416aa1a0bc27c691dda302e535aa9fb9}
+      \strng{bibnamehash}{416aa1a0bc27c691dda302e535aa9fb9}
+      \strng{authorbibnamehash}{416aa1a0bc27c691dda302e535aa9fb9}
+      \strng{authornamehash}{416aa1a0bc27c691dda302e535aa9fb9}
+      \strng{authorfullhash}{416aa1a0bc27c691dda302e535aa9fb9}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Los políticos corruptos en el Ecuador no son sorpresa. Las cifras muestran que los ecuatorianos están de acuerdo con la corrupción a cambio de obras.}
+      \field{title}{{Políticos corruptos en el Ecuador: ?`cuánto aceptamos la corrupción?}}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb \url{https://gk.city/2019/07/27/politicos-corruptos-ecuador/}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://gk.city/2019/07/27/politicos-corruptos-ecuador/%7D
       \endverb
     \endentry
     \entry{Lupu.2017}{inbook}{}
@@ -685,6 +877,52 @@
       \field{year}{2020}
       \field{pages}{73\bibrangedash 88}
       \range{pages}{16}
+    \endentry
+    \entry{Montalvo.2019}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5c3839d6b854ed654301c4a5c3619c12}{%
+           family={Montalvo},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi Daniel},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=1ccea66e355a33f067424cfbd57abbaa}{%
+           family={Zechmeister},
+           familyi={Z\bibinitperiod},
+           given={Elizabeth\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=4071099126da38e95b221dcacf2b1e28}{%
+           family={Lupu},
+           familyi={L\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Nashville, TN}%
+      }
+      \strng{namehash}{5c3839d6b854ed654301c4a5c3619c12}
+      \strng{fullhash}{5c3839d6b854ed654301c4a5c3619c12}
+      \strng{bibnamehash}{5c3839d6b854ed654301c4a5c3619c12}
+      \strng{authorbibnamehash}{5c3839d6b854ed654301c4a5c3619c12}
+      \strng{authornamehash}{5c3839d6b854ed654301c4a5c3619c12}
+      \strng{authorfullhash}{5c3839d6b854ed654301c4a5c3619c12}
+      \strng{editorbibnamehash}{5cfa8616b519ea982b5724479a4cfaf1}
+      \strng{editornamehash}{5cfa8616b519ea982b5724479a4cfaf1}
+      \strng{editorfullhash}{5cfa8616b519ea982b5724479a4cfaf1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{Pulse of Democracy}}
+      \field{title}{{Spotlight on Corruption Tolerance in Ecuador}}
+      \field{year}{2019}
+      \field{pages}{67}
+      \range{pages}{1}
     \endentry
     \entry{Morris.2021}{misc}{}
       \name{author}{1}{}{%
