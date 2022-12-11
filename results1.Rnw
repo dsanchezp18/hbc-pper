@@ -5,7 +5,6 @@ set_parent('main.Rnw') # Set the parent document preamble
 \section{Results}
 \label{sec:results}
 Section \ref{sec:background} identified some key events which happenned at the same time of the corruption tolerance increase. Two economic variables observed at the individual level through the AB significantly changed during this period: the percent of people who report a worse economic situation as well as unemployment. Variables which proxy attitudes in the political landscape have also significantly changed: the percentage of people who confide in the President, the percentage who approve the President's job and also the percentage of people who identify with the political right wing. These variables where used for simple empirical models, which follow the equation below.
-
 \begin{equation}
 \label{eqn:simplemod}
 P(ctol = 1 | \textbf{\textit{X}} \hspace{0.04cm}) = G \left[ \beta_0 + \delta_0 y_{16} + \beta_1 x^* + \delta_1 (y_{16} \cdot x^*)\right]

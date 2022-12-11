@@ -91,7 +91,7 @@
 % Citation & Bibliographies
 
 \usepackage[backend = biber, style = apa, citestyle = apa]{biblatex}
-  \addbibresource{refs.bib}
+  \addbibresource{references.bib}
   
 % For tables:
 
@@ -171,26 +171,24 @@ of the President’s job performance initially justified bribes less, but by 201
 
 % Introduction .Rnw File
 
-
 \section{Introduction}
-\enquote{Even if you are from [my political party], I will fulfill my duties. If you steal, steal well!  Justify well! But do not let your affairs be seen, comrades\footnote{Translated from Cerda, 2021 in \cite[para. 2]{PlanV.2021}}}. Uttered publicly by Rosa Cerda, Ecuadorian congresswoman for the Napo province \parencite{Castro.2021}, these comments met widespread criticism around the country, although the remarks were initially met by cheers from the audience she addressed. However, Cerda's declarations did not transcend an eight day suspension \parencite{Ordonez.2021} and the whole event was soon forgotten by most citizens. 
+\enquote{Even if you are from [my political party], I will fulfill my duties. If you steal, steal well!  Justify well! But do not let your affairs be seen, comrades} \footnote{Translated from Cerda, 2021 in \cite[para. 2]{PlanV.2021}}. Uttered publicly by Rosa Cerda, Ecuadorian congresswoman for the Napo province \parencite{Castro.2021}, these comments met widespread criticism around the country, although the remarks were initially met by cheers from the audience she addressed. However, Cerda's declarations did not transcend an eight day suspension \parencite{Ordonez.2021} and the whole event was soon forgotten by most citizens. 
 
 This episode is only one of many corruption-related scandals that have happened in Ecuador, a middle-income country in South America. The country has seen increased COVID-19 vaccine inequality \parencite{Taj.2021}, weakened public health services \parencite{Celi.2020}, policymakers charging fees for political positions \parencite{Espinosa.2021}, lost Social Security funds \parencite{Pesantes.9152020}, a convicted former president as well as two vice-presidents impeached and removed on charges of corruption \parencite{Cabrera.2020}, among others. However, it is almost as if these no longer cause outrage: at most, they cause a sigh of disappointment or social media outrage which dwindles shortly after.
 
-This apparent ambivalence has seen Ecuador place well above the corruption median in the world according to both Transparency International's and the World Bank's corruption indexes. About 90\% of voting-age Ecuadorians believe that at least half of politicians are corrupt and more than a quarter of them admit having been involved with bribes in 2019, according to the AmericasBarometer (AB) survey, by the Latin American Public Opinion Project (LAPOP). However, a mere 8.08\% consider that corruption is the most serious problem faced by the country and in fact 25.38\% of Ecuadorians believe that paying a bribe is justified. Further, tolerance to corruption has risen 11.79 percentage points from 2014 to 2019. Furthermore, Figure \ref{fig:ctolmap} shows that Ecuador is also one of the countries with the highest corruption tolerance in the region.
+This apparent ambivalence has seen Ecuador place well above the corruption median in the world according to both Transparency International's and the World Bank's corruption indexes. About 90\% of voting-age Ecuadorians believe that at least half of politicians are corrupt and more than a quarter of them admit having been involved with bribes in 2019, according to the AmericasBarometer (AB) survey by the Latin American Public Opinion Project (LAPOP). However, a mere 8.08\% consider that corruption is the most serious problem faced by the country and in fact 25.38\% of Ecuadorians believe that paying a bribe is justified. Further, tolerance to corruption has risen 11.79 percentage points from 2014 to 2019. Furthermore, Figure \ref{fig:ctolmap} shows that Ecuador is also one of the countries with the highest corruption tolerance in the region.
 
 % Corruption Tolerance Choropleth Map based on 2019 values
 
 % Sorry, this map was done with the paid AmericasBarometer databases, so I cannot actually put my source code and have it executed by KNITR. USFQ students are free to access another version of the document, they must only email me. Third parties must wait until I do it with the free databases. Check out hbc-v2 for some more info.
 
-\begin{figure}[htbp]
-  \label{fig:ctolmap}
-      \caption{Corruption Tolerance (\%) Choropleth Map in 2019}
+\begin{figure}[htbp!]
     \begin{center}
     \includegraphics{images/ctol_map.pdf}
     \end{center}
-
-A choropleth map showing corruption tolerance percentages across Latin America in 2019, where Ecuador places third in the most corruption tolerant countries. Darker areas imply higher percentages of corruption tolerance. Figure prepared by the author with data from the \textregistered AmericasBarometer 2018/19. 
+      \label{fig:ctolmap}
+      \caption{Corruption Tolerance (\%) Choropleth Map in 2019}
+A choropleth map showing corruption tolerance percentages across Latin America in 2019, where Ecuador places third in the most corruption tolerant countries. Data from the \textregistered AmericasBarometer 2018/19. 
 \end{figure}
 
 This paper aims to investigate the determinants of the largest corruption tolerance increase in Ecuador, seen from 2014 to 2016, as it can be seen in Figure \ref{fig:ctoly}. This period coincided with two key events in the country. First, the popularity of the governing regime sharply dropped for the first time in a decade \parencite{Quillupangui.2016}. Second, the country faced an economic recession \parencite{Weisbrot.2017}. The present paper will seek to relate  This is done by estimating a binary-outcome model through logistic regression, which relates the probability of tolerating corruption to several individual-level public opinion and economic indicators using the data from the AB. It is determined that changes in presidential job approval as well as in political wing preferences during the 2014 and 2016 period could have influenced the corruption tolerance increase. It is also found that those not unemployed justified corruption more in 2016 relative to those who were unemployed.
@@ -198,8 +196,6 @@ This paper aims to investigate the determinants of the largest corruption tolera
 % Corruption Tolerance Time Series Graph
 
 \begin{figure}[htbp]
-\label{fig:ctoly}
-\caption{Percent of Ecuadorians who justify corruption, by year}
 \begin{knitrout}
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
@@ -209,12 +205,12 @@ This paper aims to investigate the determinants of the largest corruption tolera
 
 
 \end{knitrout}
-
-
-The evolution of corruption tolerance for Ecuador. The largest increase is seen from 2014 to 2016. Error bars show 95\% confidence intervals, considering survey design effects. Figure prepared by the author, with the open-access AB data.
+\caption{Percent of Ecuadorians who justify corruption, by year}
+\label{fig:ctoly}
+The evolution of corruption tolerance for Ecuador. The largest increase is seen from 2014 to 2016. Error bars show 95\% confidence intervals, considering survey design effects.
 \end{figure}
 
-Changes to the attitudes toward corruption can be important for studying corruption incidence. A higher degree of corruption tolerance will eventually lead to larger corruption environments \parencite{Campbell.2014}. Learning what drives corruption tolerance can then foster better policymaking and citizen attitudes which steers individuals away from becoming involved in corruption.
+Changes to the attitudes toward corruption can be important for studying corruption incidence as a higher degree of corruption tolerance will eventually lead to more corruption \parencite{Campbell.2014, Ariely.2019}. Learning what drives corruption tolerance can then foster better policymaking and citizen attitudes which steers individuals away from corruption.
 
 The rest of the paper proceeds as follows. The following section gives an institutional and historical background of the paper's setting, Ecuador. Section 3 reviews the relevant literature. Section 4 develops the empirical methodology. Section 5 reviews the results from the empirical estimation. Section 6 discusses these results, and Section 7 concludes. 
 
@@ -223,27 +219,24 @@ The rest of the paper proceeds as follows. The following section gives an instit
 
 % Context .Rnw File
 
-\section{Institutional and Historical Background}
+\section{Economic and Political Background}
 \label{sec:background}
 
-Ecuador is a small middle income country located in upper South America next to Colombia and Peru. Its GDP for 2022 is projected to be 115.47 billion US dollars, with an expected growth rate of 2.68\% \footnote{Data is from the IMF's World Economic Outlook dataset for October 2022.}
+Ecuador is a middle income country located in upper South America next to Colombia and Peru. Its GDP for 2022 is projected to be 115.47 billion US dollars, with an expected growth rate of 2.68\% \footnote{Data is from the IMF's World Economic Outlook dataset for October 2022.} Its population size notwithstanding, Ecuador is a naturally and ethnically diverse country, yet seems to be anchored to issues that have tormented it since its beginnings as a nation. \textcite{FederalResearchDivision.1991} defined that four key issues have determined the social and economic trajectories of the country: (i) a skewed social structure, (ii) persistent regional rivalries, (iii) a considerable dependence on oil (iv) a lack of strong political institutions (p. xxi). In late 2022, these issues still dominate much of Ecuador's political and social environment. Since the corruption tolerance increase took place during a key period where two of these issues were most apparent, it is important to review these mechanisms in the Ecuadorian context. 
 
-\textcite{Adoum.2000} describes how Ecuadorian citizens tend to surrender to an inefficient political system and to dishonesty: they recognize the system as corrupt but still do not fully condemn it. From this, Adoum suggests that the feeling of impotence within a corrupt system makes average citizens feel that the law is illegitimate and thus break it whenever it suits them without any kind of remorse. This is an interesting application of \textcite{Ashforth.2003} who suggest that dishonest behavior is rationalized by rejecting the legitimacy of authorities or view corruption as revenge for unfair acts. Adoum also confirms the idea that citizens who engage in dishonest behavior do not perceive themselves as corrupt by pointing to how detached the average Ecuadorian feels from the political process. Likely, this makes it easier to engage in \enquote{petty} dishonest acts.
+Ecuador's modern economic history can be traced back to the late 1960's: the finding of petroleum fields in the Ecuadorian Amazon in 1967, as well as its nationalization in the following years \parencite{EmpresaPublicaPetroEcuador.2013}. The economy grew at rates never seen before, which led to important social and economic transformations in Ecuadorian society \textcite{Hurtado.2007, FederalResearchDivision.1991} that undoubtedly still shape Ecuadorian society as it is today. The nationalization of the commodity greatly increased public revenues, which allowed for expansionary fiscal policy and overall growth. Unfortunately, this became a double-edged sword as it increased Ecuador’s dependency in foreign market price fluctuations since fiscal policy became tied to the ability to sell oil at a high price.
 
-\textcite{Hurtado.2007} claims that the Ecuadorian society has been historically prone to dishonest behaviors as a result of low economic development, feudalism in early Ecuadorian settlements, the effect of Spanish hierarchical culture, racism, extreme catholicism, inmoderate collectivism, among others. Hurtado holds that for a long time the Ecuadorian society has functioned with unfair and dishonest social and economic mechanisms, like political clientelism and nepotism for job hirings, disrespect to property rights, non-compliance with social and legal contracts, etc. It is suggested that these practices have hindered social and economic mobility, especially for historically marginalized ethnic groups. This makes dishonest behaviors even more widespread: a self-fulfilling prophecy of dishonest and pervasive behavior. 
+Ecuador has been an underdog in terms of economic growth when compared to most of the other Latin American countries, as its GDP per capita has stagnated whereas comparable nations have seen considerable growth, especially after 1990. An economic crisis in the late 90's led the country to its official dollarization, which reduced further the government's role in managing the economy as monetary policy was no longer a possibility. 
 
-\textcite{Loaiza.2019} provides a recent account of some of the mentioned author's claims. \textcite{Loaiza.2019} cites the Latinobarómetro survey, which finds that 44\% of Ecuadorians \enquote{are willing to accept crimes against the public administration - in other words, corruption- in exchange for basic services, public buildings or roads} (Loaiza, 2019, para. 5). This estimate places Ecuador as the sixth most tolerant country to corruption in Latin America. The survey confirms the findings of the AB, as it concurs in how Ecuadorians do not consider corruption as the most important problem and how it is perceived to be very widespread. The author also suggests a self-interest theory to justifying corruption, as about 11\% believe that it is better to be an accomplice of corruption than to denounce it. 
+The political instability interacted with the dependence on commodity prices to hinder growth. The modern political history of the country starts in 1979, when the population was able to break a decade-long series of dictatorial regimes by electing a new president and a new constitution. However, the return to democracy did not mean a return to instability: between 1979 and 2006, the country had 12 presidents and on average, Ecuador sees major protests against the government every 6 years \parencite{Loaiza.2022}. This constant political instability disallows for the establishment of long-term economic policies that can help fight the unhealthy dependence on commodities.
 
-As pointed out previously, the corruption tolerance increase happened at the same time as other key events. First, AB indicators denote a political crisis, as support for President Rafael Correa's regime took a sharp hit. Second, a recession hit Ecuador due to a commodity price collapse, an earthquake and other circumstances. Below, Figure \ref{fig:ecua_pol} shows several public opinion indicators and Figure \ref{fig:ecua_ec} displays economic conditions, both observed and perceived from 2014 to 2019. 
+In 2006, a left-leaning government was elected, which concentrated power in the executive branch and engaged in significant reform through public spending. This government enjoyed high approval ratings for most of its tenure until 2016, as seen in Figure \ref{fig:ecua_pol}. The key was the leader, rather than the party or its ideals: charismatic academic Rafael Correa, after all, had everything in his favor at that point in time: high oil prices and a country tired of the political instability of the last decade. Correa’s rhetoric was easy to agree with for the average voter. He constantly attacked the political elites, blamed \enquote{traditional} economic and social policy for the downfall of the country and promised reform for those at the bottom at the expense of those at the top. Correa was able to convince the people that it had been the political right who had destroyed the country, an idea that still haunts the actual president, conservative businessman Guillermo Lasso.
+
 % Create the data to be used for the political opinion variables:
 
 % Now do the graph
 \begin{figure}[htbp]
 \centering
-\fbox{
-\begin{minipage}{\textwidth}
-\caption{Ecuadorian public opinion indicators, 2004-2019}
-\label{fig:ecua_pol}
 \begin{knitrout}
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
@@ -253,23 +246,24 @@ As pointed out previously, the corruption tolerance increase happened at the sam
 
 
 \end{knitrout}
-\textbf{Note:} The graph shows time series for political public opinion questions asked in the AB. Percentages are estimated as explained in \hyperref[app:first]{Appendix A} and error bars show 95\% confidence intervals considering design effects. Figure prepared by the author. \end{minipage}
-}
+\caption{Ecuadorian public opinion indicators, 2004-2019}
+\label{fig:ecua_pol}
+Time series for political public opinion questions asked in the AB. Error bars show 95\% design-adjusted confidence intervals.
 \end{figure}
 
-The AB data shows that indeed the President reached an all-time high popularity in 2014 and then a severe drop in 2016. This is seen through the percent of people who approve the President's job performance and the percent who report confidence in him. Another notable change in the political landscape is the way that voting-age population politically identified. There was a strong increase of the people who identified as the \enquote{right}, while those who identified with the \enquote{left} did not see significant changes.
+Figure \ref{fig:ecua_pol} shows that the President reached an all-time high popularity in 2014 and then a severe drop in 2016. This is seen through the percent of people who approve the President's job performance and the percent who report confidence in him. Another notable change in the political landscape of this period is the way that voting-age population identified politically. There was a notable increase of the people who identified as the \enquote{right} of the political wings, while those who identified with the \enquote{left} did not see significant changes. The considerable popularity that the government allowed Correa to vanquish every political opponent he had; during most of his tenure there was no need of any kind of legislative pact to pass policy. The political establishment often criticized this new hyper-presidentialist regime yet the average Ecuadorian voter appeared deaf to these critiques. Institutionality, democratic values, the separation of powers, etc. seemed awfully abstract and far from appealing to a traumatized nation. 
 
-Regarding the economic recession, \textcite{Orozco.2015} holds that although the commodity price collapse in 2008 was greater, there was little reduction in economic activity as the country had greater possibilities of international financing and savings left over from past oil funds, which were used to keep government expenditure high. In 2016, as savings eroded and government debt had grown bigger, the economy stagnated significantly for the first time in the Correa administration. Combined with the lack of competitiveness in exports due to US dollar appreciations and the poor public finance administration \parencite{Hurtado.2018}, the country fell into a deep economic recession. While the official GDP figures may show only a small reduction in GDP growth, \textcite{Hurtado.2018} holds that these figures are overestimated.
+However, as Ecuador entered a severe recession due to plunges in commodities’ prices and a fatal earthquake, the Correa administration was forced to take austerity measures, which were widely unpopular. Figure \ref{fig:ecua_ec} displays economic conditions and perceptions. After a decade of significant reform through public investment, progress seemed to have stopped as decreased public revenues did not allow for the considerable amount of government programs which had helped construct Correa's popularity. A significant amount of corruption accusations appeared against top government officials, which also hurt the president's popularity.
+
+Regarding the economic recession, \textcite{Orozco.2015} holds that although the commodity price collapse in 2008 was greater, there was little reduction in economic activity as the country had greater possibilities of international financing and savings left over from past oil funds, which were used to keep government expenditure high. In 2016, as savings eroded and government debt had grown bigger, the economy stagnated significantly for the first time in the Correa administration. A weakened Correa left Ecuador for Belgium in 2017, after giving up power to his political successor, Lenín Moreno.
+
+Any kind of analysis about that the corruption tolerance increase during the 2014-2016 period must necessarily account for the events that happened at the time, most clearly indicated by figures \ref{ecua_pol} and \ref{fig:ecua_ec}. In the next section, I analyze the related literature to construct a framework that will allow me to use these events as potential determinants for corruption tolerance at the individual level. 
 
 % Here I create my graph, but I need to load some libraries first and create the data needed for my graphs.
 
 % Now I do the graph:
-\begin{figure}[htbp]
+\begin{figure}[htbp!]
 \begin{center}
-\fbox{
-\begin{minipage}{\textwidth}
-\caption{Ecuadorian economic conditions 2004-2019}
-\label{fig:ecua_ec}
 \begin{knitrout}
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
@@ -279,12 +273,11 @@ Regarding the economic recession, \textcite{Orozco.2015} holds that although the
 
 
 \end{knitrout}
-\textbf{Note:} Time series line graphs showing key economic indicators for the country between 2004 and 2019. Real GDP growth and unemployment rates extracted from the World Bank's World Development Indicators. WTI oil barrel prices extracted from FRED. The rest are estimates computed with the open-access AB databases, which include 95\% confidence intervals adjusted for design effects. See \hyperref[app:first]{Appendix A} for details on calculations. Figure prepared by the author. 
-\end{minipage}}
+\caption{Ecuadorian economic conditions 2004-2019}
+\label{fig:ecua_ec}
+Time series line graphs showing key economic indicators for the country (2004-2019). Real GDP growth and unemployment rates extracted from the World Bank's World Development Indicators. WTI oil barrel prices extracted from FRED.
 \end{center}
 \end{figure}
-
-Figure \ref{fig:ecua_pol} shows several indicators of public opinion in the country. The AB data shows that indeed the President reached an all-time high popularity in 2014 and then a severe drop in 2016. This is seen through the percent of people who approve the President's job performance and the percent who report confidence in him. Another notable change in the political landscape of this period is the way that voting-age population identified politically. There was a notable increase of the people who identified as the \enquote{right} of the political wings, while those who identified with the \enquote{left} did not see significant changes.
 
 % Literature Review Child Document
 
@@ -294,9 +287,9 @@ Figure \ref{fig:ecua_pol} shows several indicators of public opinion in the coun
 
 \section{Literature Review}
 
-The literature on corruption mostly focuses on corruption incidence and how it may determine other economic and social outcomes. Lesser attention has been given to the corruption tolerance phenomenon, yet a key finding of this reduced subset of the literature is that the more tolerance and exposure to corrupt acts, the more likely it is that they will spread across individuals. \textcite{Ariely.2019} discuss experimental findings which show that individuals that pay a bribe or are requested to pay one are more likely to behave dishonestly in subsequent ethical dilemmas. Further experimental evidence from \textcite{Gino.2009} also shows that subjects with more exposure to dishonest behaviors are more likely to engage in it. An empirical study of corrupt organizations by \textcite{Campbell.2014} shows that corrupt acts create an organizational culture which fosters the incidence of corruption among its members. The corrupt culture may change the behavior of otherwise honest individuals through social pressure, notably when philosophies which hold that \enquote{the ends justify the means}. These findings suggest that social norms and outer circumstances shape the way in which corruption is interpreted by the members of organizations, which in turn influence how corruption might appear. It becomes key to understand the determinants of corruption tolerance.
+The literature on corruption mostly focuses on corruption incidence and how it may determine other economic and social outcomes. Lesser attention has been given to the corruption tolerance phenomenon, yet a key finding of this reduced subset of the literature is that the more tolerance and exposure to corrupt acts, the more likely it is that these will spread across individuals. \textcite{Ariely.2019} discuss experimental findings which show that individuals that pay a bribe or are requested to pay one are more likely to behave dishonestly in subsequent ethical dilemmas. Further experimental evidence from \textcite{Gino.2009} also shows that subjects with more exposure to dishonest behaviors are more likely to engage in it. An empirical study of corrupt organizations by \textcite{Campbell.2014} shows that corrupt acts create an organizational culture which fosters the incidence of corruption among its members. The corrupt culture may change the behavior of otherwise honest individuals through social pressure, notably when philosophies which hold that \enquote{the ends justify the means}. Specifically for tolerating bribes, \textcite{Carlin.2013} holds that \enquote{bribery has a self-perpetuating mechanism: if the rule of law is so weak that state actors are brazen enough to solicit bribes and self-interested citizens feel justified in paying them, the supply and demand of bribery will converge to form strong social behavioral norms.} (p.6). 
 
-It is adequate to place corruption in a basic framework which will inform the way that people behave around it. I build a framework based on the implications of the microeconomic modelling of corruption and on the organizational behavior of corrupt acts proposed by \textcite{Ashforth.2003}. The framework allows me to determine that corrupt acts can be shaped by economic and social payoffs, where three key mechanisms influence social payoffs, namely, behaviors of rationalization, institutionalization and socialization of corruption. Through this famework, it becomes apparent that any kind of study of corruption tolerance determinants should take into account indicators that can account for both economic and social determinants. 
+It is adequate to place corruption in a basic framework which will inform the empirical modelling, having two key channels in mind: the social and economic payoffs corruption encompasses. I build this framework based on the implications of a  microeconomic model of corruption and on the theory of corruption normalization proposed by \textcite{Ashforth.2003}.
 
 \textcite{Shleifer.1993} model bribes in a way where a public official trades public goods in exchange for bribes. Private agents then pay them to receive the good and the consumer surplus that any transaction brings. This might be understood as an individual economic incentive to engage in corrupt acts: paying the bribe allows the use of a desirable public good, or allows for quicker access to it. Thus, economic convenience could be an important determinant of how people behave around corruption: people may tolerate dishonesty if it means a positive economic payoff. 
 
@@ -398,7 +391,6 @@ Average partial effects tables are shown for all models. I use survey-weighting 
 \section{Results}
 \label{sec:results}
 Section \ref{sec:background} identified some key events which happenned at the same time of the corruption tolerance increase. Two economic variables observed at the individual level through the AB significantly changed during this period: the percent of people who report a worse economic situation as well as unemployment. Variables which proxy attitudes in the political landscape have also significantly changed: the percentage of people who confide in the President, the percentage who approve the President's job and also the percentage of people who identify with the political right wing. These variables where used for simple empirical models, which follow the equation below.
-
 \begin{equation}
 \label{eqn:simplemod}
 P(ctol = 1 | \textbf{\textit{X}} \hspace{0.04cm}) = G \left[ \beta_0 + \delta_0 y_{16} + \beta_1 x^* + \delta_1 (y_{16} \cdot x^*)\right]

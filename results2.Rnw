@@ -15,7 +15,7 @@ source('scripts/modified_regs.R')
 \begin{center}
 \caption{Logit coefficients for modified models}
 \label{tab:complexmod}
-<<modified-regs-coefs, include = T, warning = F, message = F, results = 'asis'>>=
+<<modified-regs-coefs, include = T, warning = F, message = F, results = 'asis', cache = T>>=
 # Coefficient names
 
 coefficient_names_m<-c('(Intercept)' = 'Constant',
@@ -61,7 +61,7 @@ Logit coefficients of the modified models as described by Equation \ref{eqn:genm
 \begin{center}
 \caption{Average partial effects for models in Table \ref{tab:complexmod}}
 \label{tab:apescomp}
-<<modified_apes,include = T, warning = F, results = 'asis', message = F, cache = F>>=
+<<modified_apes,include = T, warning = F, results = 'asis', message = F, cache = T>>=
 # Coefficient Mapping
 
 coefficient_names_apes_c<-c('gndrWoman' = 'Woman',
@@ -101,7 +101,7 @@ A control for years of education is also added and it is significant, communicat
 Exposure to corrupt acts (paying or being asked to pay a bribe) is also strongly correlated with tolerance. A person who has been exposed to some form of bribing is about 15\% more likely to justify corruption. The causality directon is not clear as it might be possible that a predisposed tolerance to corruption due to external factors makes citizens more likely to be in environments where corruption flourishes. This may suggest that younger people justify corruption partly because they are more exposed by it: empirical models not shown explicitly here show that an interaction term between age and corruption exposure is significant at the the 90\% confidence level. Corruption perceptions, on the other hand, play no role in determining corruption tolerance for this time period. 
 
 % Now the regressions which were not shown explicitly in text
-<<reg-age-correxp, message = F, warning = F, cache = F>>=
+<<reg-age-correxp, message = F, warning = F, cache = T>>=
 
 # Add the age-correxp variable
 
@@ -121,7 +121,7 @@ Most importantly, Table \ref{tab:complexmod} shows that after considering severa
 
 It is possible that those initially unemployed justified corruption more because it was their \enquote{steady state} of corruption tolerance: unemployed people are economically disadvantaged which gives them incentives to engage in corrupt actions which can yield positive economic payoffs. Additionally, as they are unable to enter the job market, they might feel alienated from society, which might decrease social or moral incentives to remain honest by renouncing the economic payoffs that corruption may offer. The change in corruption tolerance for 2016 is more difficult to understand. It is possible that, since the recession, many have lost jobs and have had relatively short unemployment spells. The recently unemployed may not feel too alienated from society and thus have not adopted an attitude of pragmatism toward the current circumstances. Savings or family income may support the recently unemployed which makes them feel less desperate and prone to take the \enquote{moral high ground}. This all contributes to them still feeling part of society, which reduces their rationalization of corruption. However, with larger unemployment spells, desperation may trigger more pragmatic points of view, which will lead to higher corruption tolerance in the future.
 
-To better understand the implications of the political variables' coefficients and their change in time, consider a key effect on corruption normalization, leadership. Having initially branded himself as \enquote{the biblical underdog} \parencite[para. 4]{Hedgecoe.2009}, President Correa distanced himself from the country's political elite and constantly denounced corruption and injustice in the system. The new government promised a radical change in 2007 and did deliver in a way as it gave Ecuador a politically stable though totalitarian environment, as well as other changes in political and economical mechanisms \parencite{Weisbrot.2017}. The President had explicitly stated that he would battle corruption and fiscal evasion \enquote{to the death} \parencite{Ortiz.2013}. Therefore, supporters of the regime faced higher social sanctions when justifying corrupt behavior, as this may have implied that the economic and political model they supported was flawed.
+To better understand the implications of the political variables' coefficients and their change in time, consider a key effect on corruption normalization, leadership.  The President had explicitly stated that he would battle corruption and fiscal evasion \enquote{to the death} \parencite{Ortiz.2013}. Therefore, supporters of the regime faced higher social sanctions when justifying corrupt behavior, as this may have implied that the economic and political model they supported was flawed.
 
 However, by 2016 the popularity of the government saw a sharp decrease. Several narratives started to be constructed by President Correa and his officials to explain the flaws and weaknesses that opponents had denounced. These included reducing corruption accusations to \enquote{political persecution} or unfounded claims done because of upcoming elections \parencite{Melendez.2017}. A statement by the President represents a particularly relevant example: a regime-affiliated newspaper portrayed how Correa qualifies the Panama Papers as a \textit{selective fight against corruption} which is nothing but another kind of corruption, as well as a \enquote{strategy by power groups to destabilize democratically-elect governments} \parencite[para. 5-7]{Telegrafo.2016}. 
 

@@ -19,6 +19,48 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
+    \entry{Ariely.2019}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=71ec597571f84eda16f077607686f56b}{%
+           family={Ariely},
+           familyi={A\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=143e243e227b2977c1af1f59f92609ec}{%
+           family={Garcia-Rada},
+           familyi={G\bibinithyphendelim R\bibinitperiod},
+           given={Ximena},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{770b88277e71d37af9e83f6fdee3ea54}
+      \strng{fullhash}{770b88277e71d37af9e83f6fdee3ea54}
+      \strng{bibnamehash}{770b88277e71d37af9e83f6fdee3ea54}
+      \strng{authorbibnamehash}{770b88277e71d37af9e83f6fdee3ea54}
+      \strng{authornamehash}{770b88277e71d37af9e83f6fdee3ea54}
+      \strng{authorfullhash}{770b88277e71d37af9e83f6fdee3ea54}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{Scientific American}}
+      \field{number}{3}
+      \field{title}{{Contagious Dishonesty: Dishonesty begets dishonesty, rapidly spreading unethical behavior through a society}}
+      \field{volume}{321}
+      \field{year}{2019}
+      \field{pages}{63\bibrangedash 66}
+      \range{pages}{4}
+      \verb{urlraw}
+      \verb \url{https://www.scientificamerican.com/article/corruption-is-contagious/}
+      \endverb
+      \verb{url}
+      \verb %5Curl%7Bhttps://www.scientificamerican.com/article/corruption-is-contagious/%7D
+      \endverb
+    \endentry
     \entry{Campbell.2014}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=7b8fb042993072d32f95ea4be45a9bd3}{%

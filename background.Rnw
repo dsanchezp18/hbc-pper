@@ -2,18 +2,23 @@
 <<parent_toback, include = F>>=
 set_parent('main.Rnw') # Set the parent document preamble
 @
-\section{Institutional and Historical Background}
+\section{Economic and Political Background}
 \label{sec:background}
 
-Ecuador is a small middle income country located in upper South America next to Colombia and Peru. Its GDP for 2022 is projected to be 115.47 billion US dollars, with an expected growth rate of 2.68\% \footnote{Data is from the IMF's World Economic Outlook dataset for October 2022.}
+Ecuador is a middle income country located in upper South America next to Colombia and Peru. Its GDP for 2022 is projected to be 115.47 billion US dollars, with an expected growth rate of 2.68\% \footnote{Data is from the IMF's World Economic Outlook dataset for October 2022.} Its population size notwithstanding, Ecuador is a naturally and ethnically diverse country, yet seems to be anchored to issues that have tormented it since its beginnings as a nation. \textcite{FederalResearchDivision.1991} defined that four key issues have determined the social and economic trajectories of the country: (i) a skewed social structure, (ii) persistent regional rivalries, (iii) a considerable dependence on oil (iv) a lack of strong political institutions (p. xxi). In late 2022, these issues still dominate much of Ecuador's political and social environment. Since the corruption tolerance increase took place during a key period where two of these issues were most apparent, it is important to review these mechanisms in the Ecuadorian context. 
 
-\textcite{Adoum.2000} describes how Ecuadorian citizens tend to surrender to an inefficient political system and to dishonesty: they recognize the system as corrupt but still do not fully condemn it. From this, Adoum suggests that the feeling of impotence within a corrupt system makes average citizens feel that the law is illegitimate and thus break it whenever it suits them without any kind of remorse. This is an interesting application of \textcite{Ashforth.2003} who suggest that dishonest behavior is rationalized by rejecting the legitimacy of authorities or view corruption as revenge for unfair acts. Adoum also confirms the idea that citizens who engage in dishonest behavior do not perceive themselves as corrupt by pointing to how detached the average Ecuadorian feels from the political process. Likely, this makes it easier to engage in \enquote{petty} dishonest acts.
+Ecuador's modern economic history can be traced back to the late 1960's: the finding of petroleum fields in the Ecuadorian Amazon in 1967, as well as its nationalization in the following years \parencite{EmpresaPublicaPetroEcuador.2013}. The economy grew at rates never seen before, which led to important social and economic transformations in Ecuadorian society \textcite{Hurtado.2007, FederalResearchDivision.1991} that undoubtedly still shape Ecuadorian society as it is today. The nationalization of the commodity greatly increased public revenues, which allowed for expansionary fiscal policy and overall growth. Unfortunately, this became a double-edged sword as it increased Ecuador’s dependency in foreign market price fluctuations since fiscal policy became tied to the ability to sell oil at a high price.
 
-\textcite{Hurtado.2007} claims that the Ecuadorian society has been historically prone to dishonest behaviors as a result of low economic development, feudalism in early Ecuadorian settlements, the effect of Spanish hierarchical culture, racism, extreme catholicism, inmoderate collectivism, among others. Hurtado holds that for a long time the Ecuadorian society has functioned with unfair and dishonest social and economic mechanisms, like political clientelism and nepotism for job hirings, disrespect to property rights, non-compliance with social and legal contracts, etc. It is suggested that these practices have hindered social and economic mobility, especially for historically marginalized ethnic groups. This makes dishonest behaviors even more widespread: a self-fulfilling prophecy of dishonest and pervasive behavior. 
+Ecuador has been an underdog in terms of economic growth when compared to most of the other Latin American countries, as its GDP per capita has stagnated whereas comparable nations have seen considerable growth, especially after 1990. An economic crisis in the late 90's led the country to its official dollarization, which reduced further the government's role in managing the economy as monetary policy was no longer a possibility. 
 
-\textcite{Loaiza.2019} provides a recent account of some of the mentioned author's claims. \textcite{Loaiza.2019} cites the Latinobarómetro survey, which finds that 44\% of Ecuadorians \enquote{are willing to accept crimes against the public administration - in other words, corruption- in exchange for basic services, public buildings or roads} (Loaiza, 2019, para. 5). This estimate places Ecuador as the sixth most tolerant country to corruption in Latin America. The survey confirms the findings of the AB, as it concurs in how Ecuadorians do not consider corruption as the most important problem and how it is perceived to be very widespread. The author also suggests a self-interest theory to justifying corruption, as about 11\% believe that it is better to be an accomplice of corruption than to denounce it. 
+The political instability interacted with the dependence on commodity prices to hinder growth. The modern political history of the country starts in 1979, when the population was able to break a decade-long series of dictatorial regimes by electing a new president and a new constitution. However, the return to democracy did not mean a return to instability: between 1979 and 2006, the country had 12 presidents and on average, Ecuador sees major protests against the government every 6 years \parencite{Loaiza.2022}. This constant political instability disallows for the establishment of long-term economic policies that can help fight the unhealthy dependence on commodities.
 
-As pointed out previously, the corruption tolerance increase happened at the same time as other key events. First, AB indicators denote a political crisis, as support for President Rafael Correa's regime took a sharp hit. Second, a recession hit Ecuador due to a commodity price collapse, an earthquake and other circumstances. Below, Figure \ref{fig:ecua_pol} shows several public opinion indicators and Figure \ref{fig:ecua_ec} displays economic conditions, both observed and perceived from 2014 to 2019. 
+In 2006, a left-leaning government was elected, which concentrated power in the executive branch and engaged in significant reform through public spending. This government enjoyed high approval ratings for most of its tenure until 2016, as seen in Figure \ref{fig:ecua_pol}. The key was the leader, rather than the party or its ideals:  branding himself as \enquote{the biblical underdog} \parencite[para. 4]{Hedgecoe.2009}, the academic Rafael Correa distanced himself from the country's political elite and constantly denounced corruption and injustice in the system. The new government promised a radical change in 2007 and did deliver in a way as it gave Ecuador a politically stable though totalitarian environment, as well as other changes in political and economic mechanisms \parencite{Weisbrot.2017}. 
+
+Figure \ref{fig:ecua_pol} shows that the President reached an all-time high popularity in 2014 and then a severe drop in 2016. This is seen through the percent of people who approve the President's job performance and the percent who report confidence in him. Another notable change in the political landscape of this period is the way that voting-age population identified politically. There was a notable increase of the people who identified as the \enquote{right} of the political wings, while those who identified with the \enquote{left} did not see significant changes. The considerable popularity that the government allowed Correa to vanquish every political opponent he had; during most of his tenure there was no need of any kind of legislative pact to pass policy.
+
+The political establishment often criticized this new hyper-presidentialist regime yet the average Ecuadorian voter appeared deaf to these critiques. Institutionality, democratic values, the separation of powers, etc. seemed awfully abstract and far from appealing to a traumatized nation. The new government was able to convince the people that it had been the political right who had destroyed the country, an idea that has haunted the actual president, conservative businessman Guillermo Lasso, since the beginning of his term in 2021.
+
 % Create the data to be used for the political opinion variables:
 <<political-graph-data, cache = T>>=
 
@@ -67,10 +72,6 @@ rownames(political_graph_df)<-NULL
 % Now do the graph
 \begin{figure}[htbp]
 \centering
-\fbox{
-\begin{minipage}{\textwidth}
-\caption{Ecuadorian public opinion indicators, 2004-2019}
-\label{fig:ecua_pol}
 <<political_graph, fig.align='center', include = T, echo = F, fig.width = 10, cache = T>>=
 pol_graph<-ggplot(political_graph_df,
                   aes(x = year, y = perc, color = legend, group = legend))+
@@ -110,13 +111,16 @@ pol_graph<-ggplot(political_graph_df,
                         legend.background = element_blank())
 pol_graph
 @
-\textbf{Note:} The graph shows time series for political public opinion questions asked in the AB. Percentages are estimated as explained in \hyperref[app:first]{Appendix A} and error bars show 95\% confidence intervals considering design effects. Figure prepared by the author. \end{minipage}
-}
+\caption{Ecuadorian public opinion indicators, 2004-2019}
+\label{fig:ecua_pol}
+Time series for political public opinion questions asked in the AB. Error bars show 95\% design-adjusted confidence intervals.
 \end{figure}
 
-The AB data shows that indeed the President reached an all-time high popularity in 2014 and then a severe drop in 2016. This is seen through the percent of people who approve the President's job performance and the percent who report confidence in him. Another notable change in the political landscape is the way that voting-age population politically identified. There was a strong increase of the people who identified as the \enquote{right}, while those who identified with the \enquote{left} did not see significant changes.
+However, as Ecuador entered a severe recession due to plunges in commodities’ prices and a fatal earthquake, the Correa administration was forced to take austerity measures, which were widely unpopular. Figure \ref{fig:ecua_ec} displays economic conditions and perceptions. After a decade of significant reform through public investment, progress seemed to have stopped as decreased public revenues did not allow for the considerable amount of government programs which had helped construct Correa's popularity. A significant amount of corruption accusations appeared against top government officials, which also hurt the president's popularity.
 
-Regarding the economic recession, \textcite{Orozco.2015} holds that although the commodity price collapse in 2008 was greater, there was little reduction in economic activity as the country had greater possibilities of international financing and savings left over from past oil funds, which were used to keep government expenditure high. In 2016, as savings eroded and government debt had grown bigger, the economy stagnated significantly for the first time in the Correa administration. Combined with the lack of competitiveness in exports due to US dollar appreciations and the poor public finance administration \parencite{Hurtado.2018}, the country fell into a deep economic recession. While the official GDP figures may show only a small reduction in GDP growth, \textcite{Hurtado.2018} holds that these figures are overestimated.
+Regarding the economic recession, \textcite{Orozco.2015} holds that although the commodity price collapse in 2008 was greater, there was little reduction in economic activity as the country had greater possibilities of international financing and savings left over from past oil funds, which were used to keep government expenditure high. In 2016, as savings eroded and government debt had grown bigger, the economy stagnated significantly for the first time in the Correa administration. A weakened Correa left Ecuador for Belgium in 2017, after giving up power to his political successor, Lenín Moreno, who later turned his back on Correa.
+
+Any kind of analysis about that the corruption tolerance increase during the 2014-2016 period must necessarily account for the events that happened at the time, most clearly indicated by figures \ref{ecua_pol} and \ref{fig:ecua_ec}. In the next section, I analyze the related literature to construct a framework that will allow me to use these events as potential determinants for corruption tolerance at the individual level. 
 
 % Here I create my graph, but I need to load some libraries first and create the data needed for my graphs.
 <<load-libraries-data-results, cache = T>>=
@@ -236,12 +240,8 @@ rownames(econ_lapop)<-c() # Delete the row names, as they are redundant with the
 
 @
 % Now I do the graph:
-\begin{figure}[htbp]
+\begin{figure}[htbp!]
 \begin{center}
-\fbox{
-\begin{minipage}{\textwidth}
-\caption{Ecuadorian economic conditions 2004-2019}
-\label{fig:ecua_ec}
 <<econ_graph, fig.align='center', include = T, echo = F, fig.width = 10, fig.height= 10, cache = T>>=
 econ_graph<-ggplot(econ_graph_df,
                    aes(x = year, y = growth, color = legend, group = legend))+
@@ -314,9 +314,8 @@ econ_graph + oil_graph + ecsit_graph +
               heights = c(4,4,4))
 
 @
-\textbf{Note:} Time series line graphs showing key economic indicators for the country between 2004 and 2019. Real GDP growth and unemployment rates extracted from the World Bank's World Development Indicators. WTI oil barrel prices extracted from FRED. The rest are estimates computed with the open-access AB databases, which include 95\% confidence intervals adjusted for design effects. See \hyperref[app:first]{Appendix A} for details on calculations. Figure prepared by the author. 
-\end{minipage}}
+\caption{Ecuadorian economic conditions 2004-2019}
+\label{fig:ecua_ec}
+Time series line graphs showing key economic indicators for the country (2004-2019). Real GDP growth and unemployment rates extracted from the World Bank's World Development Indicators. WTI oil barrel prices extracted from FRED.
 \end{center}
 \end{figure}
-
-Figure \ref{fig:ecua_pol} shows several indicators of public opinion in the country. The AB data shows that indeed the President reached an all-time high popularity in 2014 and then a severe drop in 2016. This is seen through the percent of people who approve the President's job performance and the percent who report confidence in him. Another notable change in the political landscape of this period is the way that voting-age population identified politically. There was a notable increase of the people who identified as the \enquote{right} of the political wings, while those who identified with the \enquote{left} did not see significant changes.

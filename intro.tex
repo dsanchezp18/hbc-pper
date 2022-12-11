@@ -145,32 +145,32 @@
 % These are used on the text later.
 
 
+% Run the first models
+
 
 
 
 \begin{document}
 % Introduction .Rnw File
 
-
 \section{Introduction}
-\enquote{Even if you are from [my political party], I will fulfill my duties. If you steal, steal well!  Justify well! But do not let your affairs be seen, comrades\footnote{Translated from Cerda, 2021 in \cite[para. 2]{PlanV.2021}}}. Uttered publicly by Rosa Cerda, Ecuadorian congresswoman for the Napo province \parencite{Castro.2021}, these comments met widespread criticism around the country, although the remarks were initially met by cheers from the audience she addressed. However, Cerda's declarations did not transcend an eight day suspension \parencite{Ordonez.2021} and the whole event was soon forgotten by most citizens. 
+\enquote{Even if you are from [my political party], I will fulfill my duties. If you steal, steal well!  Justify well! But do not let your affairs be seen, comrades} \footnote{Translated from Cerda, 2021 in \cite[para. 2]{PlanV.2021}}. Uttered publicly by Rosa Cerda, Ecuadorian congresswoman for the Napo province \parencite{Castro.2021}, these comments met widespread criticism around the country, although the remarks were initially met by cheers from the audience she addressed. However, Cerda's declarations did not transcend an eight day suspension \parencite{Ordonez.2021} and the whole event was soon forgotten by most citizens. 
 
 This episode is only one of many corruption-related scandals that have happened in Ecuador, a middle-income country in South America. The country has seen increased COVID-19 vaccine inequality \parencite{Taj.2021}, weakened public health services \parencite{Celi.2020}, policymakers charging fees for political positions \parencite{Espinosa.2021}, lost Social Security funds \parencite{Pesantes.9152020}, a convicted former president as well as two vice-presidents impeached and removed on charges of corruption \parencite{Cabrera.2020}, among others. However, it is almost as if these no longer cause outrage: at most, they cause a sigh of disappointment or social media outrage which dwindles shortly after.
 
-This apparent ambivalence has seen Ecuador place well above the corruption median in the world according to both Transparency International's and the World Bank's corruption indexes. About 90\% of voting-age Ecuadorians believe that at least half of politicians are corrupt and more than a quarter of them admit having been involved with bribes in 2019, according to the AmericasBarometer (AB) survey, by the Latin American Public Opinion Project (LAPOP). However, a mere 8.08\% consider that corruption is the most serious problem faced by the country and in fact 25.38\% of Ecuadorians believe that paying a bribe is justified. Further, tolerance to corruption has risen 11.79 percentage points from 2014 to 2019. Furthermore, Figure \ref{fig:ctolmap} shows that Ecuador is also one of the countries with the highest corruption tolerance in the region.
+This apparent ambivalence has seen Ecuador place well above the corruption median in the world according to both Transparency International's and the World Bank's corruption indexes. About 90\% of voting-age Ecuadorians believe that at least half of politicians are corrupt and more than a quarter of them admit having been involved with bribes in 2019, according to the AmericasBarometer (AB) survey by the Latin American Public Opinion Project (LAPOP). However, a mere 8.08\% consider that corruption is the most serious problem faced by the country and in fact 25.38\% of Ecuadorians believe that paying a bribe is justified. Further, tolerance to corruption has risen 11.79 percentage points from 2014 to 2019. Furthermore, Figure \ref{fig:ctolmap} shows that Ecuador is also one of the countries with the highest corruption tolerance in the region.
 
 % Corruption Tolerance Choropleth Map based on 2019 values
 
 % Sorry, this map was done with the paid AmericasBarometer databases, so I cannot actually put my source code and have it executed by KNITR. USFQ students are free to access another version of the document, they must only email me. Third parties must wait until I do it with the free databases. Check out hbc-v2 for some more info.
 
-\begin{figure}[htbp]
-  \label{fig:ctolmap}
-      \caption{Corruption Tolerance (\%) Choropleth Map in 2019}
+\begin{figure}[htbp!]
     \begin{center}
     \includegraphics{images/ctol_map.pdf}
     \end{center}
-
-A choropleth map showing corruption tolerance percentages across Latin America in 2019, where Ecuador places third in the most corruption tolerant countries. Darker areas imply higher percentages of corruption tolerance. Figure prepared by the author with data from the \textregistered AmericasBarometer 2018/19. 
+      \label{fig:ctolmap}
+      \caption{Corruption Tolerance (\%) Choropleth Map in 2019}
+A choropleth map showing corruption tolerance percentages across Latin America in 2019, where Ecuador places third in the most corruption tolerant countries. Data from the \textregistered AmericasBarometer 2018/19. 
 \end{figure}
 
 This paper aims to investigate the determinants of the largest corruption tolerance increase in Ecuador, seen from 2014 to 2016, as it can be seen in Figure \ref{fig:ctoly}. This period coincided with two key events in the country. First, the popularity of the governing regime sharply dropped for the first time in a decade \parencite{Quillupangui.2016}. Second, the country faced an economic recession \parencite{Weisbrot.2017}. The present paper will seek to relate  This is done by estimating a binary-outcome model through logistic regression, which relates the probability of tolerating corruption to several individual-level public opinion and economic indicators using the data from the AB. It is determined that changes in presidential job approval as well as in political wing preferences during the 2014 and 2016 period could have influenced the corruption tolerance increase. It is also found that those not unemployed justified corruption more in 2016 relative to those who were unemployed.
@@ -179,7 +179,6 @@ This paper aims to investigate the determinants of the largest corruption tolera
 
 \begin{figure}[htbp]
 \label{fig:ctoly}
-\caption{Percent of Ecuadorians who justify corruption, by year}
 \begin{knitrout}
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
@@ -189,12 +188,11 @@ This paper aims to investigate the determinants of the largest corruption tolera
 
 
 \end{knitrout}
-
-
-The evolution of corruption tolerance for Ecuador. The largest increase is seen from 2014 to 2016. Error bars show 95\% confidence intervals, considering survey design effects. Figure prepared by the author, with the open-access AB data.
+\caption{Percent of Ecuadorians who justify corruption, by year}
+The evolution of corruption tolerance for Ecuador. The largest increase is seen from 2014 to 2016. Error bars show 95\% confidence intervals, considering survey design effects.
 \end{figure}
 
-Changes to the attitudes toward corruption can be important for studying corruption incidence. A higher degree of corruption tolerance will eventually lead to larger corruption environments \parencite{Campbell.2014}. Learning what drives corruption tolerance can then foster better policymaking and citizen attitudes which steers individuals away from becoming involved in corruption.
+Changes to the attitudes toward corruption can be important for studying corruption incidence as a higher degree of corruption tolerance will eventually lead to more corruption \parencite{Campbell.2014, Ariely.2019}. Learning what drives corruption tolerance can then foster better policymaking and citizen attitudes which steers individuals away from corruption.
 
 The rest of the paper proceeds as follows. The following section gives an institutional and historical background of the paper's setting, Ecuador. Section 3 reviews the relevant literature. Section 4 develops the empirical methodology. Section 5 reviews the results from the empirical estimation. Section 6 discusses these results, and Section 7 concludes. 
 \end{document}

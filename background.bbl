@@ -19,27 +19,111 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
-    \entry{Hurtado.2018}{book}{}
+    \entry{EmpresaPublicaPetroEcuador.2013}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=cbf4340a0ac1c7de200ff125c1147425}{%
-           family={Hurtado},
+        {{un=0,uniquepart=base,hash=e31afc0602933cda6a21b82e39fda4e2}{%
+           family={{Empresa Pública PetroEcuador}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=7a861a4ff626fe5a5d8bd30821e407d8}{%
+           family={Torres},
+           familyi={T\bibinitperiod},
+           given={Ercilia},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Empresa Pública PetroEcuador}%
+      }
+      \list{location}{1}{%
+        {Quito}%
+      }
+      \strng{namehash}{e31afc0602933cda6a21b82e39fda4e2}
+      \strng{fullhash}{e31afc0602933cda6a21b82e39fda4e2}
+      \strng{bibnamehash}{e31afc0602933cda6a21b82e39fda4e2}
+      \strng{authorbibnamehash}{e31afc0602933cda6a21b82e39fda4e2}
+      \strng{authornamehash}{e31afc0602933cda6a21b82e39fda4e2}
+      \strng{authorfullhash}{e31afc0602933cda6a21b82e39fda4e2}
+      \strng{editorbibnamehash}{7a861a4ff626fe5a5d8bd30821e407d8}
+      \strng{editornamehash}{7a861a4ff626fe5a5d8bd30821e407d8}
+      \strng{editorfullhash}{7a861a4ff626fe5a5d8bd30821e407d8}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{title}{{El petróleo en el Ecuador: la nueva era petrolera}}
+      \field{urlday}{12}
+      \field{urlmonth}{10}
+      \field{urlyear}{2021}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.eppetroecuador.ec/wp-content/uploads/downloads/2015/03/El-Petr%C3%B3leo-en-el-Ecuador-La-Nueva-Era.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.eppetroecuador.ec/wp-content/uploads/downloads/2015/03/El-Petr%C3%B3leo-en-el-Ecuador-La-Nueva-Era.pdf
+      \endverb
+    \endentry
+    \entry{FederalResearchDivision.1991}{book}{}
+      \name{editor}{1}{}{%
+        {{un=0,uniquepart=base,hash=f5cc7e87215efe71dbebc7b921985033}{%
+           family={Hanratty},
            familyi={H\bibinitperiod},
-           given={Osvaldo},
-           giveni={O\bibinitperiod},
+           given={Dennis\bibnamedelima Michael},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
            givenun=0}}%
       }
       \list{location}{1}{%
-        {Bogotá}%
+        {Library of Congress}%
       }
-      \list{publisher}{1}{%
-        {Penguin Random House Grupo Editorial, S.A.S.}%
+      \strng{namehash}{f5cc7e87215efe71dbebc7b921985033}
+      \strng{fullhash}{f5cc7e87215efe71dbebc7b921985033}
+      \strng{bibnamehash}{f5cc7e87215efe71dbebc7b921985033}
+      \strng{editorbibnamehash}{f5cc7e87215efe71dbebc7b921985033}
+      \strng{editornamehash}{f5cc7e87215efe71dbebc7b921985033}
+      \strng{editorfullhash}{f5cc7e87215efe71dbebc7b921985033}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{series}{{Area Handbook Series}}
+      \field{title}{{Ecuador : a country study}}
+      \field{urlday}{28}
+      \field{urlmonth}{9}
+      \field{urlyear}{2021}
+      \field{year}{1991}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.loc.gov/item/91009494/
+      \endverb
+      \verb{url}
+      \verb https://www.loc.gov/item/91009494/
+      \endverb
+    \endentry
+    \entry{Hedgecoe.2009}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=be5d78e86c24656cd000a7ce027210ed}{%
+           family={Hedgecoe},
+           familyi={H\bibinitperiod},
+           given={Guy},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{cbf4340a0ac1c7de200ff125c1147425}
-      \strng{fullhash}{cbf4340a0ac1c7de200ff125c1147425}
-      \strng{bibnamehash}{cbf4340a0ac1c7de200ff125c1147425}
-      \strng{authorbibnamehash}{cbf4340a0ac1c7de200ff125c1147425}
-      \strng{authornamehash}{cbf4340a0ac1c7de200ff125c1147425}
-      \strng{authorfullhash}{cbf4340a0ac1c7de200ff125c1147425}
+      \strng{namehash}{be5d78e86c24656cd000a7ce027210ed}
+      \strng{fullhash}{be5d78e86c24656cd000a7ce027210ed}
+      \strng{bibnamehash}{be5d78e86c24656cd000a7ce027210ed}
+      \strng{authorbibnamehash}{be5d78e86c24656cd000a7ce027210ed}
+      \strng{authornamehash}{be5d78e86c24656cd000a7ce027210ed}
+      \strng{authorfullhash}{be5d78e86c24656cd000a7ce027210ed}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -47,43 +131,77 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{2}
-      \field{title}{{Ecuador entre dos siglos}}
-      \field{year}{2018}
+      \field{title}{{Rafael Correa: an Ecuadorian journey}}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.opendemocracy.net/en/rafael-correa-an-ecuadorian-journey/
+      \endverb
+      \verb{url}
+      \verb https://www.opendemocracy.net/en/rafael-correa-an-ecuadorian-journey/
+      \endverb
     \endentry
-    \entry{Orozco.2015}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=46cd620b2ab47987368cfb89f8779500}{%
-           family={Orozco},
-           familyi={O\bibinitperiod},
-           given={Mónica},
+    \entry{Weisbrot.2017}{misc}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f4c9d2a9b3424e5c7109437697b771b0}{%
+           family={Weisbrot},
+           familyi={W\bibinitperiod},
+           given={Mark},
            giveni={M\bibinitperiod},
            givenun=0}}%
+        {{un=0,uniquepart=base,hash=c5c3d84213fbd6ce0725bbc622be59d1}{%
+           family={Johnston},
+           familyi={J\bibinitperiod},
+           given={Jake},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=acc5e4fc88586cf63938e6ee944fd075}{%
+           family={Merling},
+           familyi={M\bibinitperiod},
+           given={Lara},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{46cd620b2ab47987368cfb89f8779500}
-      \strng{fullhash}{46cd620b2ab47987368cfb89f8779500}
-      \strng{bibnamehash}{46cd620b2ab47987368cfb89f8779500}
-      \strng{authorbibnamehash}{46cd620b2ab47987368cfb89f8779500}
-      \strng{authornamehash}{46cd620b2ab47987368cfb89f8779500}
-      \strng{authorfullhash}{46cd620b2ab47987368cfb89f8779500}
-      \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \list{institution}{1}{%
+        {Center for Economic and Policy Research}%
+      }
+      \list{location}{1}{%
+        {Washington DC}%
+      }
+      \strng{namehash}{7a89a0a10bbf4c3e58bb1e36062f7a9f}
+      \strng{fullhash}{2341ef7974c213d44de28fde351bfc45}
+      \strng{bibnamehash}{2341ef7974c213d44de28fde351bfc45}
+      \strng{authorbibnamehash}{2341ef7974c213d44de28fde351bfc45}
+      \strng{authornamehash}{7a89a0a10bbf4c3e58bb1e36062f7a9f}
+      \strng{authorfullhash}{2341ef7974c213d44de28fde351bfc45}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{A diferencia de la crisis que vivió el país en el 2009, el Gobierno deberá enfrentar un 2015 sin ahorros y con escenario externo más complejo.}
-      \field{title}{{Las crisis del 2009 y 2015 son distintas}}
-      \field{year}{2015}
+      \field{title}{{Decade of Reform: Ecuador's Macroeconomic Policies, Institutional Changes, and Results}}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2021}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
-      \verb \url{https://www.elcomercio.com/actualidad/negocios/crisis-2009-2015-son-distintas.html}
+      \verb https://cepr.net/images/stories/reports/ecuador-2017-02.pdf
       \endverb
       \verb{url}
-      \verb %5Curl%7Bhttps://www.elcomercio.com/actualidad/negocios/crisis-2009-2015-son-distintas.html%7D
+      \verb https://cepr.net/images/stories/reports/ecuador-2017-02.pdf
       \endverb
     \endentry
   \enddatalist
+  \missing{Hurtado.2007}
+  \missing{Loaiza.2022}
+  \missing{Orozco.2015}
 \endrefsection
 \endinput
 
