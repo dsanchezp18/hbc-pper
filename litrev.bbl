@@ -1,0 +1,656 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{Akerlof.1980}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f198b417f1390a0f8ff279349b43f47d}{%
+           family={Akerlof},
+           familyi={A\bibinitperiod},
+           given={George\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f198b417f1390a0f8ff279349b43f47d}
+      \strng{fullhash}{f198b417f1390a0f8ff279349b43f47d}
+      \strng{bibnamehash}{f198b417f1390a0f8ff279349b43f47d}
+      \strng{authorbibnamehash}{f198b417f1390a0f8ff279349b43f47d}
+      \strng{authornamehash}{f198b417f1390a0f8ff279349b43f47d}
+      \strng{authorfullhash}{f198b417f1390a0f8ff279349b43f47d}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0033-5533}
+      \field{journaltitle}{{The Quarterly Journal of Economics}}
+      \field{number}{4}
+      \field{title}{{A Theory of Social Custom, of Which Unemployment May be One Consequence}}
+      \field{urlday}{1}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{volume}{94}
+      \field{year}{1980}
+      \field{urldateera}{ce}
+      \field{pages}{749}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/1885667
+      \endverb
+      \verb{file}
+      \verb Akerlof 1980 - A Theory of Social Custom:Attachments/Akerlof 1980 - A Theory of Social Custom.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{Ariely.2019}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=71ec597571f84eda16f077607686f56b}{%
+           family={Ariely},
+           familyi={A\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=143e243e227b2977c1af1f59f92609ec}{%
+           family={Garcia-Rada},
+           familyi={G\bibinithyphendelim R\bibinitperiod},
+           given={Ximena},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{770b88277e71d37af9e83f6fdee3ea54}
+      \strng{fullhash}{770b88277e71d37af9e83f6fdee3ea54}
+      \strng{bibnamehash}{770b88277e71d37af9e83f6fdee3ea54}
+      \strng{authorbibnamehash}{770b88277e71d37af9e83f6fdee3ea54}
+      \strng{authornamehash}{770b88277e71d37af9e83f6fdee3ea54}
+      \strng{authorfullhash}{770b88277e71d37af9e83f6fdee3ea54}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{Scientific American}}
+      \field{number}{3}
+      \field{title}{{Contagious Dishonesty: Dishonesty begets dishonesty, rapidly spreading unethical behavior through a society}}
+      \field{urlday}{7}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{volume}{321}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{63\bibrangedash 66}
+      \range{pages}{4}
+      \verb{urlraw}
+      \verb https://www.scientificamerican.com/article/corruption-is-contagious/
+      \endverb
+      \verb{url}
+      \verb https://www.scientificamerican.com/article/corruption-is-contagious/
+      \endverb
+    \endentry
+    \entry{Ashforth.2003}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f18b86b2536cbc63a2959528af4433e7}{%
+           family={Ashforth},
+           familyi={A\bibinitperiod},
+           given={Blake\bibnamedelima E.},
+           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9fec12eceb7796b8ff9b51789b611587}{%
+           family={Anand},
+           familyi={A\bibinitperiod},
+           given={Vikas},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{80cc54f54e9c1c2d0d75a96884af04a1}
+      \strng{fullhash}{80cc54f54e9c1c2d0d75a96884af04a1}
+      \strng{bibnamehash}{80cc54f54e9c1c2d0d75a96884af04a1}
+      \strng{authorbibnamehash}{80cc54f54e9c1c2d0d75a96884af04a1}
+      \strng{authornamehash}{80cc54f54e9c1c2d0d75a96884af04a1}
+      \strng{authorfullhash}{80cc54f54e9c1c2d0d75a96884af04a1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0191-3085}
+      \field{journaltitle}{{Research in Organizational Behavior}}
+      \field{title}{{The Normalization of Corruption in Organizations}}
+      \field{urlday}{7}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{volume}{25}
+      \field{year}{2003}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 52}
+      \range{pages}{52}
+      \verb{doi}
+      \verb 10.1016/S0191-3085(03)25001-2
+      \endverb
+      \verb{urlraw}
+      \verb https://asu.pure.elsevier.com/en/publications/the-normalization-of-corruption-in-organizations
+      \endverb
+      \verb{url}
+      \verb https://asu.pure.elsevier.com/en/publications/the-normalization-of-corruption-in-organizations
+      \endverb
+    \endentry
+    \entry{Campbell.2014}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7b8fb042993072d32f95ea4be45a9bd3}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={Jamie-Lee},
+           giveni={J\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ebe65c95f76974badfe15a261426783f}{%
+           family={Göritz},
+           familyi={G\bibinitperiod},
+           given={Anja\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{897403c46ff8a0b492218f29da82d889}
+      \strng{fullhash}{897403c46ff8a0b492218f29da82d889}
+      \strng{bibnamehash}{897403c46ff8a0b492218f29da82d889}
+      \strng{authorbibnamehash}{897403c46ff8a0b492218f29da82d889}
+      \strng{authornamehash}{897403c46ff8a0b492218f29da82d889}
+      \strng{authorfullhash}{897403c46ff8a0b492218f29da82d889}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{[Although theory refers to organizational culture as an important variable in corrupt organizations, only little empirical research has addressed the characteristics of a corrupt organizational culture. Besides some characteristics that go hand in hand with unethical behavior and other features of corrupt organizations, we are still not able to describe a corrupt organizational culture in terms of its underlying assumptions, values, and norms. With a qualitative approach, we studied similarities of organizational culture across different corrupt organizations. In this study, we performed content analysis on interviews of 14 independent experts about their experience with corrupt organizations. With this approach, we gained insights about different corrupt organizations spanning different branches (e.g., government, foreign trade, pharmacy, sports, building industry). We found that corrupt organizations perceive themselves to fight in a war, which leads to their taken-for-granted assumption that {"}the end justifies the means{"}. This assumption inspires many values and norms of the organizational culture. An important value in a corrupt organization is {"}security{"}, and an important norm is punishment of deviant (i.e., non-corrupt) behavior. Furthermore, managers and employees differ in their perception of organizational culture. While the management endorses values, such as success, results, and performance, and implements these values in their norms of goal setting, employees make use of rationalization strategies and endorse values of security and team spirit.]}
+      \field{issn}{01674544}
+      \field{journaltitle}{{Journal of Business Ethics}}
+      \field{number}{3}
+      \field{title}{{Culture Corrupts! A Qualitative Study of Organizational Culture in Corrupt Organizations}}
+      \field{urlday}{8}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{volume}{120}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{291\bibrangedash 311}
+      \range{pages}{21}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/42921339
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/42921339
+      \endverb
+    \endentry
+    \entry{Carlin.2013}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=328d544d2e75be6cce207f786c60558e}{%
+           family={Carlin},
+           familyi={C\bibinitperiod},
+           given={Ryan\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=5acc462144df39cba662fc90f00ee721}{%
+           family={Hiskey},
+           familyi={H\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=925f7ea0dacec1f5c15f75e4954c3141}{%
+           family={Seligson},
+           familyi={S\bibinitperiod},
+           given={Mitchell\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1ccea66e355a33f067424cfbd57abbaa}{%
+           family={Zechmeister},
+           familyi={Z\bibinitperiod},
+           given={Elizabeth\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {LAPOP}%
+      }
+      \strng{namehash}{328d544d2e75be6cce207f786c60558e}
+      \strng{fullhash}{328d544d2e75be6cce207f786c60558e}
+      \strng{bibnamehash}{328d544d2e75be6cce207f786c60558e}
+      \strng{authorbibnamehash}{328d544d2e75be6cce207f786c60558e}
+      \strng{authornamehash}{328d544d2e75be6cce207f786c60558e}
+      \strng{authorfullhash}{328d544d2e75be6cce207f786c60558e}
+      \strng{editorbibnamehash}{05936e5f404502b5dc26306d0f01d8e9}
+      \strng{editornamehash}{0239f3334b9aca23d14a82e3af3c7bdc}
+      \strng{editorfullhash}{05936e5f404502b5dc26306d0f01d8e9}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Violations of the Rule of Law Fuel Tolerance of Bribery in the Americas: Americas Barometer Insights No. 88}}
+      \field{urlday}{9}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.vanderbilt.edu/lapop/insights/IO888en.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.vanderbilt.edu/lapop/insights/IO888en.pdf
+      \endverb
+    \endentry
+    \entry{Gino.2009}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e97a6f02787e7f21e380a00786dbe93e}{%
+           family={Gino},
+           familyi={G\bibinitperiod},
+           given={Francesca},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca4d834442ca0224946f941cdb08a3c9}{%
+           family={Ayal},
+           familyi={A\bibinitperiod},
+           given={Shahar},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=71ec597571f84eda16f077607686f56b}{%
+           family={Ariely},
+           familyi={A\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6c6eff77303dadd17be6a88cd86a141c}
+      \strng{fullhash}{c0b782d53a4c3ae869e8b52bb450e6b7}
+      \strng{bibnamehash}{c0b782d53a4c3ae869e8b52bb450e6b7}
+      \strng{authorbibnamehash}{c0b782d53a4c3ae869e8b52bb450e6b7}
+      \strng{authornamehash}{6c6eff77303dadd17be6a88cd86a141c}
+      \strng{authorfullhash}{c0b782d53a4c3ae869e8b52bb450e6b7}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{[In a world where encounters with dishonesty are frequent, it is important to know if exposure to other people's unethical behavior can increase or decrease an individual's dishonesty. In Experiment 1, our confederate cheated ostentatiously by finishing a task impossibly quickly and leaving the room with the maximum reward. In line with social-norms theory, participants' level of unethical behavior increased when the confederate was an in-group member, but decreased when the confederate was an out-group member. In Experiment 2, our confederate instead asked a question about cheating, which merely strengthened the saliency of this possibility. This manipulation decreased the level of unethical behavior among the other group members. These results suggest that individuals' unethicality does not depend on the simple calculations of cost-benefit analysis, but rather depends on the social norms implied by the dishonesty of others and also on the saliency of dishonesty.]}
+      \field{issn}{09567976}
+      \field{journaltitle}{{Psychological Science}}
+      \field{number}{3}
+      \field{title}{{Contagion and Differentiation in Unethical Behavior: The Effect of One Bad Apple on the Barrel}}
+      \field{volume}{20}
+      \field{year}{2009}
+      \field{pages}{393\bibrangedash 398}
+      \range{pages}{6}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/40575030
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/40575030
+      \endverb
+    \endentry
+    \entry{Lupu.2017}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4071099126da38e95b221dcacf2b1e28}{%
+           family={Lupu},
+           familyi={L\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=c4b7b0b8ca69314a943adf74c0061034}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Mollie\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=4071099126da38e95b221dcacf2b1e28}{%
+           family={Lupu},
+           familyi={L\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod}}}%
+        {{hash=1ccea66e355a33f067424cfbd57abbaa}{%
+           family={Zechmeister},
+           familyi={Z\bibinitperiod},
+           given={Elizabeth\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4071099126da38e95b221dcacf2b1e28}
+      \strng{fullhash}{4071099126da38e95b221dcacf2b1e28}
+      \strng{bibnamehash}{4071099126da38e95b221dcacf2b1e28}
+      \strng{authorbibnamehash}{4071099126da38e95b221dcacf2b1e28}
+      \strng{authornamehash}{4071099126da38e95b221dcacf2b1e28}
+      \strng{authorfullhash}{4071099126da38e95b221dcacf2b1e28}
+      \strng{editorbibnamehash}{fce968eb20ab0fb3136584305b17800e}
+      \strng{editornamehash}{492cdb656d8a148c9a0339ff7fbac743}
+      \strng{editorfullhash}{fce968eb20ab0fb3136584305b17800e}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{The Political Culture of Democracy in the Americas, 2016/17: A comparative study of Democracy and Governance}}
+      \field{title}{{Corruption in the Americas}}
+      \field{urlday}{18}
+      \field{urlmonth}{10}
+      \field{urlyear}{2021}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{49\bibrangedash 67}
+      \range{pages}{19}
+    \endentry
+    \entry{Montalvo.2019}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5c3839d6b854ed654301c4a5c3619c12}{%
+           family={Montalvo},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi Daniel},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=1ccea66e355a33f067424cfbd57abbaa}{%
+           family={Zechmeister},
+           familyi={Z\bibinitperiod},
+           given={Elizabeth\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=4071099126da38e95b221dcacf2b1e28}{%
+           family={Lupu},
+           familyi={L\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Nashville, TN}%
+      }
+      \strng{namehash}{5c3839d6b854ed654301c4a5c3619c12}
+      \strng{fullhash}{5c3839d6b854ed654301c4a5c3619c12}
+      \strng{bibnamehash}{5c3839d6b854ed654301c4a5c3619c12}
+      \strng{authorbibnamehash}{5c3839d6b854ed654301c4a5c3619c12}
+      \strng{authornamehash}{5c3839d6b854ed654301c4a5c3619c12}
+      \strng{authorfullhash}{5c3839d6b854ed654301c4a5c3619c12}
+      \strng{editorbibnamehash}{5cfa8616b519ea982b5724479a4cfaf1}
+      \strng{editornamehash}{5cfa8616b519ea982b5724479a4cfaf1}
+      \strng{editorfullhash}{5cfa8616b519ea982b5724479a4cfaf1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{Pulse of Democracy}}
+      \field{title}{{Spotlight on Corruption Tolerance in Ecuador}}
+      \field{urlday}{12}
+      \field{urlmonth}{10}
+      \field{urlyear}{2021}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{67}
+      \range{pages}{1}
+    \endentry
+    \entry{Moscoso.2018}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=842026be5ed5d1c2ae3ccf32a2076d1a}{%
+           family={Moscoso},
+           familyi={M\bibinitperiod},
+           given={Arturo},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{6}{}{%
+        {{hash=ce6f1845e1b8967d20b953635dce0e35}{%
+           family={Donoso},
+           familyi={D\bibinitperiod},
+           given={Juan\bibnamedelima Carlos},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=ebb326b545465bbbe1decea15334b5e8}{%
+           family={Moncagatta},
+           familyi={M\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=842026be5ed5d1c2ae3ccf32a2076d1a}{%
+           family={Moscoso},
+           familyi={M\bibinitperiod},
+           given={Arturo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ced5d411dcddecda5ec8d04207b4c91b}{%
+           family={Pachano},
+           familyi={P\bibinitperiod},
+           given={Simón},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5c3839d6b854ed654301c4a5c3619c12}{%
+           family={Montalvo},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi Daniel},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=1ccea66e355a33f067424cfbd57abbaa}{%
+           family={Zechmeister},
+           familyi={Z\bibinitperiod},
+           given={Elizabeth\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{842026be5ed5d1c2ae3ccf32a2076d1a}
+      \strng{fullhash}{842026be5ed5d1c2ae3ccf32a2076d1a}
+      \strng{bibnamehash}{842026be5ed5d1c2ae3ccf32a2076d1a}
+      \strng{authorbibnamehash}{842026be5ed5d1c2ae3ccf32a2076d1a}
+      \strng{authornamehash}{842026be5ed5d1c2ae3ccf32a2076d1a}
+      \strng{authorfullhash}{842026be5ed5d1c2ae3ccf32a2076d1a}
+      \strng{editorbibnamehash}{21a2f04b71be6fbab3eb102e71b2d4b0}
+      \strng{editornamehash}{906f69974259946a3671cdbd74b025c9}
+      \strng{editorfullhash}{21a2f04b71be6fbab3eb102e71b2d4b0}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{Cultura política de la democracia en Ecuador y en las Américas, 2016/17: Un estudio comparado sobre democracia y gobernabilidad}}
+      \field{title}{{Corrupción y democracia en el Ecuador: Efectos de la corrupción en la opinión pública sobre la democracia, el apoyo al sistema y la tolerancia política}}
+      \field{urlday}{18}
+      \field{urlmonth}{10}
+      \field{urlyear}{2021}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \field{pages}{85\bibrangedash 114}
+      \range{pages}{30}
+    \endentry
+    \entry{Moscoso.2020}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=842026be5ed5d1c2ae3ccf32a2076d1a}{%
+           family={Moscoso},
+           familyi={M\bibinitperiod},
+           given={Arturo},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ebb326b545465bbbe1decea15334b5e8}{%
+           family={Moncagatta},
+           familyi={M\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=ebb326b545465bbbe1decea15334b5e8}{%
+           family={Moncagatta},
+           familyi={M\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=842026be5ed5d1c2ae3ccf32a2076d1a}{%
+           family={Moscoso},
+           familyi={M\bibinitperiod},
+           given={Arturo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ced5d411dcddecda5ec8d04207b4c91b}{%
+           family={Pachano},
+           familyi={P\bibinitperiod},
+           given={Simón},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5c3839d6b854ed654301c4a5c3619c12}{%
+           family={Montalvo},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi Daniel},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=1ccea66e355a33f067424cfbd57abbaa}{%
+           family={Zechmeister},
+           familyi={Z\bibinitperiod},
+           given={Elizabeth\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d30ee5fd7c1151b1af53de1c496d9e6}
+      \strng{fullhash}{1d30ee5fd7c1151b1af53de1c496d9e6}
+      \strng{bibnamehash}{1d30ee5fd7c1151b1af53de1c496d9e6}
+      \strng{authorbibnamehash}{1d30ee5fd7c1151b1af53de1c496d9e6}
+      \strng{authornamehash}{1d30ee5fd7c1151b1af53de1c496d9e6}
+      \strng{authorfullhash}{1d30ee5fd7c1151b1af53de1c496d9e6}
+      \strng{editorbibnamehash}{60b18e35a7650bc5189d01dad6204179}
+      \strng{editornamehash}{96e66efae7cd7f97739ad38f8157c821}
+      \strng{editorfullhash}{60b18e35a7650bc5189d01dad6204179}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{The Political Culture of Democracy in Ecuador and in the Americas, 2018/19: Taking the Pulse of Democracy}}
+      \field{title}{{Attitudes Towards Corruption in Ecuador}}
+      \field{urlday}{12}
+      \field{urlmonth}{10}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{113\bibrangedash 123}
+      \range{pages}{11}
+    \endentry
+    \entry{Shleifer.1993}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6aa767648c42f624d2e546059d0890e7}{%
+           family={Shleifer},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef3e4e1365a697f3917be5a73efb6f7a}{%
+           family={Vishny},
+           familyi={V\bibinitperiod},
+           given={R.\bibnamedelimi W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{82b5362a809a2bab663961331a01cc0c}
+      \strng{fullhash}{82b5362a809a2bab663961331a01cc0c}
+      \strng{bibnamehash}{82b5362a809a2bab663961331a01cc0c}
+      \strng{authorbibnamehash}{82b5362a809a2bab663961331a01cc0c}
+      \strng{authornamehash}{82b5362a809a2bab663961331a01cc0c}
+      \strng{authorfullhash}{82b5362a809a2bab663961331a01cc0c}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0033-5533}
+      \field{journaltitle}{{The Quarterly Journal of Economics}}
+      \field{number}{3}
+      \field{title}{{Corruption}}
+      \field{urlday}{19}
+      \field{urlmonth}{10}
+      \field{urlyear}{2021}
+      \field{volume}{108}
+      \field{year}{1993}
+      \field{urldateera}{ce}
+      \field{pages}{599\bibrangedash 617}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.2307/2118402
+      \endverb
+      \verb{file}
+      \verb corruption QJE:Attachments/corruption QJE.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{Singer.2016}{inbook}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a9ac23180752ef1005ccf7213a33d3fd}{%
+           family={Singer},
+           familyi={S\bibinitperiod},
+           given={Matthew\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=328d544d2e75be6cce207f786c60558e}{%
+           family={Carlin},
+           familyi={C\bibinitperiod},
+           given={Ryan\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=712af9ce79b692046d7ef8909786e170}{%
+           family={Love},
+           familyi={L\bibinitperiod},
+           given={Gregory\bibnamedelima J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=1ccea66e355a33f067424cfbd57abbaa}{%
+           family={Zechmeister},
+           familyi={Z\bibinitperiod},
+           given={Elizabeth\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{6537f507a48f644711aa3fac19ab8774}
+      \strng{fullhash}{4103657cbabd50ed71d864495588239a}
+      \strng{bibnamehash}{4103657cbabd50ed71d864495588239a}
+      \strng{authorbibnamehash}{4103657cbabd50ed71d864495588239a}
+      \strng{authornamehash}{6537f507a48f644711aa3fac19ab8774}
+      \strng{authorfullhash}{4103657cbabd50ed71d864495588239a}
+      \strng{editorbibnamehash}{1ccea66e355a33f067424cfbd57abbaa}
+      \strng{editornamehash}{1ccea66e355a33f067424cfbd57abbaa}
+      \strng{editorfullhash}{1ccea66e355a33f067424cfbd57abbaa}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{The Political Culture of Democracy in the Americas, 2014: Democratic Governance across 10 Years of the AmericasBarometer}}
+      \field{title}{{Corruption in the Americas}}
+      \field{urlday}{9}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{143\bibrangedash 163}
+      \range{pages}{21}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

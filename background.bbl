@@ -144,6 +144,207 @@
       \verb https://www.opendemocracy.net/en/rafael-correa-an-ecuadorian-journey/
       \endverb
     \endentry
+    \entry{Hurtado.2007}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e4e921cca20d6db75da95b76ef1f6162}{%
+           family={Hurtado},
+           familyi={H\bibinitperiod},
+           given={Oswaldo},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Quito}%
+      }
+      \list{publisher}{1}{%
+        {Editorial Planeta del Ecuador, C.A.}%
+      }
+      \strng{namehash}{e4e921cca20d6db75da95b76ef1f6162}
+      \strng{fullhash}{e4e921cca20d6db75da95b76ef1f6162}
+      \strng{bibnamehash}{e4e921cca20d6db75da95b76ef1f6162}
+      \strng{authorbibnamehash}{e4e921cca20d6db75da95b76ef1f6162}
+      \strng{authornamehash}{e4e921cca20d6db75da95b76ef1f6162}
+      \strng{authorfullhash}{e4e921cca20d6db75da95b76ef1f6162}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9789585446304}
+      \field{title}{{Las costumbres de los ecuatorianos}}
+      \field{urlday}{12}
+      \field{urlmonth}{10}
+      \field{urlyear}{2021}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+    \endentry
+    \entry{Loaiza.2022}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=416aa1a0bc27c691dda302e535aa9fb9}{%
+           family={Loaiza},
+           familyi={L\bibinitperiod},
+           given={Yalilé},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{416aa1a0bc27c691dda302e535aa9fb9}
+      \strng{fullhash}{416aa1a0bc27c691dda302e535aa9fb9}
+      \strng{bibnamehash}{416aa1a0bc27c691dda302e535aa9fb9}
+      \strng{authorbibnamehash}{416aa1a0bc27c691dda302e535aa9fb9}
+      \strng{authornamehash}{416aa1a0bc27c691dda302e535aa9fb9}
+      \strng{authorfullhash}{416aa1a0bc27c691dda302e535aa9fb9}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Desde su independencia, el país se acostumbró a vivir con una enorme inestabilidad política que ahora padece el presidente Guillermo Lasso}
+      \field{journaltitle}{infobae}
+      \field{title}{{Un golpe cada 6 años: la trágica historia de derrocamientos y convulsión social del Ecuador}}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2022}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.infobae.com/america/historia-america/2022/06/25/un-golpe-cada-6-anos-la-tragica-historia-de-derrocamientos-y-convulsion-social-del-ecuador/
+      \endverb
+      \verb{url}
+      \verb https://www.infobae.com/america/historia-america/2022/06/25/un-golpe-cada-6-anos-la-tragica-historia-de-derrocamientos-y-convulsion-social-del-ecuador/
+      \endverb
+    \endentry
+    \entry{Melendez.2017}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5a0c824a318606a1910bd236447a88d7}{%
+           family={Meléndez},
+           familyi={M\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ebb326b545465bbbe1decea15334b5e8}{%
+           family={Moncagatta},
+           familyi={M\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9a76bfad25c92539b145ac1017f8745f}
+      \strng{fullhash}{9a76bfad25c92539b145ac1017f8745f}
+      \strng{bibnamehash}{9a76bfad25c92539b145ac1017f8745f}
+      \strng{authorbibnamehash}{9a76bfad25c92539b145ac1017f8745f}
+      \strng{authornamehash}{9a76bfad25c92539b145ac1017f8745f}
+      \strng{authorfullhash}{9a76bfad25c92539b145ac1017f8745f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{Revista de ciencia política (Santiago)}}
+      \field{number}{2}
+      \field{title}{{Ecuador: Una década de correísmo}}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{volume}{37}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{413\bibrangedash 448}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.4067/s0718-090x2017000200413
+      \endverb
+      \verb{file}
+      \verb Mel{\'e}ndez, Moncagatta 2017 - Ecuador Una d{\'e}cada de corre{\'i}smo:Attachments/Mel{\'e}ndez, Moncagatta 2017 - Ecuador Una d{\'e}cada de corre{\'i}smo.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{Orozco.2015}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=46cd620b2ab47987368cfb89f8779500}{%
+           family={Orozco},
+           familyi={O\bibinitperiod},
+           given={Mónica},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{46cd620b2ab47987368cfb89f8779500}
+      \strng{fullhash}{46cd620b2ab47987368cfb89f8779500}
+      \strng{bibnamehash}{46cd620b2ab47987368cfb89f8779500}
+      \strng{authorbibnamehash}{46cd620b2ab47987368cfb89f8779500}
+      \strng{authornamehash}{46cd620b2ab47987368cfb89f8779500}
+      \strng{authorfullhash}{46cd620b2ab47987368cfb89f8779500}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A diferencia de la crisis que vivió el país en el 2009, el Gobierno deberá enfrentar un 2015 sin ahorros y con escenario externo más complejo.}
+      \field{journaltitle}{{El Comercio}}
+      \field{title}{{Las crisis del 2009 y 2015 son distintas}}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.elcomercio.com/actualidad/negocios/crisis-2009-2015-son-distintas.html
+      \endverb
+      \verb{url}
+      \verb https://www.elcomercio.com/actualidad/negocios/crisis-2009-2015-son-distintas.html
+      \endverb
+    \endentry
+    \entry{Villavicencio.2019}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=23b485c3ab1c1f3ca80eb475969598fa}{%
+           family={Villavicencio},
+           familyi={V\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab5c0d42b9d54a598f0aec8f7b324b3c}{%
+           family={Zurita},
+           familyi={Z\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=937439e483071433e40ef17f54d185d9}{%
+           family={Christan},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {La Fuente Periodismo de Investigación}%
+      }
+      \list{location}{1}{%
+        {Quito}%
+      }
+      \list{publisher}{1}{%
+        {Editorial La Fuente}%
+      }
+      \strng{namehash}{da0e658e85ff644a6a97d961d594daf4}
+      \strng{fullhash}{538d3662e70dc2c07f932c1af2f6dd3f}
+      \strng{bibnamehash}{538d3662e70dc2c07f932c1af2f6dd3f}
+      \strng{authorbibnamehash}{538d3662e70dc2c07f932c1af2f6dd3f}
+      \strng{authornamehash}{da0e658e85ff644a6a97d961d594daf4}
+      \strng{authorfullhash}{538d3662e70dc2c07f932c1af2f6dd3f}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{title}{{Arroz Verde: La Industria del Soborno}}
+      \field{urlday}{29}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+    \endentry
     \entry{Weisbrot.2017}{misc}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=f4c9d2a9b3424e5c7109437697b771b0}{%
@@ -199,9 +400,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{Hurtado.2007}
-  \missing{Loaiza.2022}
-  \missing{Orozco.2015}
 \endrefsection
 \endinput
 

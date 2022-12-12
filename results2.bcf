@@ -2819,21 +2819,16 @@
     <bcf:citekey order="6">Moscoso.2020</bcf:citekey>
     <bcf:citekey order="7">Ashforth.2003</bcf:citekey>
     <bcf:citekey order="8">Ashforth.2003</bcf:citekey>
-    <bcf:citekey order="9">Hedgecoe.2009</bcf:citekey>
-    <bcf:citekey order="10">Weisbrot.2017</bcf:citekey>
-    <bcf:citekey order="11">Ortiz.2013</bcf:citekey>
+    <bcf:citekey order="9">Telegrafo.2016</bcf:citekey>
+    <bcf:citekey order="10">Ashforth.2003</bcf:citekey>
+    <bcf:citekey order="11">Moncagatta.2020b</bcf:citekey>
     <bcf:citekey order="12">Melendez.2017</bcf:citekey>
-    <bcf:citekey order="13">Telegrafo.2016</bcf:citekey>
-    <bcf:citekey order="14">Villavicencio.2019</bcf:citekey>
+    <bcf:citekey order="13">Holcombe.2015</bcf:citekey>
+    <bcf:citekey order="14">Morris.2021</bcf:citekey>
     <bcf:citekey order="15">Ashforth.2003</bcf:citekey>
-    <bcf:citekey order="16">Moncagatta.2020b</bcf:citekey>
-    <bcf:citekey order="17">Melendez.2017</bcf:citekey>
-    <bcf:citekey order="18">Holcombe.2015</bcf:citekey>
-    <bcf:citekey order="19">Morris.2021</bcf:citekey>
-    <bcf:citekey order="20">Ashforth.2003</bcf:citekey>
-    <bcf:citekey order="21">Ashforth.2003</bcf:citekey>
-    <bcf:citekey order="22">Adoum.2000</bcf:citekey>
-    <bcf:citekey order="23">Adoum.2000</bcf:citekey>
+    <bcf:citekey order="16">Ashforth.2003</bcf:citekey>
+    <bcf:citekey order="17">Adoum.2000</bcf:citekey>
+    <bcf:citekey order="18">Adoum.2000</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

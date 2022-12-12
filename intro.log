@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.5)  10 DEC 2022 21:02
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.5)  11 DEC 2022 13:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -973,29 +973,26 @@ LaTeX Info: Redefining \nameref on input line 153.
 \@outlinefile=\write4
 \openout4 = `intro.out'.
 
-
-
-Package caption Warning: \label without proper reference on input line 171.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:ctolmap' on page 1 undefined on input line 161.
-
 File: images/ctol_map.pdf Graphic file (type pdf)
 <use images/ctol_map.pdf>
+ [1
 
-Package caption Warning: \label without proper reference on input line 181.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:ctoly' on page 1 undefined on input line 176.
-
-[1
-
-] [2]
+]
 File: figure/ctol_graph-1.pdf Graphic file (type pdf)
 <use figure/ctol_graph-1.pdf>
- [3] [4] (./intro.aux)
+
+
+LaTeX Warning: Reference `sec:background' on page 2 undefined on input line 196
+.
+
+
+LaTeX Warning: Reference `sec:methodology' on page 2 undefined on input line 19
+6.
+
+
+LaTeX Warning: Reference `sec:results' on page 2 undefined on input line 196.
+
+[2] [3] (./intro.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1006,12 +1003,12 @@ Package logreq Info: Writing requests to 'intro.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25903 strings out of 476490
- 531131 string characters out of 5818317
- 1405905 words of memory out of 5000000
- 46018 multiletter control sequences out of 15000+600000
+ 25910 strings out of 476490
+ 531687 string characters out of 5818317
+ 1399982 words of memory out of 5000000
+ 46025 multiletter control sequences out of 15000+600000
  407854 words of font info for 67 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 87i,8n,117p,1696b,5064s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,8n,117p,1696b,5072s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on intro.pdf (4 pages).
+Output written on intro.pdf (3 pages).

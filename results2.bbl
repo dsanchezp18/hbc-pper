@@ -49,7 +49,11 @@
       \field{labeltitlesource}{title}
       \field{edition}{6}
       \field{title}{{Ecuador: señas particulares}}
+      \field{urlday}{1}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
       \field{year}{2000}
+      \field{urldateera}{ce}
     \endentry
     \entry{Ashforth.2003}{article}{}
       \name{author}{2}{}{%
@@ -82,47 +86,22 @@
       \field{issn}{0191-3085}
       \field{journaltitle}{{Research in Organizational Behavior}}
       \field{title}{{The Normalization of Corruption in Organizations}}
+      \field{urlday}{7}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
       \field{volume}{25}
       \field{year}{2003}
+      \field{urldateera}{ce}
       \field{pages}{1\bibrangedash 52}
       \range{pages}{52}
       \verb{doi}
-      \verb \url{10.1016/S0191-3085(03)25001-2}
+      \verb 10.1016/S0191-3085(03)25001-2
       \endverb
       \verb{urlraw}
-      \verb \url{https://asu.pure.elsevier.com/en/publications/the-normalization-of-corruption-in-organizations}
+      \verb https://asu.pure.elsevier.com/en/publications/the-normalization-of-corruption-in-organizations
       \endverb
       \verb{url}
-      \verb %5Curl%7Bhttps://asu.pure.elsevier.com/en/publications/the-normalization-of-corruption-in-organizations%7D
-      \endverb
-    \endentry
-    \entry{Telegrafo.2016}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=82b4ac5c289f73163b4ef747ab0ce63b}{%
-           family={{El Telégrafo}},
-           familyi={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{82b4ac5c289f73163b4ef747ab0ce63b}
-      \strng{fullhash}{82b4ac5c289f73163b4ef747ab0ce63b}
-      \strng{bibnamehash}{82b4ac5c289f73163b4ef747ab0ce63b}
-      \strng{authorbibnamehash}{82b4ac5c289f73163b4ef747ab0ce63b}
-      \strng{authornamehash}{82b4ac5c289f73163b4ef747ab0ce63b}
-      \strng{authorfullhash}{82b4ac5c289f73163b4ef747ab0ce63b}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{El presidente ecuatoriano, Rafael Correa, pidió el martes en Nueva York una {"}campaña mundial{"} para que se dé a conocer {"}toda la i...}
-      \field{title}{{Presidente Correa pide {"}campaña mundial{"} para revelar {"}toda la información{"} de 'Panama Papers'}}
-      \field{year}{2016}
-      \verb{urlraw}
-      \verb \url{https://www.eltelegrafo.com.ec/noticias/economia/8/presidente-correa-pide-campana-mundial-para-revelar-toda-la-informacion-de-panama-papers}
-      \endverb
-      \verb{url}
-      \verb %5Curl%7Bhttps://www.eltelegrafo.com.ec/noticias/economia/8/presidente-correa-pide-campana-mundial-para-revelar-toda-la-informacion-de-panama-papers%7D
+      \verb https://asu.pure.elsevier.com/en/publications/the-normalization-of-corruption-in-organizations
       \endverb
     \endentry
     \entry{Hedgecoe.2009}{misc}{}
@@ -148,12 +127,16 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Rafael Correa: an Ecuadorian journey}}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
       \field{year}{2009}
+      \field{urldateera}{ce}
       \verb{urlraw}
-      \verb \url{https://www.opendemocracy.net/en/rafael-correa-an-ecuadorian-journey/}
+      \verb https://www.opendemocracy.net/en/rafael-correa-an-ecuadorian-journey/
       \endverb
       \verb{url}
-      \verb %5Curl%7Bhttps://www.opendemocracy.net/en/rafael-correa-an-ecuadorian-journey/%7D
+      \verb https://www.opendemocracy.net/en/rafael-correa-an-ecuadorian-journey/
       \endverb
     \endentry
     \entry{Holcombe.2015}{article}{}
@@ -189,18 +172,22 @@
       \field{journaltitle}{{Public Choice}}
       \field{number}{1-2}
       \field{title}{{Regulation and corruption}}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
       \field{volume}{164}
       \field{year}{2015}
+      \field{urldateera}{ce}
       \field{pages}{75\bibrangedash 85}
       \range{pages}{11}
       \verb{doi}
-      \verb \url{10.1007/s11127-015-0263-x}
+      \verb 10.1007/s11127-015-0263-x
       \endverb
       \verb{urlraw}
-      \verb \url{https://link.springer.com/article/10.1007/s11127-015-0263-x}
+      \verb https://link.springer.com/article/10.1007/s11127-015-0263-x
       \endverb
       \verb{url}
-      \verb %5Curl%7Bhttps://link.springer.com/article/10.1007/s11127-015-0263-x%7D
+      \verb https://link.springer.com/article/10.1007/s11127-015-0263-x
       \endverb
     \endentry
     \entry{Lupu.2017}{inbook}{}
@@ -247,7 +234,11 @@
       \field{labeltitlesource}{title}
       \field{booktitle}{{The Political Culture of Democracy in the Americas, 2016/17: A comparative study of Democracy and Governance}}
       \field{title}{{Corruption in the Americas}}
+      \field{urlday}{18}
+      \field{urlmonth}{10}
+      \field{urlyear}{2021}
       \field{year}{2017}
+      \field{urldateera}{ce}
       \field{pages}{49\bibrangedash 67}
       \range{pages}{19}
     \endentry
@@ -282,12 +273,16 @@
       \field{journaltitle}{{Revista de ciencia política (Santiago)}}
       \field{number}{2}
       \field{title}{{Ecuador: Una década de correísmo}}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
       \field{volume}{37}
       \field{year}{2017}
+      \field{urldateera}{ce}
       \field{pages}{413\bibrangedash 448}
       \range{pages}{36}
       \verb{doi}
-      \verb \url{10.4067/s0718-090x2017000200413}
+      \verb 10.4067/s0718-090x2017000200413
       \endverb
       \verb{file}
       \verb Mel{\'e}ndez, Moncagatta 2017 - Ecuador Una d{\'e}cada de corre{\'i}smo:Attachments/Mel{\'e}ndez, Moncagatta 2017 - Ecuador Una d{\'e}cada de corre{\'i}smo.pdf:application/pdf
@@ -353,7 +348,11 @@
       \field{labeltitlesource}{title}
       \field{booktitle}{{The Political Culture of Democracy in Ecuador and in the Americas, 2018/19: Taking the Pulse of Democracy}}
       \field{title}{{The Politicization of Citizens and Ideological Polarization in Ecuador}}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
       \field{year}{2020}
+      \field{urldateera}{ce}
       \field{pages}{73\bibrangedash 88}
       \range{pages}{16}
     \endentry
@@ -387,19 +386,23 @@
       \field{labeltitlesource}{title}
       \field{abstract}{``Corruption and Purity.''}
       \field{title}{{Corruption and Anti-Corruption from the Left and Right in the Americas}}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
       \field{year}{2021}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{doi}
-      \verb \url{10.25613/61ZB-RW45}
+      \verb 10.25613/61ZB-RW45
       \endverb
       \verb{file}
       \verb Corruption and Anti-Corruption from the Left and Right in the Americas:Attachments/Corruption and Anti-Corruption from the Left and Right in the Americas.pdf:application/pdf
       \endverb
       \verb{urlraw}
-      \verb \url{https://www.bakerinstitute.org/media/files/files/b298016d/bi-brief-072021-usmx-anticorruption.pdf}
+      \verb https://www.bakerinstitute.org/media/files/files/b298016d/bi-brief-072021-usmx-anticorruption.pdf
       \endverb
       \verb{url}
-      \verb %5Curl%7Bhttps://www.bakerinstitute.org/media/files/files/b298016d/bi-brief-072021-usmx-anticorruption.pdf%7D
+      \verb https://www.bakerinstitute.org/media/files/files/b298016d/bi-brief-072021-usmx-anticorruption.pdf
       \endverb
     \endentry
     \entry{Moscoso.2020}{inbook}{}
@@ -462,7 +465,11 @@
       \field{labeltitlesource}{title}
       \field{booktitle}{{The Political Culture of Democracy in Ecuador and in the Americas, 2018/19: Taking the Pulse of Democracy}}
       \field{title}{{Attitudes Towards Corruption in Ecuador}}
+      \field{urlday}{12}
+      \field{urlmonth}{10}
+      \field{urlyear}{2021}
       \field{year}{2020}
+      \field{urldateera}{ce}
       \field{pages}{113\bibrangedash 123}
       \range{pages}{11}
     \endentry
@@ -490,13 +497,50 @@
       \field{labeltitlesource}{title}
       \field{abstract}{CIDOB Barcelona Centre for International Affairs}
       \field{title}{{Rafael Correa Delgado: Biografías de Líderes Políticos}}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
       \field{year}{2013}
+      \field{urldateera}{ce}
       \verb{urlraw}
-      \verb \url{https://www.cidob.org/biografias_lideres_politicos/america_del_sur/ecuador/rafael_correa_delgado}
+      \verb https://www.cidob.org/biografias_lideres_politicos/america_del_sur/ecuador/rafael_correa_delgado
       \endverb
       \verb{url}
-      \verb %5Curl%7Bhttps://www.cidob.org/biografias_lideres_politicos/america_del_sur/ecuador/rafael_correa_delgado%7D
+      \verb https://www.cidob.org/biografias_lideres_politicos/america_del_sur/ecuador/rafael_correa_delgado
       \endverb
+    \endentry
+    \entry{Telegrafo.2016}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8d3ad171ed0abad38feb708225105eb5}{%
+           family={Telégrafo},
+           familyi={T\bibinitperiod},
+           given={El},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8d3ad171ed0abad38feb708225105eb5}
+      \strng{fullhash}{8d3ad171ed0abad38feb708225105eb5}
+      \strng{bibnamehash}{8d3ad171ed0abad38feb708225105eb5}
+      \strng{authorbibnamehash}{8d3ad171ed0abad38feb708225105eb5}
+      \strng{authornamehash}{8d3ad171ed0abad38feb708225105eb5}
+      \strng{authorfullhash}{8d3ad171ed0abad38feb708225105eb5}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{El presidente ecuatoriano, Rafael Correa, pidió el martes en Nueva York una {"}campaña mundial{"} para que se dé a conocer {"}toda la i...}
+      \field{title}{{Presidente Correa pide {"}campaña mundial{"} para revelar {"}toda la información{"} de 'Panama Papers'}}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.eltelegrafo.com.ec/noticias/economia/8/presidente-correa-pide-campana-mundial-para-revelar-toda-la-informacion-de-panama-papers
+      \endverb
+      \verb{url}
+      \verb https://www.eltelegrafo.com.ec/noticias/economia/8/presidente-correa-pide-campana-mundial-para-revelar-toda-la-informacion-de-panama-papers
+      \endverb
+      \warn{\item Entry 'Telegrafo.2016' (references.bib): Invalid format '12/10/2022' of date field 'urldate' - ignoring}
     \endentry
     \entry{Villavicencio.2019}{book}{}
       \name{author}{3}{}{%
@@ -537,7 +581,11 @@
       \field{labeltitlesource}{title}
       \field{edition}{1}
       \field{title}{{Arroz Verde: La Industria del Soborno}}
+      \field{urlday}{29}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
       \field{year}{2019}
+      \field{urldateera}{ce}
     \endentry
     \entry{Weisbrot.2017}{misc}{}
       \name{author}{3}{}{%
@@ -580,13 +628,17 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Decade of Reform: Ecuador's Macroeconomic Policies, Institutional Changes, and Results}}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2021}
       \field{year}{2017}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \verb{urlraw}
-      \verb \url{https://cepr.net/images/stories/reports/ecuador-2017-02.pdf}
+      \verb https://cepr.net/images/stories/reports/ecuador-2017-02.pdf
       \endverb
       \verb{url}
-      \verb %5Curl%7Bhttps://cepr.net/images/stories/reports/ecuador-2017-02.pdf%7D
+      \verb https://cepr.net/images/stories/reports/ecuador-2017-02.pdf
       \endverb
     \endentry
   \enddatalist

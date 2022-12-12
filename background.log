@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.5)  11 DEC 2022 01:05
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.5)  11 DEC 2022 10:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -939,29 +939,7 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'background.bbl' found.
 
-(./background.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Hurtado.2007
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Loaiza.2022
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Orozco.2015
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+(./background.bbl)
 Package biblatex Info: Reference section=0 on input line 153.
 Package biblatex Info: Reference segment=0 on input line 153.
 
@@ -1002,15 +980,9 @@ LaTeX Info: Redefining \nameref on input line 153.
 File: figure/political_graph-1.pdf Graphic file (type pdf)
 <use figure/political_graph-1.pdf>
  [3]
-
-LaTeX Warning: Reference `ecua_pol' on page 4 undefined on input line 196.
-
 File: figure/econ_graph-1.pdf Graphic file (type pdf)
 <use figure/econ_graph-1.pdf>
-[4] [5] (./background.aux)
-
-LaTeX Warning: There were undefined references.
-
+ [4] [5] (./background.aux)
 Package rerunfilecheck Info: File `background.out' has not changed.
 (rerunfilecheck)             Checksum: 1A2461F2C159951B4098667EB422FAD0;217.
 Package logreq Info: Writing requests to 'background.run.xml'.
@@ -1018,12 +990,12 @@ Package logreq Info: Writing requests to 'background.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25891 strings out of 476490
- 530991 string characters out of 5818317
- 1403917 words of memory out of 5000000
- 46007 multiletter control sequences out of 15000+600000
+ 25902 strings out of 476490
+ 531326 string characters out of 5818317
+ 1404003 words of memory out of 5000000
+ 46018 multiletter control sequences out of 15000+600000
  407854 words of font info for 67 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 87i,8n,117p,1124b,5007s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,8n,117p,1204b,5076s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on background.pdf (5 pages).

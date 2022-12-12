@@ -2,8 +2,8 @@ source-data	$	opts_chunk	source	T
 source-tabs	$	dep_prev	opts_chunk	source	T
 political-graph-data	!=	%>%	bind_rows	filter	japrov_time	leftist	leftist_time	mutate	pconf_time	pres_aprov_dicYes	pres_conf_dicYes	rename	rightist	rightist_time	rownames<-	se.pres_aprov_dicYes	se.pres_conf_dicYes	select	year
 political_graph	aes	annotate	c	element_blank	element_text	geom_line	geom_point	ggplot	labs	legend	perc	political_graph_df	scale_color_manual	scale_y_continuous	se	theme	theme_bw	year
-load-libraries-data-results	$<-	%>%	<=	>	>=	arrange	as.numeric	bind_rows	c	change	Date	desc	econ_sitWorse	ecsit_time	filter	growth	library	load	mutate	NY.GDP.MKTP.KD.ZG	perc	relocate	rename	rownames<-	se	se.econ_sitWorse	select	SL.UEM.TOTL.ZS	source	unem_time	unem2_4a	WDI	year
-econ_graph	aes	as.Date	c	Date	econ_graph_df	econ_lapop	element_blank	element_text	geom_hline	geom_line	geom_point	ggplot	growth	labs	legend	oil_price	perc	plot_layout	scale_colour_brewer	scale_x_continuous	scale_x_date	scale_y_continuous	se	seq	theme	theme_bw	Value	year
+load-libraries-data-results	$<-	%>%	<=	>	>=	as.numeric	bind_rows	c	econ_sitWorse	ecsit_time	filter	growth	library	mutate	NY.GDP.MKTP.KD.ZG	perc	relocate	rename	rownames<-	se	se.econ_sitWorse	select	SL.UEM.TOTL.ZS	unem_time	unem2_4a	WDI	year
+econ_graph	aes	c	econ_graph_df	econ_lapop	element_blank	element_text	geom_hline	geom_line	geom_point	ggplot	growth	labs	legend	perc	plot_layout	scale_colour_brewer	scale_x_continuous	se	theme	theme_bw	year
 baseline-regs-coefficient-table	base_models_log	c	list	modelsummary
 baseline-aoes-table	base_logit_mfx	c	list	modelsummary
 source-data-tabs	source

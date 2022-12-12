@@ -2817,10 +2817,14 @@
     <bcf:citekey order="4">Hurtado.2007</bcf:citekey>
     <bcf:citekey order="4">FederalResearchDivision.1991</bcf:citekey>
     <bcf:citekey order="5">FederalResearchDivision.1991</bcf:citekey>
+    <bcf:citekey order="5">Hurtado.2007</bcf:citekey>
     <bcf:citekey order="6">Loaiza.2022</bcf:citekey>
     <bcf:citekey order="7">Hedgecoe.2009</bcf:citekey>
     <bcf:citekey order="8">Weisbrot.2017</bcf:citekey>
-    <bcf:citekey order="9">Orozco.2015</bcf:citekey>
+    <bcf:citekey order="9">Villavicencio.2019</bcf:citekey>
+    <bcf:citekey order="10">Melendez.2017</bcf:citekey>
+    <bcf:citekey order="11">Orozco.2015</bcf:citekey>
+    <bcf:citekey order="12">Orozco.2015</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

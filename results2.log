@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.5)  10 DEC 2022 23:16
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.5)  11 DEC 2022 16:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -824,7 +824,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip85
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 153.
+h' as default language. on input line 155.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
 
@@ -835,31 +835,31 @@ LaTeX Warning: Unused global option(s):
 (./results2.aux)
 \openout1 = `results2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 153.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 155.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-53.
+55.
  (c:/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -939,9 +939,16 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'results2.bbl' found.
 
-(./results2.bbl)
-Package biblatex Info: Reference section=0 on input line 153.
-Package biblatex Info: Reference segment=0 on input line 153.
+(./results2.bbl
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Telegrafo.2016':
+(biblatex)                - Entry 'Telegrafo.2016' (references.bib): Invalid fo
+rmat '12/10/2022' of date field 'urldate' - ignoring.
+
+)
+Package biblatex Info: Reference section=0 on input line 155.
+Package biblatex Info: Reference segment=0 on input line 155.
 
 (c:/texlive/2021/texmf-dist/tex/latex/translations/translations-basic-dictionar
 y-english.trsl
@@ -949,12 +956,12 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 153.
+or `english'. on input line 155.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 153.
+Package hyperref Info: Link coloring OFF on input line 155.
  (c:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -966,9 +973,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count462
 )
-LaTeX Info: Redefining \ref on input line 153.
-LaTeX Info: Redefining \pageref on input line 153.
-LaTeX Info: Redefining \nameref on input line 153.
+LaTeX Info: Redefining \ref on input line 155.
+LaTeX Info: Redefining \pageref on input line 155.
+LaTeX Info: Redefining \nameref on input line 155.
 
 (./results2.out) (./results2.out)
 \@outlinefile=\write4
@@ -976,22 +983,26 @@ LaTeX Info: Redefining \nameref on input line 153.
 
 
 
-LaTeX Warning: Reference `eqn:genmod' on page 1 undefined on input line 157.
+LaTeX Warning: Reference `eqn:genmod' on page 1 undefined on input line 159.
 
 
-LaTeX Warning: Reference `eqn:genmod' on page 1 undefined on input line 217.
+LaTeX Warning: Reference `tab:simplemodel' on page 1 undefined on input line 15
+9.
 
 
-LaTeX Warning: Float too large for page by 13.50018pt on input line 218.
+LaTeX Warning: Reference `eqn:genmod' on page 1 undefined on input line 219.
+
+
+LaTeX Warning: Float too large for page by 13.50018pt on input line 220.
 
 [1
 
 ] [2] [3]
 
 LaTeX Warning: Reference `tab:simplemodel' on page 4 undefined on input line 27
-3.
+5.
 
-[4] [5] [6] [7] (./results2.aux)
+[4] [5] [6] (./results2.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1002,12 +1013,12 @@ Package logreq Info: Writing requests to 'results2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25873 strings out of 476490
- 530302 string characters out of 5818317
- 1425017 words of memory out of 5000000
- 45999 multiletter control sequences out of 15000+600000
+ 25868 strings out of 476490
+ 530247 string characters out of 5818317
+ 1424881 words of memory out of 5000000
+ 45994 multiletter control sequences out of 15000+600000
  407352 words of font info for 59 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 87i,9n,117p,1310b,5011s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,9n,117p,1321b,5011s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on results2.pdf (7 pages).
+Output written on results2.pdf (6 pages).

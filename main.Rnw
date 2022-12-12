@@ -25,12 +25,14 @@
 
 % Formatting
 
-\usepackage{setspace}
+\usepackage{setspace} % Double spacing
   \doublespacing
 
-\usepackage[margin = 1in]{geometry}
+\usepackage[margin = 1in]{geometry} % 1 inch margin
 
 \usepackage{lscape}
+
+\setlength{\parindent}{0pt} % No indent
 
 % Setting the size of the section titles
 
@@ -171,5 +173,15 @@ source('scripts/baseline_regs.R')
 
 <<conclusion_child, child = 'conclusions.Rnw'>>=
 @
+
+% Acknowledgments Child Document
+
+<<ack_child, child = 'acknowledgments.Rnw'>>=
+@
+
+
+\section{References}
+
+\printbibliography[heading = none]
 
 \end{document}
